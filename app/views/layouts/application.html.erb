@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Меркурий - торговая компания :: Цветной металлопрокат, РТИ, АТИ, полимеры в Бийске</title>
+  <%= csrf_meta_tags %>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag :application %>
+  <%= javascript_include_tag 'jquery-1.5.1.min' %>
+  <%= javascript_include_tag 'jquery.orbit-1.2.3' %>
+  <%= javascript_include_tag 'mail' %>
+</head>
+<body>
+<section class="header">
+  <div class="header_wrap">
+    <div class="company_info">
+      <div class="logo">
+        <a href="/"></a>
+      </div>
+      <div class="desc">
+        <div class="raspisanie">
+          <div class="clock">
+            <span>График работы:</span><br>
+            <span>Пн-Пт с 9<sup>00</sup>-17<sup>00</sup></span>
+          </div>
+          <div class="adress"><a href="<%= contacts_path %>" >Алтайский край г. Бийск<br>ул. Пугачева, д. 19</a></div>
+        </div>
+      </div>
+      <div class="contacts">
+        <div class="tel_wrap">
+          <a href="tel:+73854315232" class="tel"><sup>+7(3854)</sup><b>31-52-32</b></a>
+        </div>
+        <div class="tel_wrap">
+          <a href="tel:+73854315232" class="tel"><sup>+7(3854)</sup><b>31-64-50</b></a>
+        </div>
+        <div class="tel_wrap">
+          <a href="tel:+73854315232" class="mobile">+7(903)949-33-40</a>
+        </div>
+      </div>
+      <div class="btn_call">
+        <a href="#contacts" class="call open_modal">Обратный звонок</a>
+        <a href="<%= feedback_path %>" class="online">Online - заявка</a>
+        <a href="mailto:metal7@rambler.ru" class="mail">metal7@rambler.ru</a>
+      </div>
+    </div>
+  </div>
+  <div class="menu">
+    <ul class="menu_list">
+      <li class="menu_item"><a href="/">Главная</a></li>
+      <li class="menu_item"><a href="<%= company_info_path %>">О компании</a></li>
+      <li class="menu_item"><a class="partner" href="#partner">Партнеры</a></li>
+      <li class="menu_item"><a href="<%= feedback_path %>">Обратная связь</a></li>
+      <li class="menu_item"><a href="<%= news_path %>">Новости</a></li>
+      <li class="menu_item"><a href="<%= contacts_path %>">Контакты</a></li>
+    </ul>
+  </div>
+</section>
+<section class="main">
+  <% if current_page?(root_path) %>
+      <section class="slide_info">
+        <%= render partial: 'components/slider' %>
+      </section>
+  <% end %>
+  <%= yield %>
+  <div id="contacts" class="modal_div">
+    <%= render template: 'call_backs/new' %>
+  </div>
+  <div id="overlay"></div><!-- Пoдлoжкa, oднa нa всю стрaницу -->
+</section>
+<section class="pre_footer" id="partner">
+  <div class="pre_wrap">
+    <div class="row">
+      <div class="title">
+        <h2>Наши партнеры:</h2>
+      </div>
+      <div class="partner">
+        <a href="http://www.mechel.ru/"><img src="/assets/mechellogo.jpg" alt=""></a>
+        <a href="http://www.mechel.ru/"><img src="/assets/shvabe.png" alt=""></a>
+        <a href="http://www.mechel.ru/"><img src="/assets/russteels.png" alt=""></a>
+        <a href="http://www.mechel.ru/"><img src="/assets/kuzocm.png" alt=""></a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="footer">
+  <div class="company_info">
+    <div class="copy">
+      <div class="copyrighting">Меркурий, 2000-2017</div>
+      <div class="copy_item">Все права защищены</div>
+    </div>
+    <div class="address"><div class="address_item"><a href="<%= contacts_path %>">Алтайский край г. Бийск<br>ул. Пугачева, д. 19</a></div></div>
+    <div class="phone">
+      <div class="tel"><a href="tel:+73854315232"><sup>+7(3854)</sup><b>31-52-32</b></a></div>
+      <div class="mail"><a href="mailto:metal7@rambler.ru">metal7@rambler.ru</a></div>
+    </div>
+    <div class="creater">
+      <div class="informer">
+      </div>
+    </div>
+  </div>
+</section>
+</body>
+</html>

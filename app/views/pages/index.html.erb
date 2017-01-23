@@ -1,0 +1,49 @@
+<div class="container">
+  <div class="row">
+    <% unless current_page?(contacts_path) %>
+        <%= render partial: 'components/sidebar' %>
+    <% end %>
+    <div class="content_wrap">
+      <div class="content_index">
+        <% @categories.each do |category| %>
+            <a href="<%= category_show_path(category) %>">
+              <div class="item">
+                <div class="item_image">
+                  <% if category.images? %>
+                      <%= image_tag category.images.url %>
+                  <% else %>
+                      <%= urls_to_images(category.images_url.to_s)%>
+                  <% end %>
+                </div>
+                <div class="item_content">
+                  <h4><%= category.name %></h4>
+                </div>
+              </div>
+            </a>
+        <% end %>
+      </div>
+      <div class="info">
+        <h2>Компания Меркурий предлагает следующие услуги:</h2>
+        <ul class="approved">
+          <li class="approved_item">продажа проката цветных металлов;</li>
+          <li class="approved_item">порезка металла;</li>
+          <li class="approved_item">комплектация заказа по заявке;</li>
+          <li class="approved_item">возможность поставки редких марок металлов;</li>
+          <li class="approved_item">оперативная и бесплатная погрузка;</li>
+          <li class="approved_item">доставка собственным автотранспортом;</li>
+          <li class="approved_item">доставка клиенту</li>
+        </ul>
+        <h2>В отношении с клиентами "Меркурий" поддерживает:</h2>
+        <ul class="approved">
+          <li class="approved_item">индивидуальный подход</li>
+          <li class="approved_item">гибкую ценовую политику</li>
+          <li class="approved_item">систему скидок</li>
+          <li class="approved_item">варианты доставки</li>
+          <li class="approved_item">различные формы оплаты</li>
+          <li class="approved_item">комплектацию заказа по заявке</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+

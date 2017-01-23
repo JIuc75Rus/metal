@@ -1,0 +1,8 @@
+ru:
+  activerecord:
+    models:
+      Article: Новости
+    attributes:
+      article:
+        title: Заголовок
+        body: Содержание

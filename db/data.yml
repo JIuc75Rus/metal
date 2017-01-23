@@ -1,0 +1,24 @@
+
+---
+admins:
+  columns:
+  - id
+  - email
+  - encrypted_password
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - metal22@gmail.com
+    - "$2a$11$aA4NrU.NlN6Wt62tqS9iE.jmmlmo6egxu51bmSMV5fG2H8kcWi2Fq"
+    - 2017-01-16 11:52:11.000000000 Z
+    - 2017-01-16 11:52:11.000000000 Z
+
+---
+ar_internal_metadata:
+  columns:
+  - key
+  - value
+  - created_at
+  - updated_at
+  records: 

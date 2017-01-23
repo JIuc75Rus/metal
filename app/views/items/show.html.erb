@@ -1,0 +1,46 @@
+<div class="container">
+  <div class="row">
+    <% unless current_page?(contacts_path) %>
+        <%= render partial: 'components/sidebar' %>
+    <% end %>
+    <div class="content_wrap">
+      <div class="content">
+            <div class="item">
+              <div class="item_image">
+                <%= image_tag @item.images.url %>
+              </div>
+              <div class="item_title">
+                <h4><%= @item.metal %></h4>
+              </div>
+              <div class="item_hover">
+                <% if admin_signed_in? %>
+                    <%= link_to 'Редактировать', edit_item_path(@item) %>
+                <% end %>
+                <div class="button">
+                  <a href="#contacts" class="open_modal">Заказать</a>
+                </div>
+              </div>
+              <div class="item_content">
+                <% unless @item.product? %>
+                    <h4>Марки</h4>
+                    <div class="line"></div>
+                    <span><%= @item.metal_brand %></span>
+                    <div class="line"></div>
+                <% else %>
+                    <h4>Продукция</h4>
+                    <div class="line"></div>
+                    <span><%= @item.product %></span>
+                    <div class="line"></div>
+                    <% if @item.metal_brand? %>
+                        <h4>Марки</h4>
+                        <div class="line"></div>
+                        <span><%= @item.metal_brand %></span>
+                        <div class="line"></div>
+                    <% end %>
+                <% end %>
+              </div>
+            </div>
+      </div>
+    </div>
+  </div>
+</div>

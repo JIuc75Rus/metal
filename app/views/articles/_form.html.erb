@@ -1,0 +1,32 @@
+<div class="box box-success">
+  <div class="box-header">
+    <h3>Добавить новость</h3>
+  </div>
+  <div class="box-body">
+<%= form_for(article) do |f| %>
+    <% if article.errors.any? %>
+        <div class="alert alert-danger alert-dismissible">
+          <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+          <h4><i class="icon fa fa-ban"></i><%= pluralize(article.errors.count, "Ошибка") %> новость не сохранена:</h4>
+          <% article.errors.full_messages.each do |message| %>
+           <%= message %>
+            <% end %>
+        </div>
+      <% end %>
+      <div class="form-group">
+        <%= f.label :title %><br>
+        <%= f.text_field :title, class: 'form-control'%>
+      </div>
+      <div class="form-group">
+        <%= f.label :body %>
+        <%= f.text_area :body, :class => "tinymce", :rows => 12 %>
+      </div>
+      <div class="box-footer">
+        <%= f.submit "Создать новость", class: 'btn btn-success btn-lg' %>
+        <%= link_to 'Назад', articles_path, class: 'btn btn-primary btn-lg', style: 'float: right'  %>
+      </div>
+    <% end %>
+    <%= tinymce %>
+  </div>
+</div>
+

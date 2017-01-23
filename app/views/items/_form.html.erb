@@ -1,0 +1,82 @@
+<div class="box box-success">
+  <div class="box-header with-border">
+    <h3 class="box-title">Новый материал</h3>
+    <% if flash[:notice] %>
+      <div class="alert alert-success alert-dismissible">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+        <h4><i class="icon fa fa-check"></i>Все ок</h4>
+        <%= flash[:notice] %>
+      </div>
+    <% end %>
+  </div>
+  <div class="box-body">
+  <div class="form-group">
+    <div class="row">
+      <div class="col-xs-3">
+        <%= f.label "Метал" %>
+        <%= f.text_field :metal, placeholder: 'Метал', class: 'form-control' %>
+      </div>
+      <div class="col-xs-3">
+        <%= f.label "Марки метала" %>
+        <%= f.text_field :metal_brand, placeholder: 'Марки метала', class: 'form-control' %>
+      </div>
+      <div class="col-xs-3">
+        <%= f.label "Продукция" %>
+        <%= f.text_field :product, placeholder: 'Продукция', class: 'form-control' %>
+      </div>
+      <div class="col-xs-3">
+        <%= f.label "Категория" %><br>
+        <%= f.collection_select :cat_id, Category.all, :id, :name, {}, class: 'form-control'%>
+      </div>
+    </div>
+  </div>
+    <div class="form-group">
+      <%= f.label "Изображение материала" %>
+      <%= f.text_field :images_url, placeholder: 'Url картинки', class: 'form-control' %>
+    </div>
+        <div class="form-group">
+      <%= urls_to_images(@item.images_url.to_s) %>
+      <%= image_tag @item.images, id:"something_unique", alt: '', class: 'thumb'%>
+        </div>
+    </div>
+    <%= f.file_field :images, id:"something_else_unique" %>
+    <style>
+      .thumb {
+        height: 150px;
+      }
+    </style>
+    <script>
+        function handleFileSelect(evt) {
+            var files = evt.target.files; // FileList object
+            f = files[0]
+            // Only process image files.
+            if (f.type.match('image.*')) {
+                var reader = new FileReader();
+                reader.onload = (function(theFile) {
+                    return function(e) {
+                        // alert(e.target.result);
+                        document.getElementById("something_unique").src=e.target.result;
+                    };
+                })(f);
+
+                // Read in the image file as a data URL.
+                reader.readAsDataURL(f);
+            }
+        }
+        document.getElementById('something_else_unique').addEventListener('change', handleFileSelect, false);
+    </script>
+  </div>
+    <div class="row">
+      <div class="col-xs-6">
+        <div class="box-footer">
+          <%= f.submit "Создать материал", class: "btn btn-success btn-lg"  %>
+        </div>
+      </div>
+      <div class="col-xs-6">
+        <div class="box-footer">
+          <%= link_to 'Назад', admins_path, class: "btn btn-primary btn-lg", style: "float: right" %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

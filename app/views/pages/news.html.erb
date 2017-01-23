@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row">
+    <% unless current_page?(contacts_path) %>
+        <%= render partial: 'components/sidebar' %>
+    <% end %>
+    <div class="content_wrap">
+      <div class="info">
+        <% @articles.each do |article| %>
+            <h2><%= article.title %></h2>
+            <p><%= article.body.html_safe %></p>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>

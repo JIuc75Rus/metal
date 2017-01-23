@@ -1,0 +1,26 @@
+<div class="login-box">
+  <div class="login-logo">
+    <a href="<%= admins_path %>"><b>Metal22</b>.ru</a>
+  </div>
+  <!-- /.login-logo -->
+  <div class="login-box-body">
+    <p class="login-box-msg">Войдите в админ панель</p>
+
+    <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+      <div class="form-group has-feedback">
+        <%= f.email_field :email, autofocus: true, placeholder: 'Email', class: 'form-control' %>
+        <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+      </div>
+      <div class="form-group has-feedback">
+        <%= f.password_field :password, autocomplete: "off", placeholder: 'Пароль', class: 'form-control' %>
+        <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+      </div>
+      <div class="row">
+        <div class="col-xs-4">
+          <%= f.submit "Войти", class: 'btn btn-primary btn-block btn-flat' %>
+        </div>
+        <!-- /.col -->
+      </div>
+    <% end %>
+  </div>
+</div>

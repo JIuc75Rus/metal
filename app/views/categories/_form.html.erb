@@ -1,0 +1,73 @@
+<div class="box box-success">
+  <div class="box-header with-border">
+    <h3 class="box-title">Новая категория</h3>
+  </div>
+  <!-- /.box-header -->
+  <!-- form start -->
+  <%= form_for(category, html: {role: 'form'}) do |f| %>
+    <div class="box-body">
+      <div class="row">
+        <div class="col-xs-6">
+          <div class="form-group">
+            <%= f.label "Название категории"%>
+            <%= f.text_field :name, class: 'form-control' %>
+          </div>
+        </div>
+        <div class="col-xs-6">
+          <div class="form-group">
+            <%= f.label "Url адрес" %>
+            <%= f.text_field :url, class: 'form-control' %>
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <%= f.label "Изображение категории" %>
+        <%= f.text_field :images_url, placeholder: 'Url картинки', class: 'form-control' %>
+      </div>
+      <div class="form-group">
+        <%= urls_to_images(@category.images_url.to_s) %>
+        <%= image_tag @category.images, id:"something_unique", alt: '', class: 'thumb'%>
+      </div>
+      <%= f.file_field :images, id:"something_else_unique" %>
+    </div>
+      <style>
+        .thumb {
+          height: 150px;
+        }
+      </style>
+      <script>
+          function handleFileSelect(evt) {
+              var files = evt.target.files; // FileList object
+              f = files[0]
+              // Only process image files.
+              if (f.type.match('image.*')) {
+                  var reader = new FileReader();
+                  reader.onload = (function(theFile) {
+                      return function(e) {
+                          // alert(e.target.result);
+                          document.getElementById("something_unique").src=e.target.result;
+                      };
+                  })(f);
+
+                  // Read in the image file as a data URL.
+                  reader.readAsDataURL(f);
+              }
+          }
+          document.getElementById('something_else_unique').addEventListener('change', handleFileSelect, false);
+      </script>
+    </div>
+    <!-- /.box-body -->
+      <div class="row">
+        <div class="col-xs-6">
+          <div class="box-footer">
+            <%= f.submit "Создать категорию", class: "btn btn-success btn-lg"  %>
+          </div>
+        </div>
+        <div class="col-xs-6">
+          <div class="box-footer">
+            <%= link_to 'Назад', admins_path, class: "btn btn-primary btn-lg", style: "float: right" %>
+          </div>
+        </div>
+      </div>
+  <% end %>
+</div>

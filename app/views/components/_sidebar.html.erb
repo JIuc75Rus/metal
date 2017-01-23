@@ -1,0 +1,58 @@
+<div class="sidebar_wrap">
+  <div class="sidebar">
+    <%= Category.find_each do |c| %>
+        <ul class="menu_list_sid">
+          <li class="menu_sid"><%=link_to "#{c.name}", category_show_path(c) %></li>
+        </ul>
+    <% end %>
+  </div>
+  <% if current_page?(company_info_path) %>
+      <div class="rec_company">
+        <h2>Реквизиты</h2>
+        <h3>ООО «Меркурий»</h3>
+        <p>Юр. Адрес: 659316, Алтайский край, г. Бийск, ул. Пугачёва 19</p>
+        <p>ИНН 2204075262</p>
+        <p>КПП 220401001</p>
+        <p>р/с 40702810502000007712</p>
+        <p>Алтайское отделение №8644 ПАО Сбербанк</p>
+        <p>БИК 040173604</p>
+        <p>к/с 30101810200000000604</p>
+        <p>ОКПО 32233191</p>
+        <p>ОГРН 1152204002356</p>
+        <p>ОКВЭД 46.90</p>
+        <p>Свидетельство о Гос. Регистрации</p>
+        <p>От 08.05.2015г.</p>
+        <p>Межрайонная ИФНС №1 по Алтайскому краю</p>
+        <p>серия 22 № 003831733</p>
+        <p>Свидетельство о пост.на учёт</p>
+        <p>От  08.05.2015г.</p>
+        <p>Код налоговой 2204</p>
+        <p>серия 22 № 003872255</p>
+        <p>Директор</p>
+        <p>Семёнов Александр Александрович</p>
+      </div>
+  <% end %>
+  <div class="advert">
+    <div class="advert_title"><h2>Супер предложение!</h2></div>
+    <div class="advert_body">
+      <img src="/assets/banner.png" alt="">
+      <p>Бля буду въуася, покупай! Лучше не найдешь! Ара, мамой клянусь!</p>
+    </div>
+  </div>
+  <div class="news">
+    <div class="news_header">
+      <h2>Новости</h2>
+    </div>
+    <%  @article.each do |article| %>
+        <div class="date">
+          <%= article.created_at.strftime("%d/%m/%Y") %>
+          <p><%= article.title %></p>
+          <div class="body">
+          </div>
+        </div>
+    <% end %>
+    <div class="link">
+      <%= link_to 'Все новости', news_path %>
+    </div>
+  </div>
+</div>
