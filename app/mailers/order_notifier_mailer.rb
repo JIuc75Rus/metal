@@ -2,11 +2,11 @@ class OrderNotifierMailer < ApplicationMailer
 
   def received(order)
     @order = order
-  mail to: 'jiuc75pyc@gmail.com', subject: 'Подтверждение заказа в Pragmatic Store'
+    mail to: 'jiuc75pyc@gmail.com', subject: 'Заказ с сайта'
   end
 
   def shipped(order)
     @order = order
-  mail to: order.email, subject: 'Заказ из Pragmatic Store отправлен'
+    mail to: order.email, subject: 'Подтверждение заказа в ООО"Меркурий"'
   end
 end

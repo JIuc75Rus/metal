@@ -1,32 +1,12 @@
 class OrdersController < ApplicationController
   include CurrentCart
-  before_action :set_cart, only: [:new, :create, :show]
-  before_action :set_order, only: [:show, :edit, :update, :destroy]
+  before_action :set_cart, only: [:new, :create]
+  before_action :set_order, only: [:update, :destroy]
 
-  # GET /orders
-  # GET /orders.json
-  def index
-    @orders = Order.all
-  end
-
-  # GET /orders/1
-  # GET /orders/1.json
-  def show
-    @orders = Order.all
-  end
-
-  # GET /orders/new
   def new
     @order = Order.new
-
   end
 
-  # GET /orders/1/edit
-  def edit
-  end
-
-  # POST /orders
-  # POST /orders.json
   def create
     @order = Order.new(order_params)
     @order.add_line_items_from_cart(@cart)
@@ -35,6 +15,7 @@ class OrdersController < ApplicationController
         Cart.destroy(session[:cart_id])
         session[:cart_id] = nil
         OrderNotifierMailer.received(@order).deliver
+        OrderNotifierMailer.shipped(@order).deliver
         format.html { redirect_to :back }
         format.json { render action: 'show', status: :created,
                              location: @order }
@@ -47,8 +28,6 @@ class OrdersController < ApplicationController
     end
   end
 
-  # PATCH/PUT /orders/1
-  # PATCH/PUT /orders/1.json
   def update
     respond_to do |format|
       if @order.update(order_params)
