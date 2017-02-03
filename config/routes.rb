@@ -26,10 +26,10 @@ Rails.application.routes.draw do
   end
   resources :call_backs, only: [:new, :create]
   resources :articles, path: '/metal&admin/news/'
-  resources :categories, path: '/metal&admin/cat/', only: [:new, :create, :edit, :update]
   resources :categories, only: [:show], path: '/' do
     resources :subcategories, only: [:show], path: '/' do
       resources :itemscategories, only: [:show], path: '/'
     end
   end
+  resources :categories, path: '/metal&admin/cat/', only: [:new, :create, :edit, :update], expect:[:show]
 end
