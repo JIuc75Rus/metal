@@ -7,7 +7,7 @@
     <div class="content_wrap">
       <div class="content">
         <%= @itemscategory.find_each do |i| %>
-            <a href="<%= category_subcategory_itemscategory_path(@subcategory.category, @subcategory, i) %>">
+            <a href="<%= show_category_subcategory_itemscategory_path(@subcategory.category, @subcategory, i) %>">
               <div class="item">
                 <div class="item_image">
                   <%= image_tag i.images.url %>

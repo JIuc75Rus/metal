@@ -20,16 +20,18 @@ Rails.application.routes.draw do
   end
   get  '/metal&admin/', to: 'admins#index', as: 'admins'
   resources :online_forms, only: [:new, :create]
-  resources :items, path: '/metal&admin/items/'
   resources :items do
     get :who_bought, on: :member
   end
+  scope '/metal&admin' do
+    resources  :articles, :categories, except: :show
+  end
   resources :call_backs, only: [:new, :create]
-  resources :articles, path: '/metal&admin/news/'
-  resources :categories, only: [:show], path: '/' do
-    resources :subcategories, only: [:show], path: '/' do
-      resources :itemscategories, only: [:show], path: '/'
+  scope '/' do
+    resources :categories, only: [:show],  path: '/', as: 'show_category'  do
+      resources :subcategories, only: :show, path: '/' do
+        resources :itemscategories, only: :show, path: '/'
+      end
     end
   end
-  resources :categories, path: '/metal&admin/cat/', only: [:new, :create, :edit, :update], expect:[:show]
 end

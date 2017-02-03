@@ -6,7 +6,7 @@
     <div class="content_wrap">
       <div class="content_index">
         <% @categories.each do |category| %>
-            <a href="<%= category_path(category) %>">
+            <a href="<%= show_category_path(category) %>">
               <div class="item">
                 <div class="item_image">
                   <% if category.images? %>
