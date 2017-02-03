@@ -231,7 +231,7 @@ body {
 }
 
 .header .header_wrap .company_info .logo a {
-  padding: 25px 172px 81px 15px;
+  padding: 25px 172px 101px 15px;
 }
 
 .header .header_wrap .company_info .contacts {
@@ -282,7 +282,7 @@ body {
   text-decoration: none;
   color: #fff;
   font-size: 17px;
-  background: url("call.png") no-repeat 5px #EF5350;
+  background: url("call.png") no-repeat 5px #448AFF;
   line-height: 2px;
   padding: 20px 20px 20px 35px;
   border-radius: 5px;
@@ -294,7 +294,7 @@ body {
   text-decoration: none;
   color: #fff;
   font-size: 17px;
-  background: #EF5350;
+  background: #448AFF;
   line-height: 2px;
   padding: 20px;
   border-radius: 5px;
@@ -314,8 +314,8 @@ body {
 }
 
 .header .menu {
-  background-color: #FFD200;
-  border-bottom: 4px solid rgba(255, 198, 0, 0.69);
+  background-color: #FFC107;
+  border-bottom: 4px solid rgba(255, 160, 0, 0.69);
 }
 
 .header .menu .menu_list {
@@ -348,7 +348,7 @@ body {
 }
 
 .header .menu .menu_list .menu_item a:hover {
-  background-color: #EF5350;
+  background-color: #448AFF;
   color: #fff;
   border-radius: 3px;
 }
@@ -498,12 +498,12 @@ body {
 
 .main .form_wrap form input:focus,
 .main .form_wrap form textarea:focus {
-  box-shadow: 0 0 2px #ef5350 !important;
+  box-shadow: 0 0 2px #448AFF !important;
 }
 
 .main .form_wrap form #input-submit {
   color: white;
-  background: #ef5350;
+  background: #448AFF;
   cursor: pointer;
 }
 
@@ -601,7 +601,7 @@ body {
 }
 
 .main .container h2 {
-  color: #EF5350;
+  color: #448AFF;
   font-size: 25px;
 }
 
@@ -612,6 +612,7 @@ body {
 
 .main .container .content_wrap .dataTables_wrapper {
   padding-top: 15px;
+  padding-right: 15px;
 }
 
 .main .container .content_wrap .dataTables_wrapper #example2_info {
@@ -619,7 +620,7 @@ body {
 }
 
 .main .container .content_wrap .dataTables_wrapper .paginate_button.active a {
-  background-color: #EF5350;
+  background-color: #448AFF;
   border: 1px solid #656565;
 }
 
@@ -628,7 +629,7 @@ body {
 }
 
 .main .container .content_wrap .dataTables_wrapper .order {
-  background-color: #EF5350;
+  background-color: #448AFF;
   color: #fff;
   padding: 5px;
 }
@@ -646,7 +647,7 @@ body {
 .main .container .content_wrap .button a {
   display: block;
   padding: 15px;
-  background-color: #EF5350;
+  background-color: #448AFF;
   color: #fff;
   text-decoration: none;
 }
@@ -877,7 +878,7 @@ body {
 }
 
 .main .container .sidebar_wrap .sidebar .menu_list_sid .menu_sid:hover {
-  background: url(strelkawith.png) no-repeat left 13px #EF5350;
+  background: url(strelkawith.png) no-repeat left 13px #448AFF;
 }
 
 .main .container .sidebar_wrap .sidebar .menu_list_sid .menu_sid:hover a {
@@ -905,7 +906,7 @@ body {
 }
 
 .main .container .sidebar_wrap .sidebar .menu_sub:hover {
-  background: url(strelkawith.png) no-repeat left 13px #EF5350;
+  background: url(strelkawith.png) no-repeat left 13px #448AFF;
 }
 
 .main .container .sidebar_wrap .sidebar .menu_sub:hover a {
@@ -924,7 +925,7 @@ body {
 }
 
 .main .container .sidebar_wrap .sidebar .menu_sub_item:hover {
-  background: url(strelkawith.png) no-repeat left 13px #EF5350;
+  background: url(strelkawith.png) no-repeat left 13px #448AFF;
 }
 
 .main .container .sidebar_wrap .sidebar .menu_sub_item:hover a {
@@ -972,7 +973,7 @@ body {
 }
 
 .main .container .sidebar_wrap .news .body {
-  border-bottom: 2px dashed #ef5350;
+  border-bottom: 2px dashed #448AFF;
   margin-bottom: 15px;
 }
 
@@ -984,7 +985,7 @@ body {
 .main .container .sidebar_wrap .news .link a {
   font-size: 15px;
   text-decoration: none;
-  color: #ef5350;
+  color: #448AFF;
 }
 
 .main .container .sidebar_wrap .advert {
@@ -992,7 +993,7 @@ body {
 }
 
 .main .container .sidebar_wrap .advert .advert_title {
-  background-color: #EF5350;
+  background-color: #448AFF;
   padding: 15px;
   text-align: center;
 }

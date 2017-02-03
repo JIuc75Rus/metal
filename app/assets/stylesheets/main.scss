@@ -84,7 +84,7 @@ body {
       .logo {
         background: url("logo.png") no-repeat;
         a {
-          padding: 25px 172px 81px 15px;
+          padding: 25px 172px 101px 15px;
         }
       }
       .contacts {
@@ -127,7 +127,7 @@ body {
           text-decoration: none;
           color: #fff;
           font-size: 17px;
-          background: url("call.png") no-repeat 5px #EF5350;
+          background: url("call.png") no-repeat 5px #448AFF;
           line-height: 2px;
           padding: 20px 20px 20px 35px;
           border-radius: 5px;
@@ -138,7 +138,7 @@ body {
           text-decoration: none;
           color: #fff;
           font-size: 17px;
-          background: #EF5350;
+          background: #448AFF;
           line-height: 2px;
           padding: 20px;
           border-radius: 5px;
@@ -159,8 +159,8 @@ body {
     }
   }
   .menu {
-    background-color: #FFD200;
-    border-bottom: 4px solid rgba(255, 198, 0, 0.69);
+    background-color: #FFC107;
+    border-bottom: 4px solid rgba(255, 160, 0, 0.69);
     .menu_list {
       width: 1140px;
       margin: 0 auto;
@@ -179,7 +179,7 @@ body {
           padding: 15px;
           display: block;
           &:hover {
-            background-color: #EF5350;
+            background-color: #448AFF;
             color: #fff;
             border-radius: 3px;
           }
@@ -313,13 +313,13 @@ body {
       resize: none;
     }
     form input:focus, form textarea:focus {
-      -moz-box-shadow: 0 0 2px #ef5350 !important;
-      -webkit-box-shadow: 0 0 2px #ef5350 !important;
-      box-shadow: 0 0 2px #ef5350 !important;
+      -moz-box-shadow: 0 0 2px #448AFF !important;
+      -webkit-box-shadow: 0 0 2px #448AFF !important;
+      box-shadow: 0 0 2px #448AFF !important;
     }
     form #input-submit {
       color: white;
-      background: #ef5350;
+      background: #448AFF;
       cursor: pointer;
     }
     form #input-submit:hover {
@@ -400,7 +400,7 @@ body {
     border: 1px solid rgba(222, 220, 222, 0.3);
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
     h2 {
-      color: #EF5350;
+      color: #448AFF;
       font-size: 25px;
     }
     .content_wrap {
@@ -408,13 +408,14 @@ body {
       float: left;
       .dataTables_wrapper {
         padding-top: 15px;
+        padding-right: 15px;
         #example2_info {
           display: none;
         }
         .paginate_button {
           &.active{
           a {
-            background-color: #EF5350;
+            background-color: #448AFF;
             border: 1px solid #656565;
           }
           }
@@ -425,7 +426,7 @@ body {
           }
         }
         .order {
-          background-color: #EF5350;
+          background-color: #448AFF;
           color: #fff;
           padding: 5px;
         }
@@ -440,7 +441,7 @@ body {
         a {
           display: block;
           padding: 15px;
-          background-color: #EF5350;
+          background-color: #448AFF;
           color: #fff;
           text-decoration: none;
         }
@@ -619,7 +620,7 @@ body {
             padding: 0 0 0 25px;
             background: url(strelka.png) no-repeat left 13px #F7F7F5;
             &:hover {
-              background: url(strelkawith.png) no-repeat left 13px #EF5350;
+              background: url(strelkawith.png) no-repeat left 13px #448AFF;
               a {
                 text-decoration: none;
                 color: #fff;
@@ -643,7 +644,7 @@ body {
           padding: 0 0 0 25px;
           background: url(strelka.png) no-repeat left 13px #F7F7F5;
           &:hover {
-            background: url(strelkawith.png) no-repeat left 13px #EF5350;
+            background: url(strelkawith.png) no-repeat left 13px #448AFF;
             a {
               text-decoration: none;
               color: #fff;
@@ -659,7 +660,7 @@ body {
           padding: 0 0 0 25px;
           background: url(strelka.png) no-repeat left 13px #F7F7F5;
           &:hover {
-            background: url(strelkawith.png) no-repeat left 13px #EF5350;
+            background: url(strelkawith.png) no-repeat left 13px #448AFF;
             a {
               text-decoration: none;
               color: #fff;
@@ -701,7 +702,7 @@ body {
           }
         }
         .body {
-          border-bottom: 2px dashed #ef5350;
+          border-bottom: 2px dashed #448AFF;
           margin-bottom: 15px;
         }
         .link {
@@ -710,14 +711,14 @@ body {
         a {
           font-size: 15px;
           text-decoration: none;
-          color: #ef5350;
+          color: #448AFF;
         }
         }
       }
       .advert {
         padding: 15px;
         .advert_title {
-          background-color: #EF5350;
+          background-color: #448AFF;
           padding: 15px;
           text-align: center;
           h2 {
