@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="row">
+    <% unless current_page?(contacts_path) %>
+        <%= render partial: 'components/sidebar' %>
+    <% end %>
+    <div class="content_wrap">
+      <div class="content">
+        <%= @sub_category.find_each do |i| %>
+            <a href="<%= category_path(i)  %>">
+              <div class="item">
+                <div class="item_image">
+                  <%= image_tag i.images.url %>
+                </div>
+                <div class="item_title">
+                  <h4><%= i.name %></h4>
+                </div>
+                <div class="item_content">
+
+                </div>
+              </div>
+            </a>
+        <% end %>
+        <div class="button">
+          <a href="#contacts" class="open_modal">Узнать цену</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

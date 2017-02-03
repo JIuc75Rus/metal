@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170123093420) do
+ActiveRecord::Schema.define(version: 20170203021536) do
 
   create_table "admins", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string   "email"
@@ -34,8 +34,16 @@ ActiveRecord::Schema.define(version: 20170123093420) do
     t.text   "message", limit: 65535
   end
 
+  create_table "carts", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "categories", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
-    t.string   "name"
+    t.string   "images_url"
+    t.string   "url"
+    t.string   "name",                null: false
+    t.integer  "parent_id"
     t.string   "images_file_name"
     t.string   "images_content_type"
     t.integer  "images_file_size"
@@ -43,16 +51,8 @@ ActiveRecord::Schema.define(version: 20170123093420) do
     t.datetime "created_at",          null: false
     t.datetime "updated_at",          null: false
     t.string   "slug"
-    t.string   "url"
-    t.string   "images_url"
-  end
-
-  create_table "categories_items", id: false, force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
-    t.integer "category_id", null: false
-    t.integer "item_id",     null: false
-    t.index ["category_id", "item_id"], name: "index_categories_items_on_category_id_and_item_id", unique: true, using: :btree
-    t.index ["category_id"], name: "index_categories_items_on_category_id", using: :btree
-    t.index ["item_id"], name: "index_categories_items_on_item_id", using: :btree
+    t.index ["parent_id"], name: "index_categories_on_parent_id", using: :btree
+    t.index ["slug"], name: "index_categories_on_slug", using: :btree
   end
 
   create_table "friendly_id_slugs", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
@@ -68,18 +68,82 @@ ActiveRecord::Schema.define(version: 20170123093420) do
   end
 
   create_table "items", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
-    t.string   "metal"
-    t.string   "metal_brand"
-    t.string   "product"
-    t.integer  "cat_id"
+    t.string   "title"
+    t.float    "price",               limit: 24
+    t.float    "weight",              limit: 24
+    t.string   "unit"
+    t.string   "description"
+    t.string   "images_url"
+    t.integer  "itemscategory_id"
     t.string   "images_file_name"
     t.string   "images_content_type"
     t.integer  "images_file_size"
     t.datetime "images_updated_at"
-    t.datetime "created_at",          null: false
-    t.datetime "updated_at",          null: false
-    t.string   "images_url"
-    t.index ["cat_id"], name: "index_items_on_cat_id", using: :btree
+    t.datetime "created_at",                     null: false
+    t.datetime "updated_at",                     null: false
+    t.string   "diameter"
+    t.string   "thickness"
+    t.index ["itemscategory_id"], name: "index_items_on_itemscategory_id", using: :btree
   end
 
+  create_table "itemscategories", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+    t.string   "images_url"
+    t.text     "description",         limit: 65535
+    t.string   "url"
+    t.string   "name",                              null: false
+    t.integer  "subcategory_id"
+    t.string   "images_file_name"
+    t.string   "images_content_type"
+    t.integer  "images_file_size"
+    t.datetime "images_updated_at"
+    t.datetime "created_at",                        null: false
+    t.datetime "updated_at",                        null: false
+    t.string   "slug"
+    t.index ["slug"], name: "index_itemscategories_on_slug", using: :btree
+    t.index ["subcategory_id"], name: "index_itemscategories_on_subcategory_id", using: :btree
+  end
+
+  create_table "line_items", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+    t.integer  "item_id"
+    t.integer  "cart_id"
+    t.datetime "created_at",             null: false
+    t.datetime "updated_at",             null: false
+    t.integer  "quantity",   default: 1
+    t.integer  "order_id"
+    t.index ["cart_id"], name: "index_line_items_on_cart_id", using: :btree
+    t.index ["item_id"], name: "index_line_items_on_item_id", using: :btree
+    t.index ["order_id"], name: "index_line_items_on_order_id", using: :btree
+  end
+
+  create_table "orders", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+    t.string   "name"
+    t.text     "message",    limit: 65535
+    t.string   "email"
+    t.string   "phone"
+    t.datetime "created_at",               null: false
+    t.datetime "updated_at",               null: false
+  end
+
+  create_table "subcategories", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+    t.string   "images_url"
+    t.text     "description",         limit: 65535
+    t.string   "url"
+    t.string   "name",                              null: false
+    t.integer  "category_id"
+    t.string   "images_file_name"
+    t.string   "images_content_type"
+    t.integer  "images_file_size"
+    t.datetime "images_updated_at"
+    t.datetime "created_at",                        null: false
+    t.datetime "updated_at",                        null: false
+    t.string   "slug"
+    t.index ["category_id"], name: "index_subcategories_on_category_id", using: :btree
+    t.index ["slug"], name: "index_subcategories_on_slug", using: :btree
+  end
+
+  add_foreign_key "itemscategories", "subcategories"
+  add_foreign_key "line_items", "carts"
+  add_foreign_key "line_items", "items"
+  add_foreign_key "line_items", "orders"
+  add_foreign_key "subcategories", "categories"
 end

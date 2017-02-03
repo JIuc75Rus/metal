@@ -13,58 +13,31 @@
   <div class="form-group">
     <div class="row">
       <div class="col-xs-3">
-        <%= f.label "Метал" %>
-        <%= f.text_field :metal, placeholder: 'Метал', class: 'form-control' %>
+        <%= f.label "Наименование" %>
+        <%= f.text_field :title, placeholder: 'Наименование', class: 'form-control' %>
       </div>
       <div class="col-xs-3">
-        <%= f.label "Марки метала" %>
-        <%= f.text_field :metal_brand, placeholder: 'Марки метала', class: 'form-control' %>
+        <%= f.label "Вес" %>
+        <%= f.text_field :weight, placeholder: 'Вес', class: 'form-control' %>
       </div>
       <div class="col-xs-3">
-        <%= f.label "Продукция" %>
-        <%= f.text_field :product, placeholder: 'Продукция', class: 'form-control' %>
+        <%= f.label "Еденица" %>
+        <%= f.text_field :unit, placeholder: 'Еденица', class: 'form-control' %>
       </div>
       <div class="col-xs-3">
-        <%= f.label "Категория" %><br>
-        <%= f.collection_select :cat_id, Category.all, :id, :name, {}, class: 'form-control'%>
+        <%= f.label "Диаметр" %>
+        <%= f.text_field :diameter, placeholder: 'Диаметр', class: 'form-control' %>
+      </div>
+      <div class="col-xs-3">
+        <%= f.label "Толщина" %>
+        <%= f.text_field :thickness, placeholder: 'Толщина', class: 'form-control' %>
+      </div>
+      <div class="col-xs-3">
+        <%= f.label "Категория товара" %><br>
+        <%= f.collection_select :itemscategory_id, Itemscategory.all, :id, :name, {include_blank: true}, class: 'form-control'%>
       </div>
     </div>
   </div>
-    <div class="form-group">
-      <%= f.label "Изображение материала" %>
-      <%= f.text_field :images_url, placeholder: 'Url картинки', class: 'form-control' %>
-    </div>
-        <div class="form-group">
-      <%= urls_to_images(@item.images_url.to_s) %>
-      <%= image_tag @item.images, id:"something_unique", alt: '', class: 'thumb'%>
-        </div>
-    </div>
-    <%= f.file_field :images, id:"something_else_unique" %>
-    <style>
-      .thumb {
-        height: 150px;
-      }
-    </style>
-    <script>
-        function handleFileSelect(evt) {
-            var files = evt.target.files; // FileList object
-            f = files[0]
-            // Only process image files.
-            if (f.type.match('image.*')) {
-                var reader = new FileReader();
-                reader.onload = (function(theFile) {
-                    return function(e) {
-                        // alert(e.target.result);
-                        document.getElementById("something_unique").src=e.target.result;
-                    };
-                })(f);
-
-                // Read in the image file as a data URL.
-                reader.readAsDataURL(f);
-            }
-        }
-        document.getElementById('something_else_unique').addEventListener('change', handleFileSelect, false);
-    </script>
   </div>
     <div class="row">
       <div class="col-xs-6">

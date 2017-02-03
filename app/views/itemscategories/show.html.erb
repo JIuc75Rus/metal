@@ -1,0 +1,49 @@
+<title><%= @itemscategory.name %> - metal22.ru</title>
+<div class="container">
+  <div class="row">
+    <% unless current_page?(contacts_path) %>
+        <%= render partial: 'components/sidebar' %>
+    <% end %>
+    <div class="content_wrap">
+      <div class="carts"></div>
+      <table id="example2" class="table table_my table-bordered">
+        <thead>
+        <tr role="row" class="color">
+          <th class="">Наименование</th>
+          <th>Вес</th>
+          <% if @item.where(diameter: '').many? %>
+          <% else %>
+              <th>Диаметр</th>
+          <% end %>
+          <th>Единица</th>
+          <% if @item.where(thickness: '').many?%>
+          <% else %>
+              <th>Толщина, мм</th>
+          <% end %>
+          <th class="none"></th>
+        </tr>
+        </thead>
+        <tbody>
+        <% @item.find_each do |i| %>
+            <tr class="">
+              <td><%= i.title%></td>
+              <% if i.weight.present? %>
+                  <td class="center"><%= i.weight%></td>
+              <% else %>
+                  <td class="center">-</td>
+              <% end %>
+              <% if i.diameter.present? %>
+                  <td class="center"><%= i.diameter %></td>
+              <% end %>
+              <td class="center"><%= i.unit%></td>
+              <% if i.thickness.present? %>
+                  <td><%= i.thickness %></td>
+              <% end %>
+              <td class="center"><%= button_to 'Заказать', line_items_path(item_id: i), remote: true, data: {type: :json},  class: 'order', style: 'border:none;'%></td>
+            </tr>
+        <% end %>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

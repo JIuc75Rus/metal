@@ -1,10 +1,28 @@
 <div class="sidebar_wrap">
   <div class="sidebar">
-    <%= Category.find_each do |c| %>
+    <% Category.all.find_each do |c| %>
         <ul class="menu_list_sid">
-          <li class="menu_sid"><%=link_to "#{c.name}", category_show_path(c) %></li>
+          <li class="menu_sid">
+            <%=link_to "#{c.name}", category_path(c) %>
+            <% c.subcategories.each do |s| %>
+                <% unless current_page?(root_path) %>
+                    <% if current_page?(category_path(c) ) or (category_subcategory_path(c,s)) %>
+                      <li class="menu_sub">
+                        <%= link_to "#{ s.name}", category_subcategory_path(c, s) %>
+                      </li>
+                  <% end %>
+                  <% if current_page?(category_subcategory_itemscategory_path(c, s))  %>
+                  <% s.itemscategories.each do |i| %>
+                          <li class="menu_sub_item">
+                            <%= link_to "#{i.name}", category_subcategory_itemscategory_path(c, s, i)  %>
+                          </li>
+                      <% end %>
+                  <% end %>
+              <% end %>
+          <% end %>
+          </li>
         </ul>
-    <% end %>
+      <% end %>
   </div>
   <% if current_page?(company_info_path) %>
       <div class="rec_company">

@@ -1,4 +1,6 @@
 class OnlineFormsController < ApplicationController
+  include CurrentCart
+  before_action :set_cart, only: [:create, :new]
 
   def new
     @online_form = OnlineForm.new

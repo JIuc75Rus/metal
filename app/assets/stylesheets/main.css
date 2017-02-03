@@ -114,10 +114,17 @@ main {
   margin: 0 auto;
 }
 
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url("/assets/glyphicons-halflings-regular.eot");
+  src: url("/assets/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("/assets/glyphicons-halflings-regular.woff") format("woff"), url("/assets/glyphicons-halflings-regular.ttf") format("truetype"), url("/assets/glyphicons-halflings-regular.svg#glyphicons-halflingsregular") format("svg");
+}
+
 body {
-  background: #e6e6e6 url(bg-rep.png) center top repeat;
   font-family: 'Roboto',  Arial, Helvetica, sans-serif;
+  font-size: 14px;
   line-height: 1.6;
+  background: #e6e6e6 url(bg-rep.png) center top repeat;
 }
 
 * {
@@ -363,6 +370,32 @@ body {
   text-decoration: none;
 }
 
+.header .menu .menu_list .cart {
+  background: url("cart.png") no-repeat;
+  padding: 15px 15px 20px 35px;
+  position: relative;
+  top: 15px;
+  right: 10px;
+}
+
+.header .menu .menu_list #counts {
+  position: absolute;
+  top: 168px;
+  right: 217px;
+}
+
+.header .menu .menu_list #counts .count {
+  color: #fff;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 10px;
+  display: block;
+  background-color: #00a7d0;
+  border-radius: 50%;
+  padding: 10px;
+}
+
 .slide_info {
   width: 1140px;
   margin: 0 auto 15px;
@@ -575,6 +608,34 @@ body {
 .main .container .content_wrap {
   width: 70%;
   float: left;
+}
+
+.main .container .content_wrap .dataTables_wrapper {
+  padding-top: 15px;
+}
+
+.main .container .content_wrap .dataTables_wrapper #example2_info {
+  display: none;
+}
+
+.main .container .content_wrap .dataTables_wrapper .paginate_button.active a {
+  background-color: #EF5350;
+  border: 1px solid #656565;
+}
+
+.main .container .content_wrap .dataTables_wrapper .none:after {
+  display: none;
+}
+
+.main .container .content_wrap .dataTables_wrapper .order {
+  background-color: #EF5350;
+  color: #fff;
+  padding: 5px;
+}
+
+.main .container .content_wrap .color {
+  background-color: #656565;
+  color: #fff;
 }
 
 .main .container .content_wrap .button {
@@ -829,6 +890,44 @@ body {
 }
 
 .main .container .sidebar_wrap .sidebar .menu_list_sid .active a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.main .container .sidebar_wrap .sidebar .menu_sub {
+  margin-left: 15px;
+  list-style: none;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0 0 0 25px;
+  background: url(strelka.png) no-repeat left 13px #F7F7F5;
+}
+
+.main .container .sidebar_wrap .sidebar .menu_sub:hover {
+  background: url(strelkawith.png) no-repeat left 13px #EF5350;
+}
+
+.main .container .sidebar_wrap .sidebar .menu_sub:hover a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.main .container .sidebar_wrap .sidebar .menu_sub_item {
+  margin-left: 30px;
+  list-style: none;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0 0 0 25px;
+  background: url(strelka.png) no-repeat left 13px #F7F7F5;
+}
+
+.main .container .sidebar_wrap .sidebar .menu_sub_item:hover {
+  background: url(strelkawith.png) no-repeat left 13px #EF5350;
+}
+
+.main .container .sidebar_wrap .sidebar .menu_sub_item:hover a {
   text-decoration: none;
   color: #fff;
 }

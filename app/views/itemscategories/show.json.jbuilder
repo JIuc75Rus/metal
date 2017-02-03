@@ -1,0 +1,1 @@
+json.partial! "itemscategories/itemscategory", itemscategory: @itemscategory

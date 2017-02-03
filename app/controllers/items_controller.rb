@@ -1,6 +1,6 @@
 class ItemsController < ApplicationController
   before_action :set_item, only: [:show, :edit, :update, :destroy]
-  before_action :authenticate_admin!, only: [:index, :new, :show, :edit, :update, :destroy]
+
   # GET /items
   # GET /items.json
   def index
@@ -11,6 +11,16 @@ class ItemsController < ApplicationController
   # GET /items/1
   # GET /items/1.json
   def show
+  end
+
+  def who_bought
+    @item = Item.find(params[:id])
+    @latest_order = @item.orders.order(:updated_at).last
+    if stale?(@latest_order)
+      respond_to do |format|
+        format.atom
+      end
+    end
   end
 
   # GET /items/new
@@ -28,6 +38,7 @@ class ItemsController < ApplicationController
   # POST /items.json
   def create
     @item = Item.new(item_params)
+
     respond_to do |format|
       if @item.save
         format.html { render layout: 'admin', action: :edit}
@@ -74,6 +85,6 @@ class ItemsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def item_params
-      params.require(:item).permit(:metal, :metal_brand, :product, :images, :cat_id, :images_url)
+      params.require(:item).permit(:title, :price, :weight, :itemscategory_id, :unit, :description, :thickness, :diameter, :images, :images_url)
     end
 end

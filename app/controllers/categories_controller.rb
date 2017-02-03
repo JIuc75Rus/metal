@@ -1,17 +1,21 @@
 class CategoriesController < ApplicationController
-  before_action :set_category, only: [:show, :edit, :update, :destroy]
-  before_action :authenticate_admin!, only: [:index, :new, :show, :edit, :update, :destroy]
+  include CurrentCart
+  before_action :set_cart
+  before_action :set_category, only: [:show, :edit, :update, :destroy, :show_prod_cat, :show_item]
+
 
   def index
+    @sub_category = Category.parent_categories
   end
 
   # GET /categories/1
   # GET /categories/1.json
   def show
-    render layout: 'admin'
+    @article = Article.where('created_at > ?', 14.days.ago).limit(3).sort {|a,b| b <=> a}
+    @sub_category = Subcategory.where(category_id:[@category])
   end
 
-  # GET /categories/new
+    # GET /categories/new
   def new
     @category = Category.new
     render layout: 'admin'
@@ -70,6 +74,6 @@ class CategoriesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def category_params
-      params.require(:category).permit(:name, :images, :url, :images_url)
+      params.require(:category).permit( :images, :url, :images_url, :name)
     end
 end

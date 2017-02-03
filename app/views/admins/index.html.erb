@@ -11,17 +11,85 @@
     <table class="table table-bordered">
       <tbody><tr>
         <th>Имя</th>
+
         <th>Действия</th>
       </tr>
       <%= @categories.find_each do |c| %>
       <tr>
         <td><%= c.name %></td>
+
         <td>
           <%= link_to "Редактировать", edit_category_path(c)%>
           <%= link_to "Удалить", c, method: :delete, data: { confirm: 'Точно удалить? Ты ни чего не попутал?'} %>
         </td>
-      </tr>
       <% end %>
+      </tr>
+      </tbody>
+    </table>
+  </div><!-- /.box-body -->
+  <div class="box-footer">
+    The footer of the box
+  </div><!-- box-footer -->
+</div><!-- /.box -->
+<div class="box">
+  <div class="box-header with-border">
+    <h3 class="box-title">Под категории</h3>
+    <div class="box-tools pull-right">
+      <!-- Buttons, labels, and many other things can be placed here! -->
+      <!-- Here is a label for example -->
+      <%= link_to "Добавить категорию", new_subcategory_path, class: 'label label-primary' %>
+    </div><!-- /.box-tools -->
+  </div><!-- /.box-header -->
+  <div class="box-body">
+    <table class="table table-bordered">
+      <tbody><tr>
+        <th>Имя</th>
+        <th>Категория</th>
+        <th>Действия</th>
+      </tr>
+      <%= @subcategories.find_each do |c| %>
+          <tr>
+            <td><%= c.name %></td>
+            <td><%= c.category.name %></td>
+            <td>
+              <%= link_to "Редактировать", edit_subcategory_path(c)%>
+              <%= link_to "Удалить", c, method: :delete, data: { confirm: 'Точно удалить? Ты ни чего не попутал?'} %>
+            </td>
+      <% end %>
+      </tr>
+      </tbody>
+    </table>
+  </div><!-- /.box-body -->
+  <div class="box-footer">
+    The footer of the box
+  </div><!-- box-footer -->
+</div><!-- /.box -->
+<div class="box">
+  <div class="box-header with-border">
+    <h3 class="box-title">Категории товаров</h3>
+    <div class="box-tools pull-right">
+      <!-- Buttons, labels, and many other things can be placed here! -->
+      <!-- Here is a label for example -->
+      <%= link_to "Добавить категорию", new_itemscategory_path, class: 'label label-primary' %>
+    </div><!-- /.box-tools -->
+  </div><!-- /.box-header -->
+  <div class="box-body">
+    <table class="table table-bordered">
+      <tbody><tr>
+        <th>Имя</th>
+        <th>Под категория</th>
+        <th>Действия</th>
+      </tr>
+      <%= @itemscategories.find_each do |c| %>
+          <tr>
+            <td><%= c.name %></td>
+            <td><%= c.subcategory.name %></td>
+            <td>
+              <%= link_to "Редактировать", edit_itemscategory_path(c)%>
+              <%= link_to "Удалить", c, method: :delete, data: { confirm: 'Точно удалить? Ты ни чего не попутал?'} %>
+            </td>
+      <% end %>
+      </tr>
       </tbody>
     </table>
   </div><!-- /.box-body -->
@@ -57,12 +125,12 @@
       <tbody>
       <%= @items.find_each do |i| %>
           <tr>
-            <td><%= i.metal %></td>
+            <td><%= i.title%></td>
             <td>
               <%= link_to "Редактировать", edit_item_path(i)%>
               <%= link_to "Удалить", i, method: :delete, data: { confirm: 'Точно удалить? Ты ни чего не попутал?'} %>
             </td>
-            <td><%= i.cat_id %></td>
+            <td></td>
           </tr>
       <% end %>
       </tbody>
