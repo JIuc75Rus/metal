@@ -5,8 +5,8 @@ Rails.application.routes.draw do
   root to: 'pages#index'
   #jnjlfaskjfsa
   if Rails.env.production?
-    match '/404', :to => 'application#page_not_found'
-    match '/500', :to => 'application#page_not_found'
+    match '/404', :to => 'application#page_not_found', via: :all
+    match '/500', :to => 'application#page_not_found', via: :all
   end
   get 'company-info', to: 'pages#company', as: 'company_info'
   get 'contacts', to: 'pages#contact', as: 'contacts'
