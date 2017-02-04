@@ -14,5 +14,12 @@ module Metal22Ru
     config.i18n.load_path += Dir[Rails.root.join('config', 'locales', '**', '*.{rb,yml}')]
     config.exceptions_app = self.routes
     config.assets.paths << Rails.root.join('app', 'assets', 'fonts')
+    config.to_prepare do
+      Devise::SessionsController.layout "login"
+      Devise::RegistrationsController.layout proc{ |controller| user_signed_in? ? "application" : "devise" }
+      Devise::ConfirmationsController.layout "devise"
+      Devise::UnlocksController.layout "devise"
+      Devise::PasswordsController.layout "devise"
+    end
   end
 end
