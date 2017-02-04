@@ -2,6 +2,7 @@ class ItemscategoriesController < ApplicationController
   include CurrentCart
   before_action :set_cart
   before_action :set_itemscategory, only: [:show, :edit, :update, :destroy]
+  before_action :authenticate_admin!, only: [:index, :new,  :edit, :update, :destroy]
 
   # GET /itemscategories
   # GET /itemscategories.json

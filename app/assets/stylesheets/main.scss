@@ -259,6 +259,7 @@ body {
         font-size: 28px;
         font-weight: 700;
         margin-bottom: 10px;
+        margin-top: 0;
       }
       &:after {
         position: absolute;
@@ -464,14 +465,6 @@ body {
             background-color: #fff;
             box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.3);
           }
-          .item_title {
-            margin-bottom: 10px;
-            text-align: center;
-            h4 {
-              color: #5b5b5b;
-              font-size: 20px;
-            }
-          }
           .item_image {
             margin-bottom: 10px;
             img {
@@ -489,7 +482,8 @@ body {
               border-top: 2px dashed rgba(239, 83, 80, 0.7);
             }
             h4 {
-              font-size: 16px;
+              color: #448AFF;
+              font-size: 20px;
             }
             span {
               color: #5b5b5b;
@@ -530,7 +524,7 @@ body {
             margin-bottom: 10px;
             text-align: center;
             h4 {
-              color: #5b5b5b;
+              color: #448AFF;
               font-size: 20px;
             }
           }

@@ -3,17 +3,13 @@ class PagesController < ApplicationController
   before_action :set_cart
 
   before_action :set_category, only: [:show, :show_sub_category]
-  before_action :article, only: [:show, :index, :company, :contacts, :contact, :news, :show_sub_category]
+  before_action :article, only: [:show, :index, :company, :contacts, :contact, :news]
 
   def index
     @categories = Category.all
   end
 
   def show
-
-  end
-
-  def show_sub_category
 
   end
 

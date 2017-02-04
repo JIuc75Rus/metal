@@ -1,18 +1,18 @@
 <div class="sidebar_wrap">
   <div class="sidebar">
-    <% Category.all.find_each do |c| %>
+    <% Category.find_each  do |c| %>
         <ul class="menu_list_sid">
           <li class="menu_sid">
             <%=link_to "#{c.name}", show_category_path(c) %>
-            <% c.subcategories.each do |s| %>
-                <% unless current_page?(root_path) %>
-                    <% if current_page?(category_path(c) ) or (show_category_subcategory_path(c,s)) %>
+            <% unless current_page?(root_path) || current_page?(company_info_path) || current_page?(news_path) %>
+                <% c.subcategories.each do |s| %>
+                    <% if current_page?(show_category_path(c)) || current_page?(show_category_subcategory_path(c, s)) || current_page?(show_category_subcategory_itemscategory_path(c, s))  %>
                       <li class="menu_sub">
                         <%= link_to "#{ s.name}", show_category_subcategory_path(c, s) %>
                       </li>
                   <% end %>
-                  <% if current_page?(show_category_subcategory_itemscategory_path(c, s))  %>
-                  <% s.itemscategories.each do |i| %>
+                  <% s.itemscategories.find_each do |i| %>
+                      <% if current_page?(show_category_subcategory_path(c, s)) || current_page?(show_category_subcategory_itemscategory_path(c, s, i))  %>
                           <li class="menu_sub_item">
                             <%= link_to "#{i.name}", show_category_subcategory_itemscategory_path(c, s, i)  %>
                           </li>

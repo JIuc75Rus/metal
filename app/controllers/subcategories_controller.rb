@@ -2,6 +2,7 @@ class SubcategoriesController < ApplicationController
   include CurrentCart
   before_action :set_cart
   before_action :set_subcategory, only: [:show, :edit, :update, :destroy]
+  before_action :authenticate_admin!, only: [:index, :new, :edit, :update, :destroy]
 
   # GET /subcategories
   # GET /subcategories.json

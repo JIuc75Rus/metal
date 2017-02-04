@@ -436,6 +436,7 @@ body {
   font-size: 28px;
   font-weight: 700;
   margin-bottom: 10px;
+  margin-top: 0;
 }
 
 .slide_info .company_description_wrap .company_description:after {
@@ -681,16 +682,6 @@ body {
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.3);
 }
 
-.main .container .content_wrap .content_index .item .item_title {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.main .container .content_wrap .content_index .item .item_title h4 {
-  color: #5b5b5b;
-  font-size: 20px;
-}
-
 .main .container .content_wrap .content_index .item .item_image {
   margin-bottom: 10px;
 }
@@ -713,7 +704,8 @@ body {
 }
 
 .main .container .content_wrap .content_index .item .item_content h4 {
-  font-size: 16px;
+  color: #448AFF;
+  font-size: 20px;
 }
 
 .main .container .content_wrap .content_index .item .item_content span {
@@ -768,7 +760,7 @@ body {
 }
 
 .main .container .content_wrap .content .item .item_title h4 {
-  color: #5b5b5b;
+  color: #448AFF;
   font-size: 20px;
 }
 

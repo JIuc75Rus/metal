@@ -1,9 +1,7 @@
 Rails.application.routes.draw do
-  resources :orders
-  resources :line_items
-  resources :carts
-  resources :itemscategories
-  resources :subcategories
+  resources :orders, olnly: [:new, :create]
+  resources :carts, only: [:new, :create, :destroy]
+  resources :line_items, only: [:new, :create, :destroy ]
   root to: 'pages#index'
   #jnjlfaskjfsa
   if Rails.env.production?
@@ -24,7 +22,7 @@ Rails.application.routes.draw do
     get :who_bought, on: :member
   end
   scope '/metal&admin' do
-    resources  :articles, :categories, except: :show
+    resources  :articles, :categories, :subcategories, :itemscategories, except: :show
   end
   resources :call_backs, only: [:new, :create]
   scope '/' do

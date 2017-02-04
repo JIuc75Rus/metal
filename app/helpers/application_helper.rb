@@ -11,4 +11,14 @@ module ApplicationHelper
     s.html_safe
   end
 
+  def build_breadcrumb(category)
+    result = []
+    category.ancestors.each do |sub|
+      result << content_tag(:li, class: 'menu_sub') do
+        link_to(sub.name, sub)
+      end
+    end
+    result << content_tag(:li, category.name, class: 'menu_sub')
+    result.join('').html_safe
+  end
 end
