@@ -6,4 +6,7 @@ class ApplicationController < ActionController::Base
       format.all  { render nothing: true, status: 404 }
     end
   end
+  def internal_server_error
+    render(render template: 'pages/404', layout: 'layouts/application',:status => 500)
+  end
 end

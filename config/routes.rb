@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   #jnjlfaskjfsa
   if Rails.env.production?
     match '/404', :to => 'application#page_not_found', via: :all
-    match '/500', :to => 'application#page_not_found', via: :all
+    match '/500', :to => 'application#internal_server_error', via: :all
   end
   get 'company-info', to: 'pages#company', as: 'company_info'
   get 'contacts', to: 'pages#contact', as: 'contacts'
