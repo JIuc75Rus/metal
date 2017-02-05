@@ -1,6 +1,10 @@
 <div class="advert_body">
   <% @advert.each do |a| %>
-      <%= image_tag a.images.url %>
+      <% if a.images? %>
+          <%= image_tag a.images.url %>
+      <% else %>
+          <%= urls_to_images(a.images_url.to_s)%>
+      <% end %>
       <p><%= a.description %></p>
   <% end %>
 </div>
