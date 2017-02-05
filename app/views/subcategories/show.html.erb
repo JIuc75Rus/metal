@@ -10,7 +10,11 @@
             <a href="#contacts" class="open_modal">
               <div class="item">
                 <div class="item_image">
-                  <%= image_tag i.images.url %>
+                  <% if i.images? %>
+                      <%= image_tag i.images.url %>
+                  <% else %>
+                      <%= urls_to_images(i.images_url.to_s)%>
+                  <% end %>
                 </div>
                 <div class="item_title">
                   <h4><%= i.title %></h4>
