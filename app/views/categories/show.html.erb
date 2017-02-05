@@ -10,10 +10,10 @@
             <a href="<%= show_category_subcategory_path(@category, i) %>">
               <div class="item">
                 <div class="item_image">
-                  <% if category.images? %>
-                      <%= image_tag category.images.url %>
+                  <% if i.images? %>
+                      <%= image_tag i.images.url %>
                   <% else %>
-                      <%= urls_to_images(category.images_url.to_s)%>
+                      <%= urls_to_images(i.images_url.to_s)%>
                   <% end %>
                 </div>
                 <div class="item_title">
