@@ -52,7 +52,6 @@
       <li class="menu_item"><a href="<%= feedback_path %>">Обратная связь</a></li>
       <li class="menu_item"><a href="<%= news_path %>">Новости</a></li>
       <li class="menu_item"><a href="<%= contacts_path %>">Контакты</a></li>
-      <li><a href="#orders" class="cart open_modal"></a><div id="counts"><%= render partial: 'line_items/count' %></div></li>
     </ul>
   </div>
 </section>
@@ -65,9 +64,6 @@
   <%= yield %>
   <div id="contacts" class="modal_div">
     <%= render template: 'call_backs/new' %>
-  </div>
-  <div id="orders" class="modal_div">
-    <%= render @cart %>
   </div>
   <div id="overlay"></div><!-- Пoдлoжкa, oднa нa всю стрaницу -->
 </section>

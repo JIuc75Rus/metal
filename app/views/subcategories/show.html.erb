@@ -6,16 +6,17 @@
     <% end %>
     <div class="content_wrap">
       <div class="content">
-        <%= @itemscategory.find_each do |i| %>
-            <a href="<%= show_category_subcategory_itemscategory_path(@subcategory.category, @subcategory, i) %>">
+        <%= @item.find_each do |i| %>
+            <a href="#contacts" class="open_modal">
               <div class="item">
                 <div class="item_image">
                   <%= image_tag i.images.url %>
                 </div>
                 <div class="item_title">
-                  <h4><%= i.name %></h4>
+                  <h4><%= i.title %></h4>
                 </div>
                 <div class="item_content">
+                  <%= i.description %>
                 </div>
               </div>
             </a>
@@ -24,3 +25,4 @@
     </div>
   </div>
 </div>
+

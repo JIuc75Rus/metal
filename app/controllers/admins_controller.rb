@@ -4,7 +4,6 @@ class AdminsController < ApplicationController
   def index
     @categories = Category.all
     @subcategories = Subcategory.all
-    @itemscategories = Itemscategory.all
     @items = Item.all
   end
 end

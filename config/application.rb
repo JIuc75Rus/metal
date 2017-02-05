@@ -12,7 +12,6 @@ module Metal22Ru
     # -- all .rb files in that directory are automatically loaded.
     config.i18n.default_locale = :ru
     config.i18n.load_path += Dir[Rails.root.join('config', 'locales', '**', '*.{rb,yml}')]
-    config.exceptions_app = self.routes
     config.assets.paths << Rails.root.join('app', 'assets', 'fonts')
     config.to_prepare do
       Devise::SessionsController.layout "login"

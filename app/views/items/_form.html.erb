@@ -13,43 +13,66 @@
   <div class="form-group">
     <div class="row">
       <div class="col-xs-3">
-        <%= f.label "Наименование" %>
+        <%= f.label 'Наименование' %>
         <%= f.text_field :title, placeholder: 'Наименование', class: 'form-control' %>
       </div>
       <div class="col-xs-3">
-        <%= f.label "Вес" %>
-        <%= f.text_field :weight, placeholder: 'Вес', class: 'form-control' %>
+        <%= f.label 'Описание' %>
+        <%= f.text_field :description, placeholder: 'Описание', class: 'form-control' %>
       </div>
       <div class="col-xs-3">
-        <%= f.label "Еденица" %>
-        <%= f.text_field :unit, placeholder: 'Еденица', class: 'form-control' %>
+        <%= f.label 'Категория товара' %><br>
+        <%= f.collection_select :subcategory_id, Subcategory.all, :id, :name, {include_blank: true}, class: 'form-control'%>
       </div>
-      <div class="col-xs-3">
-        <%= f.label "Диаметр" %>
-        <%= f.text_field :diameter, placeholder: 'Диаметр', class: 'form-control' %>
-      </div>
-      <div class="col-xs-3">
-        <%= f.label "Толщина" %>
-        <%= f.text_field :thickness, placeholder: 'Толщина', class: 'form-control' %>
-      </div>
-      <div class="col-xs-3">
-        <%= f.label "Категория товара" %><br>
-        <%= f.collection_select :itemscategory_id, Itemscategory.all, :id, :name, {include_blank: true}, class: 'form-control'%>
-      </div>
+    </div>
+    <div class="form-group">
+      <%= f.label "Изображение категории" %>
+      <%= f.text_field :images_url, placeholder: 'Url картинки', class: 'form-control' %>
+    </div>
+    <div class="form-group">
+      <%= urls_to_images(@item.images_url.to_s) %>
+      <%= image_tag @item.images, id:"something_unique", alt: '', class: 'thumb'%>
+    </div>
+    <%= f.file_field :images, id:"something_else_unique" %>
+  </div>
+    <style>
+      .thumb {
+        height: 150px;
+      }
+    </style>
+    <script>
+        function handleFileSelect(evt) {
+            var files = evt.target.files; // FileList object
+            f = files[0]
+            // Only process image files.
+            if (f.type.match('image.*')) {
+                var reader = new FileReader();
+                reader.onload = (function(theFile) {
+                    return function(e) {
+                        // alert(e.target.result);
+                        document.getElementById("something_unique").src=e.target.result;
+                    };
+                })(f);
+
+                // Read in the image file as a data URL.
+                reader.readAsDataURL(f);
+            }
+        }
+        document.getElementById('something_else_unique').addEventListener('change', handleFileSelect, false);
+    </script>
     </div>
   </div>
   </div>
     <div class="row">
       <div class="col-xs-6">
         <div class="box-footer">
-          <%= f.submit "Создать материал", class: "btn btn-success btn-lg"  %>
+          <%= f.submit 'Создать материал', class: 'btn btn-success btn-lg'  %>
         </div>
       </div>
       <div class="col-xs-6">
         <div class="box-footer">
-          <%= link_to 'Назад', admins_path, class: "btn btn-primary btn-lg", style: "float: right" %>
+          <%= link_to 'Назад', admins_path, class: 'btn btn-primary btn-lg', style: 'float: right' %>
         </div>
       </div>
     </div>
-  </div>
 </div>

@@ -1,17 +1,14 @@
 <div class="form_wrap">
   <span class="modal_close"></span>
   <div class="form_header">
-    <h2>Запросить обратный звонок</h2>
-    <p></p>
+    <h2>Узнайте цену итересующего товара, закажите обратныйзвонок.</h2>
+    <p>Заполните форму ниже. В ближайшее время с вами сяжется наш менеджер.</p>
   </div>
   <%= form_for CallBack.new do |f| %>
       <div class="half left cf">
         <%= f.text_field :name, placeholder: 'Ваше имя', required: true  %>
         <%= f.text_field :phone, placeholder: 'Ваш телефон', required: true  %>
-        <div class="label">
-          <%= f.label :time, "Выберите удобное время для звонка" %>.
-        </div>
-        <%= f.time_select :times, ignore_data: true, default: Time.now %>
+        <%= f.email_field :email, placeholder: 'Email', required: true  %>
       </div>
       <div class="half right cf">
         <%= f.text_area :message, placeholder: 'Сообщение',as: :text  %>

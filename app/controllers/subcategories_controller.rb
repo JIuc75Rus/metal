@@ -1,6 +1,4 @@
 class SubcategoriesController < ApplicationController
-  include CurrentCart
-  before_action :set_cart
   before_action :set_subcategory, only: [:show, :edit, :update, :destroy]
   before_action :authenticate_admin!, only: [:index, :new, :edit, :update, :destroy]
 
@@ -14,7 +12,7 @@ class SubcategoriesController < ApplicationController
   # GET /subcategories/1.json
   def show
     @article = Article.where('created_at > ?', 14.days.ago).limit(3).sort {|a,b| b <=> a}
-    @itemscategory = Itemscategory.where(subcategory_id: [@subcategory])
+    @item = Item.where(subcategory_id: @subcategory )
   end
 
   # GET /subcategories/new
