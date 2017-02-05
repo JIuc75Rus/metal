@@ -1,6 +1,7 @@
 class PagesController < ApplicationController
+  include Find
+  before_action :set
   before_action :set_category, only: [:show]
-  before_action :article, only: [:show, :index, :company, :contacts, :contact, :news]
 
   def index
     @categories = Category.all
@@ -30,7 +31,4 @@ class PagesController < ApplicationController
   def set_category
     @category = Category.friendly.find(params[:id])
   end
-   def article
-     @article = Article.where('created_at > ?', 14.days.ago).limit(3).sort {|a,b| b <=> a}
-   end
 end

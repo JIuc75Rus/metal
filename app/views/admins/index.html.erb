@@ -85,14 +85,15 @@
       <thead>
       <tr role="row">
         <th class="sorting">Имя</th>
+        <th style="width: 40px">Под категория товара</th>
         <th>Действия</th>
-        <th style="width: 40px">ID Категории</th>
       </tr>
       </thead>
       <tbody>
       <%= @items.find_each do |i| %>
           <tr>
             <td><%= i.title%></td>
+            <td><%= i.subcategory.name %></td>
             <td>
               <%= link_to "Редактировать", edit_item_path(i)%>
               <%= link_to "Удалить", i, method: :delete, data: { confirm: 'Точно удалить? Ты ни чего не попутал?'} %>

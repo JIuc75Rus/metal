@@ -1,0 +1,6 @@
+<div class="advert_body">
+  <% @advert.each do |a| %>
+      <%= image_tag a.images.url %>
+      <p><%= a.description %></p>
+  <% end %>
+</div>

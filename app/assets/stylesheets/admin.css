@@ -7,4 +7,6 @@
  *= require Admin/dataTables.bootstrap
  *= require_self
  */
-
+.thumb {
+    height: 150px;
+}

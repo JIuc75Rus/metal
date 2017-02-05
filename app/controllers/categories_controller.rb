@@ -1,4 +1,6 @@
 class CategoriesController < ApplicationController
+  include Find
+  before_action :set
   before_action :set_category, only: [:show, :edit, :update, :destroy]
   before_action :authenticate_admin!, only: [:index, :new, :edit, :update, :destroy]
 
@@ -10,7 +12,6 @@ class CategoriesController < ApplicationController
   # GET /categories/1
   # GET /categories/1.json
   def show
-    @article = Article.where('created_at > ?', 14.days.ago).limit(3).sort {|a,b| b <=> a}
     @sub_category = Subcategory.where(category_id:[@category])
   end
 

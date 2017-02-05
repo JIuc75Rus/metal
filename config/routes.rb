@@ -1,7 +1,4 @@
 Rails.application.routes.draw do
-  resources :orders, olnly: [:new, :create]
-  resources :carts, only: [:new, :create, :destroy]
-  resources :line_items, only: [:new, :create, :destroy ]
   root to: 'pages#index'
   get '/404', to: 'errors#not_found', via: :all
   get '/500', to: 'errors#internal_error', code: "500"
@@ -27,7 +24,10 @@ Rails.application.routes.draw do
     get :who_bought, on: :member
   end
   scope '/metal&admin' do
-    resources  :articles, :categories, :subcategories, except: :show
+    resources  :articles, except: :show
+    resources :categories, except: :show
+    resources :subcategories, except: :show
+    resources :adverts
   end
   resources :call_backs, only: [:new, :create]
   scope '/' do
