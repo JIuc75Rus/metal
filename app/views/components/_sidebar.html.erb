@@ -5,7 +5,7 @@
           <li class="menu_sid">
             <%=link_to "#{c.name}", show_category_path(c) %>
                 <% c.subcategories.each do |s| %>
-                <% if current_page?(show_category_path(c)) || current_page?(show_category_subcategory_path(c)) %>
+                <% if current_page?(show_category_path(c)) || current_page?(show_category_subcategory_path(c, s)) %>
                       <li class="menu_sub">
                         <%= link_to "#{ s.name}", show_category_subcategory_path(c, s) %>
                       </li>
