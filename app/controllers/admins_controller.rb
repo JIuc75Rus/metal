@@ -5,5 +5,6 @@ class AdminsController < ApplicationController
     @categories = Category.all
     @subcategories = Subcategory.all
     @items = Item.all
+    @advert = Advert.all
   end
 end

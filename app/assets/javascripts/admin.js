@@ -6,4 +6,3 @@
 //= require Admin/dataTables.bootstrap
 //= require tinymce
 //= require tinymce-jquery
-

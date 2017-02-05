@@ -108,5 +108,45 @@
     The footer of the box
   </div><!-- box-footer -->
 </div><!-- /.box -->
-
-
+<div class="box">
+  <div class="box-header with-border">
+    <h3 class="box-title">Материалы</h3>
+    <% if flash[:notice_alert] %>
+        <div class="alert alert-danger alert-dismissible">
+          <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+          <h4><i class="icon fa fa-check"></i>Внимание!</h4>
+          <%= flash[:notice_alert] %>
+        </div>
+    <% end %>
+    <div class="box-tools pull-right">
+      <!-- Buttons, labels, and many other things can be placed here! -->
+      <!-- Here is a label for example -->
+      <%= link_to "Добавить материал", new_item_path, class: 'label label-primary' %>
+    </div><!-- /.box-tools -->
+  </div><!-- /.box-header -->
+  <div class="box-body">
+    <table id="example" class="table table-striped table-bordered">
+      <thead>
+      <tr role="row">
+        <th class="sorting">Имя</th>
+        <th>Действия</th>
+      </tr>
+      </thead>
+      <tbody>
+      <%= @advert.find_each do |i| %>
+          <tr>
+            <td><%= i.description %></td>
+            <td>
+              <%= link_to "Редактировать", edit_item_path(i)%>
+              <%= link_to "Удалить", i, method: :delete, data: { confirm: 'Точно удалить? Ты ни чего не попутал?'} %>
+            </td>
+            <td></td>
+          </tr>
+      <% end %>
+      </tbody>
+    </table>
+  </div><!-- /.box-body -->
+  <div class="box-footer">
+    The footer of the box
+  </div><!-- box-footer -->
+</div><!-- /.box -->
