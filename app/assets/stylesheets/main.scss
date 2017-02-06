@@ -408,6 +408,7 @@ body {
       width: 70%;
       float: left;
       padding-top: 15px;
+      padding-bottom: 15px;
       padding-right: 15px;
       .dataTables_wrapper {
         padding-top: 15px;
@@ -596,6 +597,77 @@ body {
       }
       .description {
         font-size: 16px;
+        padding-bottom: 15px;
+      }
+      .advantages {
+        border-top: 2px solid #FFA000;
+        padding-top: 15px;
+        .price_list {
+          margin-right: 5px;
+          padding-top: 50px;
+          background: url("price_list.png") no-repeat 50% 0;
+          font-size: 12px;
+          font-weight: 700;
+          color: #757575;
+          text-transform: uppercase;
+          text-align: center;
+          width: 19%;
+          display: inline-block;
+        }
+        .location {
+          margin-right: 5px;
+          padding-top: 50px;
+          background: url("location.png") no-repeat 50% 0;
+          font-size: 12px;
+          font-weight: 700;
+          color: #757575;
+          text-transform: uppercase;
+          text-align: center;
+          width: 19%;
+          display: inline-block;
+        }
+        .pacing {
+          margin-right: 5px;
+          padding-top: 50px;
+          background: url("pacing.png") no-repeat 50% 0;
+          font-size: 12px;
+          font-weight: 700;
+          color: #757575;
+          text-transform: uppercase;
+          text-align: center;
+          width: 19%;
+          display: inline-block;
+        }
+        .community {
+          margin-right: 5px;
+          padding-top: 50px;
+          background: url("community.png") no-repeat 50% 0;
+          font-size: 12px;
+          font-weight: 700;
+          color: #757575;
+          text-transform: uppercase;
+          text-align: center;
+          width: 19%;
+          display: inline-block;
+        }
+        .complect {
+          padding-top: 50px;
+          background: url("complect.png") no-repeat 50% 0;
+          font-size: 12px;
+          font-weight: 700;
+          color: #757575;
+          text-transform: uppercase;
+          text-align: center;
+          width: 19%;
+          display: inline-block;
+        }
+      }
+      .advantages_title {
+        padding-top: 15px;
+        h2 {
+          color: #212121;
+          text-transform: uppercase;
+        }
       }
     }
     .sidebar_wrap {
