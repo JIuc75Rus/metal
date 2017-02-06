@@ -29,9 +29,11 @@
             </a>
         <% end %>
       </div>
-      <div class="description">
-        <%= @subcategory.description.html_safe %>
-      </div>
+      <% if @subcategory.description.present? %>
+        <div class="description">
+          <%= @subcategory.description.html_safe %>
+        </div>
+      <% end %>
     </div>
   </div>
 </div>
