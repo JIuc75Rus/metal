@@ -5,6 +5,9 @@
         <%= render partial: 'components/sidebar' %>
     <% end %>
     <div class="content_wrap">
+      <div class="sub_title">
+        <h2>Продукция</h2>
+      </div>
       <div class="content">
         <%= @item.find_each do |i| %>
             <a href="#contacts" class="open_modal">
@@ -25,6 +28,9 @@
               </div>
             </a>
         <% end %>
+      </div>
+      <div class="description">
+        <%= @subcategory.description.html_safe %>
       </div>
     </div>
   </div>

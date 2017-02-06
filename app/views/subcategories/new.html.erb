@@ -1,5 +1,19 @@
-<h1>New Subcategory</h1>
+<div class="box box-success">
+  <div class="box-header with-border">
+    <% if @subcategory.errors.any? %>
+        <div id="error_explanation">
+          <h2><%= pluralize(@subcategory.errors.count, "error") %> prohibited this subcategory from being saved:</h2>
 
-<%= render 'form', subcategory: @subcategory %>
-
-<%= link_to 'Back', subcategories_path %>
+          <ul>
+            <% @subcategory.errors.full_messages.each do |message| %>
+                <li><%= message %></li>
+            <% end %>
+          </ul>
+        </div>
+    <% end %>
+    <h3 class="box-title">Новая под категория</h3>
+  </div>
+  <div class="box-body">
+    <%= render 'form', subcategory: @subcategory %>
+  </div>
+</div>
