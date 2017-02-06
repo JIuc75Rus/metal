@@ -733,7 +733,6 @@ body {
   -webkit-column-count: 3;
   -moz-column-count: 3;
   column-count: 3;
-  padding-top: 15px;
 }
 
 .main .container .content_wrap .content .item {
