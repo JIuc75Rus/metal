@@ -48,25 +48,27 @@
                   </div>
                 </a>
             <% end %>
-            </div>
-      <% unless find_item(i) %>
-                <% if i.description.present? %>
-                    <div class="description">
-                      <%= i.description.html_safe %>
-                    </div>
-                <% end %>
-                <div class="advantages_title">
-                  <h2>Наши приемущества</h2>
-                </div>
-                <div class="advantages">
-                  <p class="price_list">Широкий асортимент</p>
-                  <p class="location">Удобное расположение</p>
-                  <p class="pacing">Упаковка и доставка</p>
-                  <p class="community">Профессиональная команда</p>
-                  <p class="complect">Быстрое коплектование</p>
-                </div>
-            <% end %>
         <% end %>
+      </div>
+      <% unless find_item(@sub_category) %>
+          <%= @sub_category.find_each do |i| %>
+          <% if i.description.present? %>
+              <div class="description">
+                <%= i.description.html_safe %>
+              </div>
+          <% end %>
+              <% end %>
+          <div class="advantages_title">
+            <h2>Наши приемущества</h2>
+          </div>
+          <div class="advantages">
+            <p class="price_list">Широкий асортимент</p>
+            <p class="location">Удобное расположение</p>
+            <p class="pacing">Упаковка и доставка</p>
+            <p class="community">Профессиональная команда</p>
+            <p class="complect">Быстрое коплектование</p>
+          </div>
+      <% end %>
     </div>
   </div>
 </div>
