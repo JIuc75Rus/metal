@@ -8,6 +8,7 @@
         <% @articles.each do |article| %>
             <h2><%= article.title %></h2>
             <p><%= article.body.html_safe %></p>
+            <div class="data"> <%= article.created_at.strftime('%d/%m/%Y')%> </div>
         <% end %>
       </div>
     </div>
