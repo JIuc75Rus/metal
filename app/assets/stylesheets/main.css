@@ -725,6 +725,13 @@ body {
   padding: 30px;
 }
 
+.main .container .content_wrap .content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .main .container .content_wrap .content .item {
   display: inline-block;
   position: relative;
