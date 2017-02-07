@@ -15,7 +15,7 @@
     </div><!-- /.box-tools -->
   </div><!-- /.box-header -->
   <div class="box-body">
-    <table id="example" class="table table-striped table-bordered">
+    <table id="example2" class="table table-striped table-bordered">
       <thead>
       <tr role="row">
         <th class="sorting">Имя</th>
@@ -23,16 +23,20 @@
       </tr>
       </thead>
       <tbody>
-      <%= @adverts.find_each do |i| %>
+      <%= @advert.find_each do |i| %>
           <tr>
             <td><%= i.description %></td>
             <td>
               <%= link_to "Редактировать", edit_advert_path(i)%>
               <%= link_to "Удалить", i, method: :delete, data: { confirm: 'Точно удалить? Ты ни чего не попутал?'} %>
             </td>
+            <td></td>
           </tr>
       <% end %>
       </tbody>
     </table>
   </div><!-- /.box-body -->
+  <div class="box-footer">
+    The footer of the box
+  </div><!-- box-footer -->
 </div><!-- /.box -->

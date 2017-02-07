@@ -8,6 +8,7 @@ class SubcategoriesController < ApplicationController
   # GET /subcategories.json
   def index
     @subcategories = Subcategory.all
+    render layout: 'admin'
   end
 
   # GET /subcategories/1

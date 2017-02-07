@@ -66,11 +66,13 @@
           <!-- Optionally, you can add icons to the links -->
           <li class="active"><%= link_to 'Главная', admins_path %><</li>
           <li><%= link_to 'Новости', articles_path %></li>
+          <li><%= link_to 'Продукция', items_path %></li>
+          <li><%= link_to 'Реклама и акции', adverts_path %></li>
           <li class="treeview">
-            <a href="#"><span>Multilevel</span> <i class="fa fa-angle-left pull-right"></i></a>
+            <a href="#"><span>Категории</span> <i class="fa fa-angle-left pull-right"></i></a>
             <ul class="treeview-menu">
-              <li><a href="#">Link in level 2</a></li>
-              <li><a href="#">Link in level 2</a></li>
+              <li><%= link_to 'Родительские категории', categories_path %></li>
+              <li><%= link_to 'Подкатегории', subcategories_path %></li>
             </ul>
           </li>
         </ul><!-- /.sidebar-menu -->

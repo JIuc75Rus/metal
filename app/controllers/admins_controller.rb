@@ -7,4 +7,8 @@ class AdminsController < ApplicationController
     @items = Item.all
     @advert = Advert.all
   end
+
+  def advert
+
+  end
 end

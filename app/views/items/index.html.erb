@@ -1,51 +1,43 @@
-<div class="container">
-  <div class="row">
-    <% unless current_page?(contacts_path) %>
-        <%= render partial: 'components/sidebar' %>
+<div class="box">
+  <div class="box-header with-border">
+    <h3 class="box-title">Материалы</h3>
+    <% if flash[:notice_alert] %>
+        <div class="alert alert-danger alert-dismissible">
+          <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+          <h4><i class="icon fa fa-check"></i>Внимание!</h4>
+          <%= flash[:notice_alert] %>
+        </div>
     <% end %>
-    <div class="content_wrap">
-      <div class="content">
-        <%= @items.find_each do |i| %>
-          <div class="item">
-            <div class="item_image">
-              <%= image_tag i.images.url %>
-            </div>
-            <div class="item_title">
-              <h4><%= i.metal %></h4>
-            </div>
-            <div class="item_hover">
-              <% if admin_signed_in? %>
-                  <%= link_to 'Редактировать', edit_item_path(i) %>
-              <% end %>
-              <div class="button">
-                <a href="#contacts" class="open_modal">Заказать</a>
-              </div>
-              <% if admin_signed_in? %>
-                  <%= link_to 'Удалить', item_path(i), method: :delete  %>
-              <% end %>
-            </div>
-            <div class="item_content">
-              <% unless i.product? %>
-                  <h4>Марки</h4>
-                  <div class="line"></div>
-                  <span><%= i.metal_brand %></span>
-                  <div class="line"></div>
-                  <% else %>
-                  <h4>Продукция</h4>
-                  <div class="line"></div>
-                  <span><%= i.product %></span>
-                  <div class="line"></div>
-                  <% if i.metal_brand? %>
-                      <h4>Марки</h4>
-                      <div class="line"></div>
-                      <span><%= i.metal_brand %></span>
-                      <div class="line"></div>
-                  <% end %>
-              <% end %>
-            </div>
-          </div>
-        <% end %>
-      </div>
-    </div>
-  </div>
-</div>
+    <div class="box-tools pull-right">
+      <!-- Buttons, labels, and many other things can be placed here! -->
+      <!-- Here is a label for example -->
+      <%= link_to "Добавить материал", new_item_path, class: 'label label-primary' %>
+    </div><!-- /.box-tools -->
+  </div><!-- /.box-header -->
+  <div class="box-body">
+    <table id="example" class="table table-striped table-bordered">
+      <thead>
+      <tr role="row">
+        <th class="sorting">Имя</th>
+        <th>Под категория товара</th>
+        <th>Действия</th>
+      </tr>
+      </thead>
+      <tbody>
+      <%= @items.find_each do |i| %>
+          <tr>
+            <td><%= i.title%></td>
+            <td><%= i.subcategory.name %></td>
+            <td>
+              <%= link_to "Редактировать", edit_item_path(i)%>
+              <%= link_to "Удалить", i, method: :delete, data: { confirm: 'Точно удалить? Ты ни чего не попутал?'} %>
+            </td>
+          </tr>
+      <% end %>
+      </tbody>
+    </table>
+  </div><!-- /.box-body -->
+  <div class="box-footer">
+    The footer of the box
+  </div><!-- box-footer -->
+</div><!-- /.box -->

@@ -6,7 +6,8 @@ class CategoriesController < ApplicationController
 
 
   def index
-    @sub_category = Category.parent_categories
+    @categories = Category.all
+    render layout: 'admin'
   end
 
   # GET /categories/1

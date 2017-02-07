@@ -1,25 +1,33 @@
-<p id="notice"><%= notice %></p>
-
-<h1>Subcategories</h1>
-
-<table>
-  <thead>
-    <tr>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @subcategories.each do |subcategory| %>
-      <tr>
-        <td><%= link_to 'Show', subcategory %></td>
-        <td><%= link_to 'Edit', edit_subcategory_path(subcategory) %></td>
-        <td><%= link_to 'Destroy', subcategory, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+<div class="box">
+  <div class="box-header with-border">
+    <h3 class="box-title">Под категории</h3>
+    <div class="box-tools pull-right">
+      <!-- Buttons, labels, and many other things can be placed here! -->
+      <!-- Here is a label for example -->
+      <%= link_to "Добавить категорию", new_subcategory_path, class: 'label label-primary' %>
+    </div><!-- /.box-tools -->
+  </div><!-- /.box-header -->
+  <div class="box-body">
+    <table class="table table-bordered">
+      <tbody><tr>
+        <th>Имя</th>
+        <th>Категория</th>
+        <th>Действия</th>
       </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
-
-<%= link_to 'New Subcategory', new_subcategory_path %>
+      <%= @subcategories.find_each do |c| %>
+          <tr>
+            <td><%= c.name %></td>
+            <td><%= c.category.name %></td>
+            <td>
+              <%= link_to "Редактировать", edit_subcategory_path(c)%>
+              <%= link_to "Удалить", c, method: :delete, data: { confirm: 'Точно удалить? Ты ни чего не попутал?'} %>
+            </td>
+      <% end %>
+      </tr>
+      </tbody>
+    </table>
+  </div><!-- /.box-body -->
+  <div class="box-footer">
+    The footer of the box
+  </div><!-- box-footer -->
+</div><!-- /.box -->

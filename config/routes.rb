@@ -20,14 +20,12 @@ Rails.application.routes.draw do
   end
   get  '/metal&admin/', to: 'admins#index', as: 'admins'
   resources :online_forms, only: [:new, :create]
-  resources :items do
-    get :who_bought, on: :member
-  end
   scope '/metal&admin' do
     resources  :articles, except: :show
     resources :categories, except: :show
     resources :subcategories, except: :show
     resources :adverts
+    resources :items
   end
   resources :call_backs, only: [:new, :create]
   scope '/' do

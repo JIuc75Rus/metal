@@ -1,29 +1,33 @@
-<div class="container">
-  <div class="row">
-    <% unless current_page?(contacts_path) %>
-        <%= render partial: 'components/sidebar' %>
-    <% end %>
-    <div class="content_wrap">
-      <div class="content">
-        <%= @sub_category.find_each do |i| %>
-            <a href="<%= category_path(i)  %>">
-              <div class="item">
-                <div class="item_image">
-                  <%= image_tag i.images.url %>
-                </div>
-                <div class="item_title">
-                  <h4><%= i.name %></h4>
-                </div>
-                <div class="item_content">
+<div class="box">
+  <div class="box-header with-border">
+    <h3 class="box-title">Категории</h3>
+    <div class="box-tools pull-right">
+      <!-- Buttons, labels, and many other things can be placed here! -->
+      <!-- Here is a label for example -->
+      <%= link_to "Добавить категорию", new_category_path, class: 'label label-primary' %>
+    </div><!-- /.box-tools -->
+  </div><!-- /.box-header -->
+  <div class="box-body">
+    <table class="table table-bordered">
+      <tbody><tr>
+        <th>Имя</th>
 
-                </div>
-              </div>
-            </a>
-        <% end %>
-        <div class="button">
-          <a href="#contacts" class="open_modal">Узнать цену</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+        <th>Действия</th>
+      </tr>
+      <%= @categories.find_each do |c| %>
+          <tr>
+            <td><%= c.name %></td>
+
+            <td>
+              <%= link_to "Редактировать", edit_category_path(c)%>
+              <%= link_to "Удалить", c, method: :delete, data: { confirm: 'Точно удалить? Ты ни чего не попутал?'} %>
+            </td>
+      <% end %>
+      </tr>
+      </tbody>
+    </table>
+  </div><!-- /.box-body -->
+  <div class="box-footer">
+    The footer of the box
+  </div><!-- box-footer -->
+</div><!-- /.box -->
