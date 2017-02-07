@@ -53,7 +53,7 @@
       <% unless find_item(@sub_category) %>
           <% if @category.description.present? %>
               <div class="description">
-                <%= i.description.html_safe %>
+                <%= @category.description.html_safe %>
               </div>
           <% end %>
           <div class="advantages_title">
