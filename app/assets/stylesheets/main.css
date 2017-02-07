@@ -837,6 +837,12 @@ body {
   font-size: 17px;
 }
 
+.main .container .content_wrap .info .data {
+  float: right;
+  padding-top: 15px;
+  color: #448aff;
+}
+
 .main .container .content_wrap .sub_title {
   border-bottom: 2px solid #FFA000;
 }
