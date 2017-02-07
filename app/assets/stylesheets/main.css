@@ -850,6 +850,14 @@ body {
   padding-bottom: 15px;
 }
 
+.main .container .content_wrap .description ul {
+  margin-left: 35px;
+}
+
+.main .container .content_wrap .description li {
+  list-style: disc;
+}
+
 .main .container .content_wrap .advantages {
   border-top: 2px solid #FFA000;
   padding-top: 15px;

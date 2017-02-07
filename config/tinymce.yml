@@ -3,6 +3,7 @@ default:
     - image
     - link
     - code
+    - lists
   selector: 'textarea'
   language: 'ru'
   mode : "exact"
