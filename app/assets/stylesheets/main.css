@@ -727,10 +727,6 @@ body {
 
 .main .container .content_wrap .content {
   margin: 0;
-  -webkit-column-gap: 1.5em;
-  -moz-column-gap: 1.5em;
-  column-gap: 1.5em;
-  /* Общее расстояние между колонками */
   -webkit-column-count: 3;
   -moz-column-count: 3;
   column-count: 3;
