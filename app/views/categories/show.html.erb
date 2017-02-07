@@ -5,6 +5,11 @@
         <%= render partial: 'components/sidebar' %>
     <% end %>
     <div class="content_wrap">
+      <% unless find_item(@sub_category) %>
+      <div class="sub_title">
+        <h2>Продукция</h2>
+      </div>
+      <% end %>
       <div class="content">
         <%= @sub_category.find_each do |i| %>
             <% if find_item(i) %>
