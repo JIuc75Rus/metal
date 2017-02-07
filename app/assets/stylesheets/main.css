@@ -1092,7 +1092,7 @@ body {
 }
 
 .main .container .sidebar_wrap .advert .advert_body {
-  background-color: #FFA000;
+  background: #292929 url(top-pt.png) center top repeat;
   padding: 15px;
 }
 
