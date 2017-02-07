@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170205060754) do
+ActiveRecord::Schema.define(version: 20170207123759) do
 
   create_table "admins", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string   "email"
@@ -48,15 +48,16 @@ ActiveRecord::Schema.define(version: 20170205060754) do
   create_table "categories", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string   "images_url"
     t.string   "url"
-    t.string   "name",                null: false
+    t.string   "name",                              null: false
     t.integer  "parent_id"
     t.string   "images_file_name"
     t.string   "images_content_type"
     t.integer  "images_file_size"
     t.datetime "images_updated_at"
-    t.datetime "created_at",          null: false
-    t.datetime "updated_at",          null: false
+    t.datetime "created_at",                        null: false
+    t.datetime "updated_at",                        null: false
     t.string   "slug"
+    t.text     "description",         limit: 65535
     t.index ["parent_id"], name: "index_categories_on_parent_id", using: :btree
     t.index ["slug"], name: "index_categories_on_slug", using: :btree
   end
@@ -88,6 +89,16 @@ ActiveRecord::Schema.define(version: 20170205060754) do
     t.string   "thickness"
     t.string   "url"
     t.index ["subcategory_id"], name: "index_items_on_subcategory_id", using: :btree
+  end
+
+  create_table "pages", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+    t.string   "title"
+    t.string   "url"
+    t.text     "description", limit: 65535
+    t.datetime "created_at",                null: false
+    t.datetime "updated_at",                null: false
+    t.string   "slug"
+    t.index ["slug"], name: "index_pages_on_slug", using: :btree
   end
 
   create_table "subcategories", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|

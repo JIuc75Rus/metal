@@ -51,13 +51,11 @@
         <% end %>
       </div>
       <% unless find_item(@sub_category) %>
-          <%= @sub_category.find_each do |i| %>
-          <% if i.description.present? %>
+          <% if @category.description.present? %>
               <div class="description">
                 <%= i.description.html_safe %>
               </div>
           <% end %>
-              <% end %>
           <div class="advantages_title">
             <h2>Наши приемущества</h2>
           </div>
