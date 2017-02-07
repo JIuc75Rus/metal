@@ -730,11 +730,8 @@ body {
   position: relative;
   background: #fff;
   padding: 1em;
-  margin: 0 0 1.5em;
-  width: 100%;
+  margin: 0 10px 15px 0;
   box-sizing: border-box;
-  /* Изменения алгоритма расчета ширины и высоты элемента.*/
-  /* Внешняя тень плиток */
 }
 
 .main .container .content_wrap .content .item:hover {

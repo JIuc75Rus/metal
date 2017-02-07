@@ -509,10 +509,8 @@ body {
           position: relative;
           background: #fff;
           padding: 1em;
-          margin: 0 0 1.5em;
-          width: 100%;
-          box-sizing: border-box; /* Изменения алгоритма расчета ширины и высоты элемента.*/
-          /* Внешняя тень плиток */
+          margin: 0 10px 15px 0;
+          box-sizing: border-box;
           &:hover {
             background-color: #fff;
             box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.3);
