@@ -503,8 +503,7 @@ body {
         }
       }
       .content {
-        margin: 0;
-        column-count: 3;
+        @include row-flex();
         .item {
           display: inline-block;
           position: relative;

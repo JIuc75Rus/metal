@@ -726,10 +726,15 @@ body {
 }
 
 .main .container .content_wrap .content {
-  margin: 0;
-  -webkit-column-count: 3;
-  -moz-column-count: 3;
-  column-count: 3;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 
 .main .container .content_wrap .content .item {
