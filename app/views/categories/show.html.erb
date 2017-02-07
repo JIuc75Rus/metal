@@ -13,24 +13,7 @@
       <div class="content">
         <%= @sub_category.find_each do |i| %>
             <% if find_item(i) %>
-            <a href="<%= show_category_subcategory_path(@category, i) %>">
-              <div class="item">
-                <div class="item_image">
-                  <% if i.images? %>
-                      <%= image_tag i.images.url %>
-                  <% else %>
-                      <%= urls_to_images(i.images_url.to_s)%>
-                  <% end %>
-                </div>
-                <div class="item_title">
-                  <h4><%= i.name %></h4>
-                </div>
-                <div class="item_content">
-                </div>
-              </div>
-            </a>
-            <% else %>
-                <a href="#contacts" class="open_modal">
+                <a href="<%= show_category_subcategory_path(@category, i) %>">
                   <div class="item">
                     <div class="item_image">
                       <% if i.images? %>
@@ -46,9 +29,44 @@
                     </div>
                   </div>
                 </a>
+            <% else %>
+                <a href="#contacts" class="open_modal">
+                  <div class="item">
+                    <div class="item_image">
+                      <% if i.images? %>
+                          <%= image_tag i.images.url %>
+                      <% else %>
+                          <%= urls_to_images(i.images_url.to_s)%>
+                      <% end %>
+                    </div>
+                    <div class="item_title">
+                      <h4><%= i.name %></h4>
+                    </div>
+                    <div class="item_content">
+
+                    </div>
+                  </div>
+                </a>
+            <% end %>
+            </div>
+      <% unless find_item(i) %>
+                <% if i.description.present? %>
+                    <div class="description">
+                      <%= i.description.html_safe %>
+                    </div>
+                <% end %>
+                <div class="advantages_title">
+                  <h2>Наши приемущества</h2>
+                </div>
+                <div class="advantages">
+                  <p class="price_list">Широкий асортимент</p>
+                  <p class="location">Удобное расположение</p>
+                  <p class="pacing">Упаковка и доставка</p>
+                  <p class="community">Профессиональная команда</p>
+                  <p class="complect">Быстрое коплектование</p>
+                </div>
             <% end %>
         <% end %>
-      </div>
     </div>
   </div>
 </div>
