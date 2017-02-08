@@ -52,6 +52,13 @@
         <% end %>
       </div>
       </div>
+      <% unless find_item(@sub_category) %>
+          <% if @category.description.present? %>
+              <div class="description">
+                <%= @category.description.html_safe %>
+              </div>
+          <% end %>
+      <% end %>
       <div class="advantages_title">
         <h2>Наши приемущества</h2>
       </div>
@@ -62,13 +69,6 @@
         <p class="community">Профессиональная команда</p>
         <p class="complect">Быстрое коплектование</p>
       </div>
-      <% unless find_item(@sub_category) %>
-          <% if @category.description.present? %>
-              <div class="description">
-                <%= @category.description.html_safe %>
-              </div>
-          <% end %>
-      <% end %>
     </div>
   </div>
 </div>
