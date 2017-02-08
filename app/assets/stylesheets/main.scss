@@ -452,16 +452,15 @@ body {
       }
       .content_index {
         margin: 0;
-        column-gap: 1.5em; /* Общее расстояние между колонками */
-        column-count: 2;
         .item {
           display: inline-block;
           position: relative;
           background: #fff;
           padding: 1em;
           margin: 0 0 1.5em;
-          box-sizing: border-box; /* Изменения алгоритма расчета ширины и высоты элемента.*/
-          /* Внешняя тень плиток */
+          box-sizing: border-box;
+          float: left;
+          margin-right: 15px;
           &:hover {
             background-color: #fff;
             box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.3);
@@ -504,8 +503,6 @@ body {
       }
       .content {
         margin: 0;
-        column-gap: 1.5em;
-        column-count: 3;
         .item {
           display: inline-block;
           position: relative;
@@ -513,6 +510,8 @@ body {
           padding: 1em;
           margin: 0 10px 15px 0;
           box-sizing: border-box;
+          float: left;
+          width: 248px;
           &:hover {
             background-color: #fff;
             box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.3);

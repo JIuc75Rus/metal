@@ -11,6 +11,7 @@
       </div>
       <% end %>
       <div class="content">
+        <div class="row">
         <%= @sub_category.find_each do |i| %>
             <% if find_item(i) %>
                 <a href="<%= show_category_subcategory_path(@category, i) %>">
@@ -49,6 +50,7 @@
                 </a>
             <% end %>
         <% end %>
+      </div>
       </div>
       <% unless find_item(@sub_category) %>
           <% if @category.description.present? %>
