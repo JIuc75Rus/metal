@@ -831,6 +831,16 @@ body {
   border-bottom: 2px solid #FFA000;
 }
 
+.main .container .content_wrap .sub_title .price {
+  float: right;
+  font-size: 17px;
+  text-decoration: none;
+  background: #448AFF;
+  color: #fff;
+  padding: 6px;
+  border-radius: 5px;
+}
+
 .main .container .content_wrap .sub_title h2 {
   color: #212121;
 }
