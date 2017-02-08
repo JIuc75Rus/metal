@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ed53703-5c34-4f33-a438-0a3f7a8ab182" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/main.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/online_forms/new.html.erb" afterPath="$PROJECT_DIR$/app/views/online_forms/new.html.erb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -84,11 +84,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="194">
               <caret line="892" column="16" lean-forward="false" selection-start-line="892" selection-start-column="16" selection-end-line="892" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new.html.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/online_forms/new.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -128,7 +138,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>@category</find>
       <find>@item</find>
       <find>product_id</find>
       <find>bod</find>
@@ -158,6 +167,7 @@
       <find>des</find>
       <find>i.</find>
       <find>sub_t</find>
+      <find>pre</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -187,7 +197,6 @@
         <option value="$PROJECT_DIR$/db/migrate/20170207085256_add_slug_to_pages.rb" />
         <option value="$PROJECT_DIR$/app/views/pages/contact.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/pages_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/online_forms/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pages/company.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/admins_controller.rb" />
@@ -217,6 +226,7 @@
         <option value="$PROJECT_DIR$/app/views/subcategories/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/call_backs/new.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/main.scss" />
+        <option value="$PROJECT_DIR$/app/views/online_forms/new.html.erb" />
       </list>
     </option>
   </component>
@@ -1058,12 +1068,12 @@
       <workItem from="1486252358889" duration="27328000" />
       <workItem from="1486348381645" duration="13845000" />
       <workItem from="1486440234464" duration="22464000" />
-      <workItem from="1486517512143" duration="6457000" />
+      <workItem from="1486517512143" duration="6943000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="659609000" />
+    <option name="totallyTimeSpent" value="660095000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1230,13 +1240,6 @@
         <state relative-caret-position="187">
           <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/online_forms/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -1482,6 +1485,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="892" column="16" lean-forward="false" selection-start-line="892" selection-start-column="16" selection-end-line="892" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/online_forms/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
           <folding />
         </state>
       </provider>
