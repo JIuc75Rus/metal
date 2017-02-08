@@ -460,6 +460,7 @@ body {
           box-sizing: border-box;
           float: left;
           margin-right: 15px;
+          margin-bottom: 15px;
           &:hover {
             background-color: #fff;
             box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.3);
@@ -507,7 +508,8 @@ body {
           position: relative;
           background: #fff;
           padding: 1em;
-          margin: 0 10px 15px 0;
+          margin-right: 10px;
+          margin-bottom: 15px;
           box-sizing: border-box;
           float: left;
           width: 248px;

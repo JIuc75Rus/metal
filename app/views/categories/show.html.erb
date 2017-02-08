@@ -52,22 +52,22 @@
         <% end %>
       </div>
       </div>
+      <div class="advantages_title">
+        <h2>Наши приемущества</h2>
+      </div>
+      <div class="advantages">
+        <p class="price_list">Широкий асортимент</p>
+        <p class="location">Удобное расположение</p>
+        <p class="pacing">Упаковка и доставка</p>
+        <p class="community">Профессиональная команда</p>
+        <p class="complect">Быстрое коплектование</p>
+      </div>
       <% unless find_item(@sub_category) %>
           <% if @category.description.present? %>
               <div class="description">
                 <%= @category.description.html_safe %>
               </div>
           <% end %>
-          <div class="advantages_title">
-            <h2>Наши приемущества</h2>
-          </div>
-          <div class="advantages">
-            <p class="price_list">Широкий асортимент</p>
-            <p class="location">Удобное расположение</p>
-            <p class="pacing">Упаковка и доставка</p>
-            <p class="community">Профессиональная команда</p>
-            <p class="complect">Быстрое коплектование</p>
-          </div>
       <% end %>
     </div>
   </div>

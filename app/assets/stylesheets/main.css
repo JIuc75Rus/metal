@@ -668,6 +668,7 @@ body {
   box-sizing: border-box;
   float: left;
   margin-right: 15px;
+  margin-bottom: 15px;
 }
 
 .main .container .content_wrap .content_index .item:hover {
@@ -726,7 +727,8 @@ body {
   position: relative;
   background: #fff;
   padding: 1em;
-  margin: 0 10px 15px 0;
+  margin-right: 10px;
+  margin-bottom: 15px;
   box-sizing: border-box;
   float: left;
   width: 248px;
