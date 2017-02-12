@@ -343,7 +343,7 @@ body {
 .header .menu .menu_list .menu_item a {
   color: #3D3D3D;
   text-decoration: none;
-  padding: 15px;
+  padding: 15px 10px;
   display: block;
 }
 
@@ -660,7 +660,6 @@ body {
 }
 
 .main .container .content_wrap .content_index .item {
-  display: inline-block;
   position: relative;
   background: #fff;
   padding: 1em;
@@ -722,7 +721,6 @@ body {
 }
 
 .main .container .content_wrap .content .item {
-  display: inline-block;
   position: relative;
   background: #fff;
   padding: 1em;
@@ -731,6 +729,7 @@ body {
   box-sizing: border-box;
   float: left;
   width: 248px;
+  height: 248px;
 }
 
 .main .container .content_wrap .content .item:hover {

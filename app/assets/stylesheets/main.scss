@@ -176,7 +176,7 @@ body {
         a {
           color: #3D3D3D;
           text-decoration: none;
-          padding: 15px;
+          padding: 15px 10px;
           display: block;
           &:hover {
             background-color: #448AFF;
@@ -452,7 +452,6 @@ body {
       .content_index {
         margin: 0;
         .item {
-          display: inline-block;
           position: relative;
           background: #fff;
           padding: 1em;
@@ -503,7 +502,6 @@ body {
       .content {
         margin: 0;
         .item {
-          display: inline-block;
           position: relative;
           background: #fff;
           padding: 1em;
@@ -512,6 +510,7 @@ body {
           box-sizing: border-box;
           float: left;
           width: 248px;
+          height: 248px;
           &:hover {
             background-color: #fff;
             box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.3);
