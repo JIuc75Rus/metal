@@ -1,0 +1,74 @@
+<title>Меркурий - торговая компания : : Цветной металлопрокат, РТИ, АТИ, полимеры в Бийске - metal22.ru</title>
+<div class="container">
+  <div class="row">
+    <% unless current_page?(contacts_path) %>
+        <%= render partial: 'components/sidebar' %>
+    <% end %>
+    <div class="content_wrap">
+      <% unless find_item(@subcategory) %>
+          <div class="sub_title">
+            <h2>Продукция <a href="#contacts" class="price open_modal">Запрос цены</a></h2>
+          </div>
+      <% end %>
+      <div class="content">
+        <div class="row">
+          <%= @subcategory.find_each do |i| %>
+              <% if find_item(i) %>
+                  <a href="<%= show_category_subcategory_path(@category, i) %>">
+                    <div class="item">
+                      <div class="item_image">
+                        <% if i.images? %>
+                            <%= image_tag i.images.url %>
+                        <% else %>
+                            <%= urls_to_images(i.images_url.to_s)%>
+                        <% end %>
+                      </div>
+                      <div class="item_title">
+                        <h4><%= i.name %></h4>
+                      </div>
+                      <div class="item_content">
+                      </div>
+                    </div>
+                  </a>
+              <% else %>
+                  <a href="#contacts" class="open_modal">
+                    <div class="item">
+                      <div class="item_image">
+                        <% if i.images? %>
+                            <%= image_tag i.images.url %>
+                        <% else %>
+                            <%= urls_to_images(i.images_url.to_s)%>
+                        <% end %>
+                      </div>
+                      <div class="item_title">
+                        <h4><%= i.name %></h4>
+                      </div>
+                      <div class="item_content">
+
+                      </div>
+                    </div>
+                  </a>
+              <% end %>
+          <% end %>
+        </div>
+      </div>
+      <% unless find_item(@subcategory) %>
+          <% if @category.description.present? %>
+              <div class="description">
+                <%= @category.description.html_safe %>
+              </div>
+          <% end %>
+      <% end %>
+      <div class="advantages_title">
+        <h2>Наши приемущества</h2>
+      </div>
+      <div class="advantages">
+        <p class="price_list">Широкий асортимент</p>
+        <p class="location">Удобное расположение</p>
+        <p class="pacing">Упаковка и доставка</p>
+        <p class="community">Профессиональная команда</p>
+        <p class="complect">Быстрое коплектование</p>
+      </div>
+    </div>
+  </div>
+</div>

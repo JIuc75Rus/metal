@@ -1,14 +1,14 @@
 class PagesController < ApplicationController
   include Find
   before_action :set
-  before_action :set_category, only: [:show]
 
   def index
     @categories = Category.all
   end
 
-  def show
-
+  def products
+    @subcategory = Subcategory.all
+    @category = Category.find_by(id: @subcategory)
   end
 
   def company
@@ -26,9 +26,4 @@ class PagesController < ApplicationController
     @articles = Article.all
   end
 
-  private
-  # Use callbacks to share common setup or constraints between actions.
-  def set_category
-    @category = Category.friendly.find(params[:id])
-  end
 end
