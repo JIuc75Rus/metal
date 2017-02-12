@@ -872,7 +872,7 @@ body {
   text-transform: uppercase;
   text-align: center;
   width: 19%;
-  display: inline-block;
+  float: left;
 }
 
 .main .container .content_wrap .advantages .location {
@@ -885,7 +885,7 @@ body {
   text-transform: uppercase;
   text-align: center;
   width: 19%;
-  display: inline-block;
+  float: left;
 }
 
 .main .container .content_wrap .advantages .pacing {
@@ -898,7 +898,7 @@ body {
   text-transform: uppercase;
   text-align: center;
   width: 19%;
-  display: inline-block;
+  float: left;
 }
 
 .main .container .content_wrap .advantages .community {
@@ -911,7 +911,7 @@ body {
   text-transform: uppercase;
   text-align: center;
   width: 19%;
-  display: inline-block;
+  float: left;
 }
 
 .main .container .content_wrap .advantages .complect {
@@ -923,7 +923,7 @@ body {
   text-transform: uppercase;
   text-align: center;
   width: 19%;
-  display: inline-block;
+  float: left;
 }
 
 .main .container .content_wrap .advantages_title {

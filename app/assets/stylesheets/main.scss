@@ -627,7 +627,7 @@ body {
           text-transform: uppercase;
           text-align: center;
           width: 19%;
-          display: inline-block;
+          float: left;
         }
         .location {
           margin-right: 5px;
@@ -639,7 +639,7 @@ body {
           text-transform: uppercase;
           text-align: center;
           width: 19%;
-          display: inline-block;
+          float: left;
         }
         .pacing {
           margin-right: 5px;
@@ -651,7 +651,7 @@ body {
           text-transform: uppercase;
           text-align: center;
           width: 19%;
-          display: inline-block;
+          float: left;
         }
         .community {
           margin-right: 5px;
@@ -663,7 +663,7 @@ body {
           text-transform: uppercase;
           text-align: center;
           width: 19%;
-          display: inline-block;
+          float: left;
         }
         .complect {
           padding-top: 50px;
@@ -674,7 +674,7 @@ body {
           text-transform: uppercase;
           text-align: center;
           width: 19%;
-          display: inline-block;
+          float: left;
         }
       }
       .advantages_title {
