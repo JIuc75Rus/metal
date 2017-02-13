@@ -10,7 +10,7 @@
       </div>
       <div class="content">
         <div class="row">
-        <%= @item.find_each do |i| %>
+        <% @item.sort{|a, b| b <=> a && b <=> b}.each do |i| %>
             <a href="#contacts" class="open_modal">
               <div class="item">
                 <div class="item_image">
