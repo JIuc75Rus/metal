@@ -12,7 +12,7 @@
       <% end %>
       <div class="content">
         <div class="row">
-        <% @sub_category.sort_by(&:name).each do |i| %>
+        <% @sub_category.each do |i| %>
             <% if find_item(i) %>
                 <a href="<%= show_category_subcategory_path(@category, i) %>">
                   <div class="item">
