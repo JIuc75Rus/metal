@@ -6,7 +6,7 @@ class CallBackMailer < ApplicationMailer
     def call_back(call_back)
       @call_back = call_back
 
-      mail to: 'jiuc75rus@gmail.com',
+      mail to: 'metal7@rambler.ru',
            subject: 'Запрос звонка c сайта Меркурий'
     end
 end
