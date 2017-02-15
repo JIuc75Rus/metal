@@ -20,7 +20,6 @@ Rails.application.routes.draw do
     get '/metal&admin/sign_out', to: 'devise/sessions#destroy'
   end
   get  '/metal&admin/', to: 'admins#index', as: 'admins'
-  resources :online_forms, only: [:new, :create]
   scope '/metal&admin' do
     resources  :articles, except: :show
     resources :categories, except: :show
@@ -29,6 +28,7 @@ Rails.application.routes.draw do
     resources :items
   end
   resources :call_backs, only: [:new, :create]
+  resources :online_forms, only: [:new, :create]
   scope '/' do
     resources :categories, only: :show,  path: '/', as: 'show_category'  do
       resources :subcategories, only: :show,  path: '/'

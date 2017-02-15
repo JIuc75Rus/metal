@@ -7,6 +7,6 @@ class CallBackMailer < ApplicationMailer
       @call_back = call_back
 
       mail to: 'metal7@rambler.ru',
-           subject: 'Запрос звонка c сайта Меркурий '
+           subject: 'Запрос звонка c сайта Меркурий'
     end
 end
