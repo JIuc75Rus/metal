@@ -4,7 +4,7 @@ class OnlineFormMailer < ApplicationMailer
             template_path: 'orders'
     def online_form(online_form)
       @online_form = online_form
-      mail to: 'jiuc75pyc@gmail.com',
+      mail to: 'metal7@rambler.ru',
            subject: 'Online - заявка '
 
     end
