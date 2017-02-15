@@ -10,7 +10,7 @@ Rails.application.routes.draw do
   get '/404', to:'application#page_not_found', via: :all
   get '/500', to: 'application#internal_server_error', via: :all
   get 'company-info', to: 'pages#company', as: 'company_info'
-  get 'contacts', to: 'pages#contact', as: 'contacts'
+  get 'kontakty', to: 'pages#contact', as: 'contacts'
   get 'catalog', to: 'pages#products', as: 'products'
   get 'feedback', to: 'online_forms#new', as: 'feedback'
   get 'news', to: 'pages#news', as: 'news'
