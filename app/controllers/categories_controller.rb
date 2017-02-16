@@ -13,7 +13,7 @@ class CategoriesController < ApplicationController
   # GET /categories/1
   # GET /categories/1.json
   def show
-    @sub_category = Subcategory.where(category_id:[@category]).order(id: :desc)
+    @sub_category = Subcategory.where(category_id:[@category]).order(id: :asc)
   end
 
     # GET /categories/new
