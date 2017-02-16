@@ -30,7 +30,7 @@ body {
 .row { display: block; }
 /* close commented backslash hack */
 .header {
-  width: 1140px;
+  min-width: 1140px;
   background: #292929 url(top-pt.png) center top repeat;
   position: relative;
   z-index: 100;
