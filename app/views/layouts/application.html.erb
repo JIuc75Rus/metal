@@ -13,6 +13,11 @@
   <%= javascript_include_tag 'jquery.orbit-1.2.3' %>
   <%= javascript_include_tag 'mail' %>
   <meta name="viewport" content="initial-scale=0, maximum-scale=1, user-scalable=no">
+  <script>
+      function jivo_onLoadCallback() {
+          jivo.soundPlayer.play = function(){};
+      }
+  </script>
 </head>
 <body>
 <section class="header">
