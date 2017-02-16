@@ -27,7 +27,9 @@
       <%= @items.find_each do |i| %>
           <tr>
             <td><%= i.title%></td>
+            <% if i.subcategory.name.present? %>
             <td><%= i.subcategory.name %></td>
+                <% end %>
             <td>
               <%= link_to "Редактировать", edit_item_path(i)%>
               <%= link_to "Удалить", i, method: :delete, data: { confirm: 'Точно удалить? Ты ни чего не попутал?'} %>
