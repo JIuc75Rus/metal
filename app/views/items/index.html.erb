@@ -27,7 +27,7 @@
       <%= @items.find_each do |i| %>
           <tr>
             <td><%= i.title%></td>
-            <% if i.subcategory.name.present? %>
+            <% if i.subcategory.present? %>
             <td><%= i.subcategory.name %></td>
                 <% end %>
             <td>
