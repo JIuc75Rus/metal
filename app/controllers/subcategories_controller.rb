@@ -14,7 +14,7 @@ class SubcategoriesController < ApplicationController
   # GET /subcategories/1
   # GET /subcategories/1.json
   def show
-    @item = Item.where(subcategory_id: @subcategory )
+    @item = Item.where(subcategory_id: @subcategory ).order(id: :asc)
   end
 
   # GET /subcategories/new
