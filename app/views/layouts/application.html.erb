@@ -68,6 +68,9 @@
   <% end %>
   <%= yield %>
   <div id="contacts" class="modal_div">
+    <%= render template: 'call_backs/new' %>
+  </div>
+  <div id="online" class="modal_div">
     <%= render 'online_forms/online_form' %>
   </div>
   <div id="overlay"></div><!-- Пoдлoжкa, oднa нa всю стрaницу -->

@@ -6,6 +6,7 @@ Rails.application.config.assets.precompile += %w( tinymce-jquery.js )
 Rails.application.config.assets.precompile += %w( tinymce.js )
 Rails.application.config.assets.precompile += %w( admin.css )
 Rails.application.config.assets.precompile += %w( admin.js )
+Rails.application.config.assets.precompile += %w( simple.css )
 # Version of your assets, change this if you want to expire all your assets.
 Rails.application.config.assets.version = '1.0'
 
