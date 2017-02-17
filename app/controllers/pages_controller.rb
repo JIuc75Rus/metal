@@ -7,7 +7,7 @@ class PagesController < ApplicationController
   end
 
   def products
-    @subcategory = Subcategory.all.order(id: :desc)
+    @subcategory = Subcategory.all.order(id: :asc)
     @category = Category.find_by(id: @subcategory)
   end
 
