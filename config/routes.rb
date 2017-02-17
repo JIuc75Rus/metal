@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
   resources :call_backs, only: [:new, :create]
   resources :online_forms, only: [:new, :create]
-  constraints(host: /www.metal22.ru/) do
-    get '*', to: redirect('https://metal22.ru')
+  constraints(host: /metal22.ru/) do
+    get '*', to: redirect('http://www.metal22.ru')
   end
   root to: 'pages#index'
   get '/404', to: 'errors#not_found', via: :all
