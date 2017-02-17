@@ -21,6 +21,7 @@ Rails.application.routes.draw do
   get 'news', to: 'pages#news', as: 'news'
   get 'contact' => 'contacts#new'
   post 'contact' => 'contacts#create'
+  get 'sitemap', to: 'pages#sitemap'
   devise_for :admins, path: '/metal&admin/' do
     get '/metal&admin/sign_out', to: 'devise/sessions#destroy'
   end
