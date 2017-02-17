@@ -5,10 +5,13 @@ host "metal22.ru"
 sitemap :site do
   url root_url, last_mod: Time.now, change_freq: "daily", priority: 1.0
   url root_url
-  Category.all.each do |cat|
+  Category.where(:id).each do |cat|
     url show_category_url(cat)
-  end
 
+    Subcategory.where(category: cat).each do |sub|
+      url show_category_subcategory_url(cat, sub)
+    end
+  end
 end
 
 ping_with "http://#{host}/sitemap.xml"
