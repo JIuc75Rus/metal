@@ -15,7 +15,7 @@ class SubcategoriesController < ApplicationController
   # GET /subcategories/1.json
   def show
     @item = Item.where(subcategory_id: @subcategory ).order(id: :asc)
-    @page_title       = @subcategory.name
+    @page_title       = @subcategory.category.name + '-' + @subcategory.name
     @page_description = @subcategory.description
   end
 
