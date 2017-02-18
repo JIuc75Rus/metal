@@ -11,7 +11,7 @@ class ApplicationController < ActionController::Base
     site_name   = "METAL22.RU"
     title       = [].join(" ")
     description = "Меркурий Бийск - торговая компания, предлагаем со склада в Бийске цветной металлопрокат любых марок, РТИ, АТИ, полимеры. Работаем под заказ."
-    image       = options[:image] || "/assets/logo.png"
+    image       = options[:image] || "/assets/metal22.jpg"
     current_url = request.url
 
     # Let's prepare a nice set of defaults
