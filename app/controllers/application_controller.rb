@@ -5,6 +5,43 @@ class ApplicationController < ActionController::Base
     rescue_from ActionController::RoutingError, ActionController::UnknownController,   ::AbstractController::ActionNotFound, ActiveRecord::RecordNotFound, with: lambda { |exception| render_error 404, exception }
   end
 
+  before_action :prepare_meta_tags, if: "request.get?"
+
+  def prepare_meta_tags(options={})
+    site_name   = "METAL22.RU"
+    title       = [controller_name, action_name].join(" ")
+    description = "Меркурий Бийск - торговая компания, предлагаем со склада в Бийске цветной металлопрокат любых марок, РТИ, АТИ, полимеры. Работаем под заказ."
+    image       = options[:image] || "your-default-image-url"
+    current_url = request.url
+
+    # Let's prepare a nice set of defaults
+    defaults = {
+        site:        site_name,
+        title:       title,
+        image:       image,
+        description: description,
+        keywords:    %w[web software development mobile app],
+        twitter: {
+            site_name: site_name,
+            site: '@thecookieshq',
+            card: 'summary',
+            description: description,
+            image: image
+        },
+        og: {
+            url: current_url,
+            site_name: site_name,
+            title: title,
+            image: image,
+            description: description,
+            type: 'website'
+        }
+    }
+
+    options.reverse_merge!(defaults)
+
+    set_meta_tags options
+  end
   private
 
   def render_error(status, exception)

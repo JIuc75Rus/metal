@@ -1,6 +1,4 @@
 module ApplicationHelper
-  require 'rubygems'
-  require 'geoip'
   def urls_to_images(s)
     s.gsub! /\s|(http:\/\/.*?\.(png|jpg|jpeg))(\s|\Z)/,
             '<img src="\1"/ id="something_unique" class="thumb">'
