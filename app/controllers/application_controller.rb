@@ -9,7 +9,6 @@ class ApplicationController < ActionController::Base
 
   def prepare_meta_tags(options={})
     site_name   = "METAL22.RU"
-    title       = [].join(" ")
     description = "Меркурий Бийск - торговая компания, предлагаем со склада в Бийске цветной металлопрокат любых марок, РТИ, АТИ, полимеры. Работаем под заказ."
     image       = options[:image] || "your-default-image-url"
     current_url = request.url
@@ -17,10 +16,8 @@ class ApplicationController < ActionController::Base
     # Let's prepare a nice set of defaults
     defaults = {
         site:        site_name,
-        title:       title,
         image:       image,
         description: description,
-        keywords:    %w[web software development mobile app],
         twitter: {
             site_name: site_name,
             site: '@thecookieshq',
@@ -31,7 +28,6 @@ class ApplicationController < ActionController::Base
         og: {
             url: current_url,
             site_name: site_name,
-            title: title,
             image: image,
             description: description,
             type: 'website'
