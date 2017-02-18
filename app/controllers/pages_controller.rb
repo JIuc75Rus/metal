@@ -1,7 +1,7 @@
 class PagesController < ApplicationController
   include Find
   before_action :set
-  force_ssl
+
 
   def index
     @categories = Category.all

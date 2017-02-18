@@ -1,7 +1,7 @@
 class ArticlesController < ApplicationController
   before_action :set_article, only: [:show, :edit, :update, :destroy]
   before_action :authenticate_admin!, only: [:index, :new, :show, :edit, :update, :destroy]
-  force_ssl
+
   # GET /articles
   # GET /articles.json
   def index
