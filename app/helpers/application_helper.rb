@@ -12,7 +12,7 @@ module ApplicationHelper
             '<a href="\1"/>\1</a>'
     s.html_safe
   end
-  def geo(i)
+  def geo
      @geoip ||= GeoIP.new("#{Rails.root}/db/GeoLiteCity.dat")
      remote_ip = request.remote_ip
      if remote_ip != "127.0.0.1" #todo: check for other local addresses or set default value
