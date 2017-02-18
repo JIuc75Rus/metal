@@ -16,6 +16,7 @@ class CategoriesController < ApplicationController
     @sub_category = Subcategory.where(category_id:[@category]).order(id: :asc)
     @page_title       = @category.name
     @page_description = @category.description
+    @page_image_src = @category.images
   end
 
     # GET /categories/new
