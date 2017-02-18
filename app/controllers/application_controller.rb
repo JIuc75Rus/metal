@@ -8,7 +8,7 @@ class ApplicationController < ActionController::Base
   before_action :prepare_meta_tags, if: "request.get?"
 
   def prepare_meta_tags(options={})
-    site_name   = "METAL22.RU"
+    site_name   = "ООО'Меркурий'"
     title       = [].join(" ")
     description = "Меркурий Бийск - торговая компания, предлагаем со склада в Бийске цветной металлопрокат любых марок, РТИ, АТИ, полимеры. Работаем под заказ."
     image       = options[:image] || "/assets/metal22.jpg"
