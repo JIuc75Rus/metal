@@ -1,6 +1,7 @@
 class ItemsController < ApplicationController
   before_action :set_item, only: [:show, :edit, :update, :destroy]
   before_action :authenticate_admin!, only: [:index, :new, :show, :edit, :update, :destroy]
+  force_ssl
 
   # GET /items
   # GET /items.json

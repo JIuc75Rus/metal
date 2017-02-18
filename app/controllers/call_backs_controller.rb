@@ -1,5 +1,5 @@
 class CallBacksController < ApplicationController
-
+  force_ssl
   def new
     @call_back = CallBack.new
   end

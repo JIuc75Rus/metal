@@ -1,4 +1,5 @@
 class OnlineFormsController < ApplicationController
+  force_ssl
 
   def new
     @online_form = OnlineForm.new

@@ -3,6 +3,7 @@ class CategoriesController < ApplicationController
   before_action :set
   before_action :set_category, only: [:show, :edit, :update, :destroy]
   before_action :authenticate_admin!, only: [:index, :new, :edit, :update, :destroy]
+  force_ssl
 
 
   def index

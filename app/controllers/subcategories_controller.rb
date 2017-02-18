@@ -3,6 +3,7 @@ class SubcategoriesController < ApplicationController
   before_action :set
   before_action :set_subcategory, only: [:show, :edit, :update, :destroy]
   before_action :authenticate_admin!, only: [:index, :new, :edit, :update, :destroy]
+  force_ssl
 
   # GET /subcategories
   # GET /subcategories.json
