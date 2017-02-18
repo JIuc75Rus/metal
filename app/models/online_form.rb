@@ -4,5 +4,4 @@ class OnlineForm < MailForm::Base
   attribute :phone,     :validate => /\A(?:\+?\d{1,3}\s*-?)?\(?(?:\d{3})?\)?[- ]?\d{3}[- ]?\d{4}\z/i
 
   attribute :message
-  attribute :ip
 end
