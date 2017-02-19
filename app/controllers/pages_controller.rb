@@ -4,7 +4,7 @@ class PagesController < ApplicationController
 
 
   def index
-    @categories = Category.all
+    @categories = Category.all.order(id: :asc)
     @page_title = 'Меркурий - торговая компания : : Цветной металлопрокат, РТИ, АТИ, полимеры в Бийске.'
   end
 

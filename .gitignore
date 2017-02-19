@@ -19,3 +19,6 @@
 /gulpfile.js
 /test/*
 /package.json
+Будет удалено node_modules/
+Будет удалено public/sitemaps/
+Будет удалено test/
