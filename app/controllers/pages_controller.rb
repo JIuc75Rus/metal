@@ -5,7 +5,9 @@ class PagesController < ApplicationController
 
   def index
     @categories = Category.all.order(id: :asc)
-    @page_title = 'Меркурий - торговая компания : : Цветной металлопрокат, РТИ, АТИ, полимеры в Бийске.'
+    @page_title = "Меркурий - торговая компания : : Цветной металлопрокат, РТИ, АТИ, полимеры в Бийске."
+    @page_description = "Меркурий Бийск - торговая компания, предлагаем со склада в Бийске цветной металлопрокат любых марок, РТИ, АТИ, полимеры. Работаем под заказ."
+    @page_image_src = "/assets/metal22.jpg"
   end
 
   def products
