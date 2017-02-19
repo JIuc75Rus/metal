@@ -16,10 +16,10 @@
                 <a href="<%= show_category_subcategory_path(@category, i) %>">
                   <div class="item">
                     <div class="item_image">
-                      <% if i.images? %>
-                          <%= image_tag i.images.url %>
-                      <% else %>
+                      <% if i.images_url? %>
                           <%= urls_to_images(i.images_url.to_s)%>
+                      <% else %>
+                          <%= image_tag i.images.url %>
                       <% end %>
                     </div>
                     <div class="item_title">
@@ -33,7 +33,11 @@
                 <a href="#online" class="open_modal">
                   <div class="item">
                     <div class="item_image">
-                      <%= urls_to_images(i.images_url.to_s)%>
+                      <% if i.images_url? %>
+                          <%= urls_to_images(i.images_url.to_s)%>
+                      <% else %>
+                          <%= image_tag i.images.url %>
+                      <% end %>
                     </div>
                     <div class="item_title">
                       <h4><%= i.name %></h4>
