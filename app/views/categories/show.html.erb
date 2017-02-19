@@ -33,11 +33,7 @@
                 <a href="#online" class="open_modal">
                   <div class="item">
                     <div class="item_image">
-                      <% if i.images_url? %>
-                          <%= urls_to_images(i.images_url.to_s)%>
-                      <% else %>
-                          <%= image_tag i.images.url %>
-                      <% end %>
+                      <%= urls_to_images(i.images_url.to_s)%>
                     </div>
                     <div class="item_title">
                       <h4><%= i.name %></h4>
