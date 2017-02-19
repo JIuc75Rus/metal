@@ -12,17 +12,17 @@ body {
   background: #e6e6e6 url(bg-rep.png) center top repeat;
 }
 *{
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 .row:after {
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: " ";
-	clear: both;
-	height: 0;
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
 }
 .row { display: inline-block; }
 /* start commented backslash hack \*/
@@ -418,10 +418,10 @@ body {
         }
         .paginate_button {
           &.active{
-          a {
-            background-color: #448AFF;
-            border: 1px solid #656565;
-          }
+            a {
+              background-color: #448AFF;
+              border: 1px solid #656565;
+            }
           }
         }
         .none {
@@ -796,11 +796,11 @@ body {
         .link {
           margin-top: 10px;
           text-align: right;
-        a {
-          font-size: 15px;
-          text-decoration: none;
-          color: #448AFF;
-        }
+          a {
+            font-size: 15px;
+            text-decoration: none;
+            color: #448AFF;
+          }
         }
       }
       .advert {
@@ -880,7 +880,7 @@ body {
   }
   .map {
     .dg-widget-link {
-		}
+    }
     iframe {
       width: 100%;
     }
