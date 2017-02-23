@@ -13,7 +13,7 @@
     # Директория установки Rbenv
     rbenv_root: '{{ home }}/.rbenv'
     # Название приложения
-    name: 'metal22'
+    name: 'metal22.ru'
     # Путь до нашего приложения
     application: '{{ home }}/applications/{{ name }}'
 
