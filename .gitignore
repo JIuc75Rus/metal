@@ -19,7 +19,13 @@
 /gulpfile.js
 /test/*
 /package.json
-/config/provision/keys
+/config/provision/keys/*
 Будет удалено node_modules/
 Будет удалено public/sitemaps/
 Будет удалено test/
+Будет удалено Capfile
+Будет удалено config/deploy.rb
+Будет удалено config/deploy/
+Будет удалено config/provision/config/
+Будет удалено config/provision/playbook.retry
+Будет удалено lib/capistrano/
