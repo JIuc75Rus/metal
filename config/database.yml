@@ -1,6 +1,37 @@
-production:
+default: &default
+
   adapter: postgresql
-  username: postgres
-  encoding: utf8
-  pool: 8
-  database: {{ name }}_production
+
+  encoding: unicode
+
+  pool: 5
+
+development:
+
+  <<: *default
+
+  database: metal_development
+
+  username: metal
+
+password: <%= ENV['metal_DATABASE_PASSWORD'] %>
+
+test:
+
+  <<: *default
+
+  database: metal_test
+
+  username: metal
+
+password: <%= ENV['metal_DATABASE_PASSWORD'] %>
+
+production:
+
+  <<: *default
+
+  database: metal_production
+
+  # username: metal
+
+  # password: <%= ENV['metal_DATABASE_PASSWORD'] %>
