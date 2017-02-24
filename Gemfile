@@ -75,3 +75,4 @@ gem 'meta-tags'
 ruby '2.3.3'
 gem 'unicorn'
 gem 'capistrano-rails', group: :development
+gem 'net-ssh', '>= 2.8.0'

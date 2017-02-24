@@ -1,7 +1,7 @@
 set :application, 'metal22'
 set :repo_url, 'https://github.com/JIuc75Rus/metal.git'
 set :deploy_to, '/opt/www/metal22'
-set :user, 'deploer'
+set :user, 'deploy'
 set :linked_dirs, %w{log tmp/pids tmp/cache tmp/sockets}
 
 namespace :deploy do

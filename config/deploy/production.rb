@@ -1,9 +1,9 @@
 ip = '195.133.147.136'
 
-role :app, ["deploer@#{ip}"]
-role :web, ["deploer@#{ip}"]
-role :db,  ["deploer@#{ip}"]
+role :app, ["deploy@#{ip}"]
+role :web, ["deploy@#{ip}"]
+role :db,  ["deploy@#{ip}"]
 
-server ip, user: 'deploer', roles: %w{web app db}
+server ip, user: 'deploy', roles: %w{web app db}
 
 set :stage, 'production'

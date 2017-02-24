@@ -10,28 +10,28 @@ development:
 
   <<: *default
 
-  database: metal_development
+  database: metal22_development
 
-  username: metal
+  username: deploy
 
-password: <%= ENV['metal_DATABASE_PASSWORD'] %>
+password: <%= ENV['metal22_DATABASE_PASSWORD'] %>
 
 test:
 
   <<: *default
 
-  database: metal_test
+  database: metal22_test
 
-  username: metal
+  username: deploy
 
-password: <%= ENV['metal_DATABASE_PASSWORD'] %>
+password: <%= ENV['metal22_DATABASE_PASSWORD'] %>
 
 production:
 
   <<: *default
 
-  database: metal_production
+  database: metal22_production
 
-  # username: metal
+  # username: metal22
 
-  # password: <%= ENV['metal_DATABASE_PASSWORD'] %>
+  # password: <%= ENV['metal22_DATABASE_PASSWORD'] %>

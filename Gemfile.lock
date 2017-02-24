@@ -248,6 +248,7 @@ DEPENDENCIES
   mail_form
   meta-tags
   mysql2 (>= 0.3.18, < 0.5)
+  net-ssh (>= 2.8.0)
   newrelic_rpm
   paperclip
   pg
