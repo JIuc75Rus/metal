@@ -46,7 +46,7 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
-
+  gem 'capistrano-rails'
 end
 
 group :production do
@@ -73,5 +73,4 @@ gem 'dynamic_sitemaps'
 gem 'meta-tags'
 ruby '2.3.3'
 gem 'unicorn'
-gem 'capistrano-rails', group: :development
 gem 'net-ssh', '>= 2.8.0'
