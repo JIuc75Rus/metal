@@ -59,6 +59,9 @@ GEM
     capistrano-rails (1.2.2)
       capistrano (~> 3.1)
       capistrano-bundler (~> 1.1)
+    capistrano-rvm (0.1.2)
+      capistrano (~> 3.0)
+      sshkit (~> 1.2)
     climate_control (0.1.0)
     cocaine (0.5.8)
       climate_control (>= 0.0.3, < 1.0)
@@ -232,7 +235,10 @@ PLATFORMS
 DEPENDENCIES
   ancestry
   byebug
+  capistrano
+  capistrano-bundler
   capistrano-rails
+  capistrano-rvm
   coffee-rails (~> 4.2)
   devise
   dynamic_sitemaps
