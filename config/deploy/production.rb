@@ -1,5 +1,5 @@
-role :app, %w{root@195.133.145.29}
+role :app, %w{deployer@193.124.117.37}
 
-role :web, %w{root@195.133.145.29} # Управляет asset pipeline
+role :web, %w{deployer@193.124.117.37} # Управляет asset pipeline
 
-role :db, %w{root@195.133.145.29} # Работает с БД
+role :db, %w{deployer@193.124.117.37} # Работает с БД
