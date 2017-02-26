@@ -53,6 +53,7 @@ group :development do
   gem 'capistrano-rvm'
   gem 'capistrano3-ubuntu-server-prepare'
   gem 'capistrano3-delayed-job'
+  gem 'capistrano3-git-push'
 end
 
 group :production do
@@ -81,4 +82,3 @@ gem 'dynamic_sitemaps'
 gem 'meta-tags'
 ruby '2.3.3'
 gem 'net-ssh', '>= 2.8.0'
-gem 'capistrano3-git-push'
