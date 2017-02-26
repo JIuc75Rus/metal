@@ -4,7 +4,12 @@ require "capistrano/setup"
 # Include default deployment tasks
 require "capistrano/deploy"
 require 'capistrano/rails'
-
+require 'capistrano3/ubuntu-server-prepare'
+require 'capistrano3/unicorn'
+require 'capistrano3/git-push'
+#require 'capistrano/rvm'
+require 'capistrano/bundler'
+require 'capistrano/rails'
 # Load the SCM plugin appropriate to your project:
 #
 # require "capistrano/scm/hg"

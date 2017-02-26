@@ -46,14 +46,13 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
-  # Гем, который добавляет специфические для Rails таски, такие как прогон миграций и компиляция ассетов
+  gem 'capistrano'
   gem 'capistrano-rails'
-  # Гем, добавляющий возможности bundle к capistrano
   gem 'capistrano-bundler'
-  # Добавление поддержки Rbenv (менеджера версий для Ruby)
-  gem 'capistrano-rbenv'
-  # Интеграция пумы и капистрано
-  gem 'capistrano3-puma'
+  gem 'capistrano3-unicorn'
+  gem 'capistrano-rvm'
+  gem 'capistrano3-ubuntu-server-prepare'
+  gem 'capistrano3-delayed-job'
 end
 
 group :production do
@@ -82,3 +81,4 @@ gem 'dynamic_sitemaps'
 gem 'meta-tags'
 ruby '2.3.3'
 gem 'net-ssh', '>= 2.8.0'
+gem 'capistrano3-git-push'
