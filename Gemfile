@@ -46,14 +46,14 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
-  gem 'capistrano'
+  # Гем, который добавляет специфические для Rails таски, такие как прогон миграций и компиляция ассетов
   gem 'capistrano-rails'
+  # Гем, добавляющий возможности bundle к capistrano
   gem 'capistrano-bundler'
-  gem 'capistrano3-unicorn'
-  gem 'capistrano-rvm'
-  gem 'capistrano3-ubuntu-server-prepare'
-  gem 'capistrano3-delayed-job'
-  gem 'capistrano3-git-push'
+  # Добавление поддержки Rbenv (менеджера версий для Ruby)
+  gem 'capistrano-rbenv'
+  # Интеграция пумы и капистрано
+  gem 'capistrano3-puma'
 end
 
 group :production do
@@ -61,7 +61,8 @@ group :production do
   gem 'rails_serve_static_assets'
   gem 'pg'
   gem 'unicorn'
-  gem 'puma', '~> 3.0'
+  # Puma - это Ruby/Rack сервер, который будет получать запросы из Nginx и направлять их в Rails, эдакое связующее звено
+  gem 'puma'
 end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
