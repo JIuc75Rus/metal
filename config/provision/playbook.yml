@@ -7,7 +7,7 @@
     user: 'deploy'
     home: '/home/{{ user }}'
     rbenv_root: '{{ home }}/.rbenv'
-    name: 'davetoxa'
+    name: 'metal22'
     application: '{{ home }}/applications/{{ name }}'
 
   tasks:
