@@ -60,8 +60,6 @@ group :production do
   gem "rails_12factor"
   gem 'rails_serve_static_assets'
   gem 'pg'
-  gem 'unicorn'
-  # Puma - это Ruby/Rack сервер, который будет получать запросы из Nginx и направлять их в Rails, эдакое связующее звено
   gem 'puma'
 end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
