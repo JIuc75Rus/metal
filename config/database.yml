@@ -1,17 +1,6 @@
- default: &default
-    adapter: postgresql
-    encoding: unicode
-    pool: 5
-    username: deploy
-
-  development:
-    <<: *default
-    database:  {{ name }}_development
-
-  test:
-    <<: *default
-    database:  {{ name }}_test
-
-  production:
-    <<: *default
-    database:  {{ name }}_production
+production:
+  adapter: postgresql
+  username: postgres
+  encoding: utf8
+  pool: 8
+  database: {{ name }}_production
