@@ -1,3 +1,12 @@
-secret_token: '9a85f9e614c77eb03cd6ee5365dd2eed7b03c8e270fdca19a518872deeaf2dadc45ddeebd3e0fce3546919cc82cea83373290df2cdcecd8cf707ee45b470e632'
+setup: &setup
+  secret_token: <%= ENV['SECRET_TOKEN'] %>
+  secret_key_base: <%= ENV['SECRET_KEY_BASE'] %>
+
+development:
+  <<: *setup
+
+test:
+  <<: *setup
+
 production:
-  secret_key_base: <%= ENV["SECRET_KEY_BASE"] %>
+<<: *setup
