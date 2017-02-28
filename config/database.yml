@@ -1,37 +1,17 @@
-default: &default
+ default: &default
+    adapter: postgresql
+    encoding: unicode
+    pool: 5
+    username: deploy
 
-  adapter: postgresql
+  development:
+    <<: *default
+    database:  {{ name }}_development
 
-  encoding: unicode
+  test:
+    <<: *default
+    database:  {{ name }}_test
 
-  pool: 5
-
-development:
-
-  <<: *default
-
-  database: metal22_development
-
-  username: deploy
-
-password: <%= ENV['metal22_DATABASE_PASSWORD'] %>
-
-test:
-
-  <<: *default
-
-  database: metal22_test
-
-  username: deploy
-
-password: <%= ENV['metal22_DATABASE_PASSWORD'] %>
-
-production:
-
-  <<: *default
-
-  database: metal22_production
-
-  # username: metal22
-
-  # password: <%= ENV['metal22_DATABASE_PASSWORD'] %>
+  production:
+    <<: *default
+    database:  {{ name }}_production

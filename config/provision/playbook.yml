@@ -13,7 +13,7 @@
     # Директория установки Rbenv
     rbenv_root: '{{ home }}/.rbenv'
     # Название приложения
-    name: 'davetoxa'
+    name: 'meatl22'
     # Путь до нашего приложения
     application: '{{ home }}/applications/{{ name }}'
 
