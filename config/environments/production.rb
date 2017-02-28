@@ -24,8 +24,8 @@ Rails.application.configure do
     logger.formatter = config.log_formatter
     config.logger = ActiveSupport::TaggedLogging.new(logger)
   end
-
-  config.serve_static_assets = false
+  config.assets.compile = true
+  config.serve_static_assets = true
   config.action_dispatch.x_sendfile_header = nil
 
   # Compress JavaScripts and CSS.
