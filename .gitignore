@@ -21,6 +21,7 @@
 /package.json
 /config/provision/keys
 /config/provision/configs/settings.yml
+/config/secrets.yml
 Будет удалено node_modules/
 Будет удалено public/sitemaps/
 Будет удалено test/
