@@ -19,7 +19,8 @@
 /gulpfile.js
 /test/*
 /package.json
-/keys
+/config/provision/keys
+/config/provision/configs/settings.yml
 Будет удалено node_modules/
 Будет удалено public/sitemaps/
 Будет удалено test/
