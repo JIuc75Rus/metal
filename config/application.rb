@@ -11,6 +11,7 @@ module Metal22Ru
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
     config.i18n.default_locale = :ru
+    config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
     config.i18n.load_path += Dir[Rails.root.join('config', 'locales', '**', '*.{rb,yml}')]
     config.assets.paths << Rails.root.join('app', 'assets', 'fonts')
     config.to_prepare do
