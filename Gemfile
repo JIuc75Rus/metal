@@ -10,7 +10,7 @@ end
 gem 'rails', '~> 5.0.1'
 # Use mysql as the database for Active Record
 # Use Puma as the app server
-gem 'mysql2'
+gem 'puma'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -54,13 +54,13 @@ group :development do
   gem 'capistrano-rbenv'
   # Интеграция пумы и капистрано
   gem 'capistrano3-puma'
+  gem 'mysql2'
 end
 
 group :production do
   gem "rails_12factor"
   gem 'rails_serve_static_assets'
   gem 'pg'
-  gem 'puma'
 end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
