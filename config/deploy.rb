@@ -4,7 +4,7 @@
 #   $ bundle exec cap production deploy
 #   $ bundle exec cap production rake task=db:seed
 
-lock '3.6.0'
+lock '3.7.2'
 
 set :application, 'metal22'
 set :repo_url, 'https://github.com/JIuc75Rus/metal.git'
