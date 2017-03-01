@@ -2,6 +2,98 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ed53703-5c34-4f33-a438-0a3f7a8ab182" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/approved.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/ava.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/banner.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/bg-rep.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/bg_header.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/bullets.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/call.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/cart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/clock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/community.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/complect.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/copyright.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/cvet_met.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/kuzocm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/left-arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/location.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/m-top-pointer.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/mail.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/map.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/mask-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/mechellogo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/metal22.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/mobile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/pacing.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/pause-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/phone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/polimery.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/price_list.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/right-arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/rotator-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/rti_ati.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/russteels.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/shestigrannik.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/shvabe.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/strelka.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/strelkawith.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/tick.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/timer-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/top-pt.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/bg_header.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/metal22.jpg" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/.keep" afterPath="$PROJECT_DIR$/app/assets/images/.keep" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/approved.png" afterPath="$PROJECT_DIR$/app/assets/images/approved.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/arrow.png" afterPath="$PROJECT_DIR$/app/assets/images/arrow.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/ava.jpg" afterPath="$PROJECT_DIR$/app/assets/images/ava.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/banner.png" afterPath="$PROJECT_DIR$/app/assets/images/banner.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/bg-rep.png" afterPath="$PROJECT_DIR$/app/assets/images/bg-rep.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/bullets.jpg" afterPath="$PROJECT_DIR$/app/assets/images/bullets.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/call.png" afterPath="$PROJECT_DIR$/app/assets/images/call.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/cart.png" afterPath="$PROJECT_DIR$/app/assets/images/cart.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/clock.png" afterPath="$PROJECT_DIR$/app/assets/images/clock.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/close.png" afterPath="$PROJECT_DIR$/app/assets/images/close.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/community.png" afterPath="$PROJECT_DIR$/app/assets/images/community.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/complect.png" afterPath="$PROJECT_DIR$/app/assets/images/complect.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/copyright.png" afterPath="$PROJECT_DIR$/app/assets/images/copyright.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/cvet_met.jpeg" afterPath="$PROJECT_DIR$/app/assets/images/cvet_met.jpeg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/favicon.ico" afterPath="$PROJECT_DIR$/app/assets/images/favicon.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/kuzocm.png" afterPath="$PROJECT_DIR$/app/assets/images/kuzocm.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/left-arrow.png" afterPath="$PROJECT_DIR$/app/assets/images/left-arrow.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/loading.gif" afterPath="$PROJECT_DIR$/app/assets/images/loading.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/location.png" afterPath="$PROJECT_DIR$/app/assets/images/location.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/logo.png" afterPath="$PROJECT_DIR$/app/assets/images/logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/m-top-pointer.gif" afterPath="$PROJECT_DIR$/app/assets/images/m-top-pointer.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/mail.png" afterPath="$PROJECT_DIR$/app/assets/images/mail.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/map.png" afterPath="$PROJECT_DIR$/app/assets/images/map.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/mask-black.png" afterPath="$PROJECT_DIR$/app/assets/images/mask-black.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/mechellogo.jpg" afterPath="$PROJECT_DIR$/app/assets/images/mechellogo.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/mobile.png" afterPath="$PROJECT_DIR$/app/assets/images/mobile.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/pacing.png" afterPath="$PROJECT_DIR$/app/assets/images/pacing.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/pause-black.png" afterPath="$PROJECT_DIR$/app/assets/images/pause-black.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/phone.png" afterPath="$PROJECT_DIR$/app/assets/images/phone.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/polimery.jpg" afterPath="$PROJECT_DIR$/app/assets/images/polimery.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/price_list.png" afterPath="$PROJECT_DIR$/app/assets/images/price_list.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/right-arrow.png" afterPath="$PROJECT_DIR$/app/assets/images/right-arrow.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/rotator-black.png" afterPath="$PROJECT_DIR$/app/assets/images/rotator-black.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/rti_ati.jpg" afterPath="$PROJECT_DIR$/app/assets/images/rti_ati.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/russteels.png" afterPath="$PROJECT_DIR$/app/assets/images/russteels.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/shestigrannik.png" afterPath="$PROJECT_DIR$/app/assets/images/shestigrannik.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/shvabe.png" afterPath="$PROJECT_DIR$/app/assets/images/shvabe.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/strelka.png" afterPath="$PROJECT_DIR$/app/assets/images/strelka.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/strelkawith.png" afterPath="$PROJECT_DIR$/app/assets/images/strelkawith.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tick.png" afterPath="$PROJECT_DIR$/app/assets/images/tick.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/timer-black.png" afterPath="$PROJECT_DIR$/app/assets/images/timer-black.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/top-pt.png" afterPath="$PROJECT_DIR$/app/assets/images/top-pt.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/main.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/main.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/main.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -48,7 +140,7 @@
         <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="18">
-              <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+              <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -58,7 +150,7 @@
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+              <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -67,8 +159,8 @@
       <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1171">
-              <caret line="916" column="34" lean-forward="false" selection-start-line="916" selection-start-column="34" selection-end-line="916" selection-end-column="34" />
+            <state relative-caret-position="378">
+              <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -108,7 +200,7 @@
         <entry file="file://$PROJECT_DIR$/config/deploy.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="50" />
+              <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -118,7 +210,7 @@
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="376">
-              <caret line="85" column="0" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+              <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -291,24 +383,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="metal22.ru" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="metal22.ru" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -815,12 +889,12 @@
       <workItem from="1488193159885" duration="3569000" />
       <workItem from="1488276771493" duration="1088000" />
       <workItem from="1488246705139" duration="3309000" />
-      <workItem from="1488264618186" duration="24991000" />
+      <workItem from="1488264618186" duration="25635000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="871824000" />
+    <option name="totallyTimeSpent" value="872468000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1115,7 +1189,7 @@
     <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
-          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -1128,7 +1202,7 @@
     <entry file="file://$PROJECT_DIR$/config/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="50" />
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="50" />
           <folding />
         </state>
       </provider>
@@ -1176,7 +1250,7 @@
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="376">
-          <caret line="85" column="0" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1184,15 +1258,15 @@
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1171">
-          <caret line="916" column="34" lean-forward="false" selection-start-line="916" selection-start-column="34" selection-end-line="916" selection-end-column="34" />
+        <state relative-caret-position="378">
+          <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
           <folding />
         </state>
       </provider>
