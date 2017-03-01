@@ -20,7 +20,7 @@ Rails.application.configure do
   config.public_file_server.enabled = true
   config.assets.compile = true
   config.serve_static_assets = true
-  config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
+  config.assets.precompile = true
 
 
   # Compress JavaScripts and CSS.
