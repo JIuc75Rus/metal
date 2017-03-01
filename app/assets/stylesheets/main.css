@@ -193,7 +193,7 @@ body {
 
 .header .header_wrap .company_info .desc .adress {
   margin-bottom: 15px;
-  background: url("../assets/map.png") no-repeat;
+  background: url("map.png") no-repeat;
   line-height: 24px;
   padding-left: 27px;
 }
