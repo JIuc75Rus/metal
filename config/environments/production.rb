@@ -20,14 +20,14 @@ Rails.application.configure do
   config.public_file_server.enabled = true
   config.assets.compile = true
   config.serve_static_assets = true
-  config.assets.precompile = false
+
 
   # Compress JavaScripts and CSS.
   config.assets.js_compressor = :uglifier
   # config.assets.css_compressor = :sass
 
   # Do not fallback to assets pipeline if a precompiled asset is missed.
-  config.action_dispatch.x_sendfile_header  = 'X-Accel-Redirect'
+  config.action_dispatch.x_sendfile_header  = nil
 
   # `config.assets.precompile` and `config.assets.version` have moved to config/initializers/assets.rb
 
