@@ -58,8 +58,7 @@ group :development do
 end
 
 group :production do
-  gem "rails_12factor"
-  gem 'rails_serve_static_assets'
+  gem 'rails_12factor'
   gem 'pg'
 end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -79,7 +78,3 @@ gem 'ancestry'
 gem 'newrelic_rpm'
 gem 'dynamic_sitemaps'
 gem 'meta-tags'
-ruby '2.3.3'
-gem 'net-ssh', '>= 2.8.0'
-gem 'sshkit-sudo'
-gem 'sprockets'
