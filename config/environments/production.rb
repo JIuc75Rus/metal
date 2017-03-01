@@ -2,7 +2,7 @@ Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
   config.assets.compile = false # ведь мы будем компилировать заранее
   config.assets.digest = true # в названия файлов будут вставляться их подписи (для облегчения кеширования)
-  config.action_dispatch.x_sendfile_header = "X-Sendfile"  'X-Accel-Redirect'
+  config.action_dispatch.x_sendfile_header = 'X-Accel-Redirect'
   # Code is not reloaded between requests.
   config.cache_classes = true
 
