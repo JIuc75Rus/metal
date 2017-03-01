@@ -27,7 +27,7 @@ task :rake do
   on roles(:app), in: :sequence, wait: 5 do
     within release_path do
       with rails_env: :production do
-        execute :rake, ENV['task'], 'RAILS_ENV=production'
+        execute :rake, ENV['task'], 'bundle exec rake assets:clean && bundle exec rake assets:precompile'
       end
     end
   end
