@@ -2,7 +2,6 @@ Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
   config.assets.compile = false # ведь мы будем компилировать заранее
   config.assets.digest = true # в названия файлов будут вставляться их подписи (для облегчения кеширования)
-  config.action_dispatch.x_sendfile_header = 'X-Accel-Redirect'
   # Code is not reloaded between requests.
   config.cache_classes = true
 
@@ -28,11 +27,11 @@ Rails.application.configure do
   end
 
   config.serve_static_assets = true
-  config.action_dispatch.x_sendfile_header = nil
+  config.action_dispatch.x_sendfile_header = 'X-Accel-Redirect'
 
   # Compress JavaScripts and CSS.
   config.assets.js_compressor = :uglifier
-  # config.assets.css_compressor = :sass
+  config.assets.css_compressor = :sass
 
   # Do not fallback to assets pipeline if a precompiled asset is missed.
   config.action_dispatch.x_sendfile_header = nil
