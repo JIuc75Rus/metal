@@ -193,7 +193,7 @@ body {
 
 .header .header_wrap .company_info .desc .adress {
   margin-bottom: 15px;
-  background: url("../images/map.png") no-repeat;
+  background: url("map.png") no-repeat;
   line-height: 24px;
   padding-left: 27px;
 }
@@ -217,7 +217,7 @@ body {
   margin-bottom: 15px;
   line-height: 24px;
   padding-left: 30px;
-  background: url("../images/clock.png") no-repeat;
+  background: url("clock.png") no-repeat;
   color: #fff;
 }
 
@@ -226,7 +226,7 @@ body {
 }
 
 .header .header_wrap .company_info .logo {
-  background: url("../images/logo.png") no-repeat;
+  background: url("logo.png") no-repeat;
 }
 
 .header .header_wrap .company_info .logo a {
@@ -246,7 +246,7 @@ body {
 }
 
 .header .header_wrap .company_info .contacts .tel_wrap .tel {
-  background: url("../images/phone.png") no-repeat;
+  background: url("phone.png") no-repeat;
   line-height: 24px;
   padding-left: 27px;
   text-decoration: none;
@@ -260,7 +260,7 @@ body {
 }
 
 .header .header_wrap .company_info .contacts .tel_wrap .mobile {
-  background: url("../images/mobile.png") no-repeat;
+  background: url("mobile.png") no-repeat;
   line-height: 24px;
   padding-left: 27px;
   text-decoration: none;
@@ -281,7 +281,7 @@ body {
   text-decoration: none;
   color: #fff;
   font-size: 17px;
-  background: url("../images/call.png") no-repeat 5px #448AFF;
+  background: url("call.png") no-repeat 5px #448AFF;
   line-height: 2px;
   padding: 20px 20px 20px 35px;
   border-radius: 5px;
@@ -307,7 +307,7 @@ body {
   color: #fff;
   text-decoration: none;
   font-weight: 700;
-  background: url("../images/mail.png") no-repeat;
+  background: url("mail.png") no-repeat;
   line-height: 24px;
   padding: 0 30px 5px;
 }
@@ -351,7 +351,7 @@ body {
 }
 
 .header .menu .menu_list .active {
-  background: #292929 url(../images/top-pt.png) center top repeat;
+  background: #292929 url(top-pt.png) center top repeat;
   border-radius: 0 0 7px 7px;
 }
 
@@ -361,14 +361,14 @@ body {
 }
 
 .header .menu .menu_list .active a:hover {
-  background: #292929 url(../images/top-pt.png) center top repeat;
+  background: #292929 url(top-pt.png) center top repeat;
   border-radius: 0 0 7px 7px;
   color: #fff;
   text-decoration: none;
 }
 
 .header .menu .menu_list .cart {
-  background: url("../images/cart.png") no-repeat;
+  background: url("cart.png") no-repeat;
   padding: 15px 15px 20px 35px;
   position: relative;
   top: 15px;
@@ -564,7 +564,7 @@ body {
   right: 15px;
   cursor: pointer;
   display: block;
-  background: url("../images/close.png") no-repeat;
+  background: url("close.png") no-repeat;
 }
 
 .main #overlay {
@@ -810,7 +810,7 @@ body {
 }
 
 .main .container .content_wrap .info .approved .approved_item {
-  background: url("../images/approved.png") no-repeat;
+  background: url("approved.png") no-repeat;
   padding-left: 26px;
   line-height: 24px;
   color: #5b5b5b;
@@ -861,7 +861,7 @@ body {
 .main .container .content_wrap .advantages .price_list {
   margin-right: 5px;
   padding-top: 50px;
-  background: url("../images/price_list.png") no-repeat 50% 0;
+  background: url("price_list.png") no-repeat 50% 0;
   font-size: 12px;
   font-weight: 700;
   color: #757575;
@@ -874,7 +874,7 @@ body {
 .main .container .content_wrap .advantages .location {
   margin-right: 5px;
   padding-top: 50px;
-  background: url("../images/location.png") no-repeat 50% 0;
+  background: url("location.png") no-repeat 50% 0;
   font-size: 12px;
   font-weight: 700;
   color: #757575;
@@ -887,7 +887,7 @@ body {
 .main .container .content_wrap .advantages .pacing {
   margin-right: 5px;
   padding-top: 50px;
-  background: url("../images/pacing.png") no-repeat 50% 0;
+  background: url("pacing.png") no-repeat 50% 0;
   font-size: 12px;
   font-weight: 700;
   color: #757575;
@@ -900,7 +900,7 @@ body {
 .main .container .content_wrap .advantages .community {
   margin-right: 5px;
   padding-top: 50px;
-  background: url("../images/community.png") no-repeat 50% 0;
+  background: url("community.png") no-repeat 50% 0;
   font-size: 12px;
   font-weight: 700;
   color: #757575;
@@ -912,7 +912,7 @@ body {
 
 .main .container .content_wrap .advantages .complect {
   padding-top: 50px;
-  background: url("../images/complect.png") no-repeat 50% 0;
+  background: url("complect.png") no-repeat 50% 0;
   font-size: 12px;
   font-weight: 700;
   color: #757575;
@@ -959,11 +959,11 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   padding: 0 0 0 25px;
-  background: url(../images/strelka.png) no-repeat left 13px #F7F7F5;
+  background: url(strelka.png) no-repeat left 13px #F7F7F5;
 }
 
 .main .container .sidebar_wrap .sidebar .menu_list_sid .menu_sid:hover {
-  background: url(../images/strelkawith.png) no-repeat left 13px #448AFF;
+  background: url(strelkawith.png) no-repeat left 13px #448AFF;
 }
 
 .main .container .sidebar_wrap .sidebar .menu_list_sid .menu_sid:hover a {
@@ -972,7 +972,7 @@ body {
 }
 
 .main .container .sidebar_wrap .sidebar .menu_list_sid .active {
-  background: url(../images/strelkawith.png) no-repeat left 13px #FFA000;
+  background: url(strelkawith.png) no-repeat left 13px #FFA000;
 }
 
 .main .container .sidebar_wrap .sidebar .menu_list_sid .active a {
@@ -987,11 +987,11 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   padding: 0 0 0 25px;
-  background: url(../images/strelka.png) no-repeat left 13px #F7F7F5;
+  background: url(strelka.png) no-repeat left 13px #F7F7F5;
 }
 
 .main .container .sidebar_wrap .sidebar .menu_sub:hover {
-  background: url(../images/strelkawith.png) no-repeat left 13px #448AFF;
+  background: url(strelkawith.png) no-repeat left 13px #448AFF;
 }
 
 .main .container .sidebar_wrap .sidebar .menu_sub:hover a {
@@ -1006,11 +1006,11 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   padding: 0 0 0 25px;
-  background: url(../images/strelka.png) no-repeat left 13px #F7F7F5;
+  background: url(strelka.png) no-repeat left 13px #F7F7F5;
 }
 
 .main .container .sidebar_wrap .sidebar .menu_sub_item:hover {
-  background: url(../images/strelkawith.png) no-repeat left 13px #448AFF;
+  background: url(strelkawith.png) no-repeat left 13px #448AFF;
 }
 
 .main .container .sidebar_wrap .sidebar .menu_sub_item:hover a {
@@ -1197,7 +1197,7 @@ body {
 
 .footer {
   min-width: 1140px;
-  background: #292929 url(../images/top-pt.png) center top repeat;
+  background: #292929 url(top-pt.png) center top repeat;
   padding: 20px;
   border-top: 4px solid #FFD200;
 }
@@ -1219,7 +1219,7 @@ body {
 
 .footer .copy .copyrighting {
   font-size: 17px;
-  background: url("../images/copyright.png") no-repeat;
+  background: url("copyright.png") no-repeat;
   line-height: 24px;
   padding-left: 26px;
 }
@@ -1243,7 +1243,7 @@ body {
 .footer .address .address_item {
   font-size: 17px;
   margin-bottom: 15px;
-  background: url("../images/map.png") no-repeat;
+  background: url("map.png") no-repeat;
   line-height: 24px;
   padding-left: 26px;
 }
@@ -1258,7 +1258,7 @@ body {
 }
 
 .footer .phone .tel {
-  background: url("../images/phone.png") no-repeat;
+  background: url("phone.png") no-repeat;
   line-height: 24px;
   padding-left: 26px;
   margin-bottom: 5px;
@@ -1277,7 +1277,7 @@ body {
 .footer .phone .mail {
   font-size: 17px;
   font-weight: 700;
-  background: url("../images/mail.png") no-repeat;
+  background: url("mail.png") no-repeat;
   line-height: 24px;
   padding-left: 30px;
 }
