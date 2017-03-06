@@ -1,4 +1,4 @@
-ip = '195.133.201.106'
+ip = '195.133.201.74'
 
 role :app, ["deploy@#{ip}"]
 role :web, ["deploy@#{ip}"]
