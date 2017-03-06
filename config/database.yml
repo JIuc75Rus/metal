@@ -1,19 +1,21 @@
-setup: &setup
-  adapter: postgresql
-  host: <%= ENV['DATABASE_HOST'] %>
-  username: <%= ENV['DATABASE_USERNAME'] %>
-  password:
-  encoding: unicode
-  min_messages: WARNING
+default: &default
+  adapter: mysql2
+  encoding: utf8
+  pool: 5
+  username: root
+  password: Marixuanna1990
+  socket: /var/run/mysqld/mysqld.sock
 
 development:
-  <<: *setup
-  database: <%= ENV['DATABASE_DEV_NAME'] %>
-
-production:
-  <<: *setup
-  database: <%= ENV['DATABASE_PRODUCTION_NAME'] %>
+  <<: *default
+  database: metal22_ru_development
 
 test:
-  <<: *setup
-database: <%= ENV['DATABASE_TEST_NAME'] %>
+  <<: *default
+  database: metal22_ru_test
+
+production:
+  <<: *default
+  database: metal22_ru_production
+  username: metal22_ru
+  password: <%= ENV['METAL22_RU_DATABASE_PASSWORD'] %>
