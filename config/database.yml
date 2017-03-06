@@ -12,7 +12,7 @@ development:
 
 production:
   <<: *setup
-  database: {{ name }}_production
+  database: <%= ENV['DATABASE_PRODUCTION_NAME'] %>
 
 test:
 <<: *setup
