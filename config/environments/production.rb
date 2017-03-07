@@ -26,7 +26,7 @@ Rails.application.configure do
   config.assets.digest = false
   config.serve_static_assets = true
   config.assets.compile = true
-  config.assets.initialize_on_precompile = true
+  config.assets.initialize_on_precompile = false
   config.public_file_server.headers = {
       'Cache-Control' => 'public, s-maxage=31536000, maxage=15552000',
       'Expires' => "#{1.year.from_now.to_formatted_s(:rfc822)}"
@@ -71,7 +71,6 @@ Rails.application.configure do
   # Use a different cache store in production.
   # config.cache_store = :mem_cache_store
 
-  config.assets.prefix = "/"
   # Use a real queuing backend for Active Job (and separate queues per environment)
   # config.active_job.queue_adapter     = :resque
   # config.active_job.queue_name_prefix = "RaILS5_#{Rails.env}"
