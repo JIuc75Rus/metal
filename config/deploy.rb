@@ -11,7 +11,8 @@ set :log_level, :info
 # Копирующиеся файлы и директории (между деплоями)
 set :linked_files, %w{config/database.yml config/settings.yml}
 set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/uploads}
-
+set :assets_roles, [:web, :app]
+set :normalize_asset_timestamps, %w{public/images public/javascripts public/stylesheets}
 # Ruby свистелки
 set :rbenv_type, :user
 set :rbenv_ruby, '2.3.3'
