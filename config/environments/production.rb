@@ -23,8 +23,9 @@ Rails.application.configure do
   # config.assets.css_compressor = :sass
 
   # Do not fallback to assets pipeline if a precompiled asset is missed.
-  config.assets.compile = false
-  config.assets.digest = true
+  config.assets.digest = false
+  config.serve_static_assets = true
+  config.assets.compile = true
   config.assets.initialize_on_precompile = true
   config.public_file_server.headers = {
       'Cache-Control' => 'public, s-maxage=31536000, maxage=15552000',
