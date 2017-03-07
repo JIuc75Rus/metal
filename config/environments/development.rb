@@ -7,7 +7,7 @@ Rails.application.configure do
 
   # Do not eager load code on boot.
   config.eager_load = false
-  config.public_file_server.enabled = false
+  config.public_file_server.enabled = true
   config.assets.compile = true
   config.serve_static_assets = false
 
