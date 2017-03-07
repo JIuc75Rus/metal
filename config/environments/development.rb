@@ -54,7 +54,7 @@ Rails.application.configure do
   config.serve_static_assets = true
   config.assets.compile = true
   # Suppress logger output for asset requests.
-  config.assets.quiet = false
+  config.assets.quiet = true
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
