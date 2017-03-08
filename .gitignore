@@ -22,6 +22,7 @@
 /config/provision/keys
 /config/provision/configs/settings.yml
 /config/secrets.yml
+/config/database.yml
 Будет удалено node_modules/
 Будет удалено public/sitemaps/
 Будет удалено test/
