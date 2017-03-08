@@ -2,9 +2,511 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ed53703-5c34-4f33-a438-0a3f7a8ab182" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/FontAwesome-444dd4366615ffc4a16d012b2fa90137065d3ccb410fa6fd5e4ddd7b5e4ffcd5.otf" afterPath="$PROJECT_DIR$/public/assets/FontAwesome-444dd4366615ffc4a16d012b2fa90137065d3ccb410fa6fd5e4ddd7b5e4ffcd5.otf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/FontAwesome-444dd4366615ffc4a16d012b2fa90137065d3ccb410fa6fd5e4ddd7b5e4ffcd5.otf.gz" afterPath="$PROJECT_DIR$/public/assets/FontAwesome-444dd4366615ffc4a16d012b2fa90137065d3ccb410fa6fd5e4ddd7b5e4ffcd5.otf.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/admin-65ee4e4c83beceed527d93da0870f2f78d0ad8f86e8bd98883265ec9c98a192c.js.gz" afterPath="$PROJECT_DIR$/public/assets/admin-65ee4e4c83beceed527d93da0870f2f78d0ad8f86e8bd98883265ec9c98a192c.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/admin-80584303856cd903a56ed90bc5cdff9f30cede783dc63f2506cb1ae00abcc9d6.css.gz" afterPath="$PROJECT_DIR$/public/assets/admin-80584303856cd903a56ed90bc5cdff9f30cede783dc63f2506cb1ae00abcc9d6.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application-3cd0ad72e1c6f7d7c74dcbed8a68e6de590783f2a5a997652ad1006ca7427d33.css.gz" afterPath="$PROJECT_DIR$/public/assets/application-3cd0ad72e1c6f7d7c74dcbed8a68e6de590783f2a5a997652ad1006ca7427d33.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application-eea4ef8e3e9cc0b9b18b1709232cadfd2a8760c383e4d01ea17a4905c5d93c89.js.gz" afterPath="$PROJECT_DIR$/public/assets/application-eea4ef8e3e9cc0b9b18b1709232cadfd2a8760c383e4d01ea17a4905c5d93c89.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/favicon-99bc0a6fc0249e78be4b93008312a2abcba3ae0fa4fed1422d161c9cae3e9949.ico.gz" afterPath="$PROJECT_DIR$/public/assets/favicon-99bc0a6fc0249e78be4b93008312a2abcba3ae0fa4fed1422d161c9cae3e9949.ico.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2" afterPath="$PROJECT_DIR$/public/assets/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont-7bfcab6db99d5cfbf1705ca0536ddc78585432cc5fa41bbd7ad0f009033b2979.eot" afterPath="$PROJECT_DIR$/public/assets/fontawesome-webfont-7bfcab6db99d5cfbf1705ca0536ddc78585432cc5fa41bbd7ad0f009033b2979.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont-7bfcab6db99d5cfbf1705ca0536ddc78585432cc5fa41bbd7ad0f009033b2979.eot.gz" afterPath="$PROJECT_DIR$/public/assets/fontawesome-webfont-7bfcab6db99d5cfbf1705ca0536ddc78585432cc5fa41bbd7ad0f009033b2979.eot.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont-aa58f33f239a0fb02f5c7a6c45c043d7a9ac9a093335806694ecd6d4edc0d6a8.ttf" afterPath="$PROJECT_DIR$/public/assets/fontawesome-webfont-aa58f33f239a0fb02f5c7a6c45c043d7a9ac9a093335806694ecd6d4edc0d6a8.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont-aa58f33f239a0fb02f5c7a6c45c043d7a9ac9a093335806694ecd6d4edc0d6a8.ttf.gz" afterPath="$PROJECT_DIR$/public/assets/fontawesome-webfont-aa58f33f239a0fb02f5c7a6c45c043d7a9ac9a093335806694ecd6d4edc0d6a8.ttf.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont-ad6157926c1622ba4e1d03d478f1541368524bfc46f51e42fe0d945f7ef323e4.svg.gz" afterPath="$PROJECT_DIR$/public/assets/fontawesome-webfont-ad6157926c1622ba4e1d03d478f1541368524bfc46f51e42fe0d945f7ef323e4.svg.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont-ba0c59deb5450f5cb41b3f93609ee2d0d995415877ddfa223e8a8a7533474f07.woff" afterPath="$PROJECT_DIR$/public/assets/fontawesome-webfont-ba0c59deb5450f5cb41b3f93609ee2d0d995415877ddfa223e8a8a7533474f07.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/glyphicons-halflings-regular-13634da87d9e23f8c3ed9108ce1724d183a39ad072e73e1b3d8cbf646d2d0407.eot" afterPath="$PROJECT_DIR$/public/assets/glyphicons-halflings-regular-13634da87d9e23f8c3ed9108ce1724d183a39ad072e73e1b3d8cbf646d2d0407.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/glyphicons-halflings-regular-13634da87d9e23f8c3ed9108ce1724d183a39ad072e73e1b3d8cbf646d2d0407.eot.gz" afterPath="$PROJECT_DIR$/public/assets/glyphicons-halflings-regular-13634da87d9e23f8c3ed9108ce1724d183a39ad072e73e1b3d8cbf646d2d0407.eot.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/glyphicons-halflings-regular-42f60659d265c1a3c30f9fa42abcbb56bd4a53af4d83d316d6dd7a36903c43e5.svg.gz" afterPath="$PROJECT_DIR$/public/assets/glyphicons-halflings-regular-42f60659d265c1a3c30f9fa42abcbb56bd4a53af4d83d316d6dd7a36903c43e5.svg.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/glyphicons-halflings-regular-a26394f7ede100ca118eff2eda08596275a9839b959c226e15439557a5a80742.woff" afterPath="$PROJECT_DIR$/public/assets/glyphicons-halflings-regular-a26394f7ede100ca118eff2eda08596275a9839b959c226e15439557a5a80742.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/glyphicons-halflings-regular-e395044093757d82afcb138957d06a1ea9361bdcf0b442d06a18a8051af57456.ttf" afterPath="$PROJECT_DIR$/public/assets/glyphicons-halflings-regular-e395044093757d82afcb138957d06a1ea9361bdcf0b442d06a18a8051af57456.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/glyphicons-halflings-regular-e395044093757d82afcb138957d06a1ea9361bdcf0b442d06a18a8051af57456.ttf.gz" afterPath="$PROJECT_DIR$/public/assets/glyphicons-halflings-regular-e395044093757d82afcb138957d06a1ea9361bdcf0b442d06a18a8051af57456.ttf.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" afterPath="$PROJECT_DIR$/public/assets/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery.orbit-1.2.3-c9fa425d26de0a4b457988e32e36557eb37e5e87c1b46b047b5cdfc7ebeecee4.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery.orbit-1.2.3-c9fa425d26de0a4b457988e32e36557eb37e5e87c1b46b047b5cdfc7ebeecee4.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/mail-3e69b55df446596478c62e986ce31c3e5a618501c276b00bcf4a9bb5c3058966.js.gz" afterPath="$PROJECT_DIR$/public/assets/mail-3e69b55df446596478c62e986ce31c3e5a618501c276b00bcf4a9bb5c3058966.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/simple-0e52b77e1a5964debc8902e80d13bc6f429091c4a37e8394a97f5f4b97663591.css.gz" afterPath="$PROJECT_DIR$/public/assets/simple-0e52b77e1a5964debc8902e80d13bc6f429091c4a37e8394a97f5f4b97663591.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce-74a6b101bf60c6aa4435a4d6ebc252792892fd64ceede79abae98cbd0e9faa98.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce-74a6b101bf60c6aa4435a4d6ebc252792892fd64ceede79abae98cbd0e9faa98.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce-jquery-af555ea378ec29e77025f2b845bedf1b577e89420f86d099e4ea9af246f7a146.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce-jquery-af555ea378ec29e77025f2b845bedf1b577e89420f86d099e4ea9af246f7a146.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/jquery.tinymce-ecfd2ec8473f255abfde32f5ff6ba532835c080382d433a8867e5bce5ffcd437.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/jquery.tinymce-ecfd2ec8473f255abfde32f5ff6ba532835c080382d433a8867e5bce5ffcd437.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/jquery.tinymce.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/jquery.tinymce.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ar-99297ebb68b3bc69f46f7038213567dc87b27d13681608545b690887c8211ef9.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ar-99297ebb68b3bc69f46f7038213567dc87b27d13681608545b690887c8211ef9.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ar.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ar.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ar_SA-94ecc661271c553d18a2df86a460804944c8dfe54daa0dd1a5b51970f0c551d9.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ar_SA-94ecc661271c553d18a2df86a460804944c8dfe54daa0dd1a5b51970f0c551d9.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ar_SA.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ar_SA.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/az-127f590e25813c83eb00b136c098abb38019b1f294a4ff70c48d600502f9d38a.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/az-127f590e25813c83eb00b136c098abb38019b1f294a4ff70c48d600502f9d38a.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/az.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/az.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/be-d3ab57b6ff0c3e199cc0154aa9176e5aefeb609545d546527451e1c18e3e1f17.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/be-d3ab57b6ff0c3e199cc0154aa9176e5aefeb609545d546527451e1c18e3e1f17.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/be.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/be.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/bg_BG-88e72f2831db9b0d4df8ce3fa89ef8e77a0d0751db1ff2ee01896d7976530b58.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/bg_BG-88e72f2831db9b0d4df8ce3fa89ef8e77a0d0751db1ff2ee01896d7976530b58.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/bg_BG.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/bg_BG.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/bn_BD-ecc9181e08226456808b249292832c80a2a42d0c1ff77b917157f81fc4126fc5.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/bn_BD-ecc9181e08226456808b249292832c80a2a42d0c1ff77b917157f81fc4126fc5.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/bn_BD.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/bn_BD.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/bs-3d928bc74c7f133a4b3fbe9a8f3ab9ff5bd860567e28797e5fb27216a1b86248.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/bs-3d928bc74c7f133a4b3fbe9a8f3ab9ff5bd860567e28797e5fb27216a1b86248.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/bs.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/bs.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ca-72cd0455ebc4d6850cd9e83283f12320efe614a0bf0500b5bfeaaa3018af6443.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ca-72cd0455ebc4d6850cd9e83283f12320efe614a0bf0500b5bfeaaa3018af6443.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ca.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ca.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/cs-1f8a586d5a654993b24242ce2e9bda73c1cb7e20250cf8954427759960fab194.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/cs-1f8a586d5a654993b24242ce2e9bda73c1cb7e20250cf8954427759960fab194.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/cs.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/cs.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/cs_CZ-362010543b42ef8eaab29df6bef4090fedf8f2e1b78b48ee97251c502c592609.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/cs_CZ-362010543b42ef8eaab29df6bef4090fedf8f2e1b78b48ee97251c502c592609.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/cs_CZ.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/cs_CZ.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/cy-cf9e154e625db5eda6cc669c13f9e8b47f7a44b9d8e09920e00283f6bed7b8cf.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/cy-cf9e154e625db5eda6cc669c13f9e8b47f7a44b9d8e09920e00283f6bed7b8cf.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/cy.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/cy.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/da-4f3fe3203430f4b7827591107a74ef8755171ed028da8b79f062272017739b6c.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/da-4f3fe3203430f4b7827591107a74ef8755171ed028da8b79f062272017739b6c.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/da.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/da.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/de-116d1ad4588afeb46dc9c9f35a0b1883d0cb0d4837de35f09296e874ff8a3aed.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/de-116d1ad4588afeb46dc9c9f35a0b1883d0cb0d4837de35f09296e874ff8a3aed.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/de.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/de.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/de_AT-1f2cca5923939d4d9d4ad6034cb888dc6088219f03e30e3ff249b27d66264e4a.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/de_AT-1f2cca5923939d4d9d4ad6034cb888dc6088219f03e30e3ff249b27d66264e4a.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/de_AT.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/de_AT.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/dv-5806b769c454e02bbebff33ada6c221571385c8e7e7f9731cf15a29d8c83904c.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/dv-5806b769c454e02bbebff33ada6c221571385c8e7e7f9731cf15a29d8c83904c.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/dv.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/dv.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/el-fcdeaf481c43e998bff97969ad6c9b4a140d954c745e80d70d57f9a872827cba.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/el-fcdeaf481c43e998bff97969ad6c9b4a140d954c745e80d70d57f9a872827cba.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/el.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/el.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/en_CA-9e4232a3b71ca94e24ed6193dd821784e70027a29582590d4101064c03a7092d.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/en_CA-9e4232a3b71ca94e24ed6193dd821784e70027a29582590d4101064c03a7092d.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/en_CA.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/en_CA.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/en_GB-a137a8d1240e7e10ac8de86f4e21e5ac141a5b005ec649e601876fc40f2ba1ac.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/en_GB-a137a8d1240e7e10ac8de86f4e21e5ac141a5b005ec649e601876fc40f2ba1ac.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/en_GB.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/en_GB.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/eo-1b3978cc3b9a97fe9aa83469c869289a6bfb095332f0b1a6b8525a54cc915164.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/eo-1b3978cc3b9a97fe9aa83469c869289a6bfb095332f0b1a6b8525a54cc915164.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/eo.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/eo.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/es-c0f695f9db1699c4d64f55c679337afc97b511d3e0aa7d3138f3f284da4c2afe.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/es-c0f695f9db1699c4d64f55c679337afc97b511d3e0aa7d3138f3f284da4c2afe.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/es.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/es.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/es_MX-a613478bc720b519ca1415c24017a5f4e0ca4b6ea716ce30d8f8c4abbe830069.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/es_MX-a613478bc720b519ca1415c24017a5f4e0ca4b6ea716ce30d8f8c4abbe830069.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/es_MX.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/es_MX.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/et-556326be2fc6a27ff8194e498f530069f886abef7d3996588735b924b7dcbcde.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/et-556326be2fc6a27ff8194e498f530069f886abef7d3996588735b924b7dcbcde.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/et.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/et.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/eu-68653d8e0b0b0237ae0d7fa3260dbac9cf1ef7def127ff810243a04ba8d7c4ed.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/eu-68653d8e0b0b0237ae0d7fa3260dbac9cf1ef7def127ff810243a04ba8d7c4ed.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/eu.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/eu.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/fa-299a34e25ce6339080240f5208bb2b1a81ad77b6edcc50f3f00690a4e0f15ed5.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/fa-299a34e25ce6339080240f5208bb2b1a81ad77b6edcc50f3f00690a4e0f15ed5.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/fa.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/fa.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/fa_IR-a9f99f2fa3faf0eabfadda294467532e6cb903cf972e4b62f1cf6cb95fbb70f0.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/fa_IR-a9f99f2fa3faf0eabfadda294467532e6cb903cf972e4b62f1cf6cb95fbb70f0.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/fa_IR.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/fa_IR.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/fi-2b4f9d42de900d1619b32a1d5eda0830dc227abceeda76c29f9c7c8c3929c37b.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/fi-2b4f9d42de900d1619b32a1d5eda0830dc227abceeda76c29f9c7c8c3929c37b.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/fi.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/fi.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/fo-b8033017416a0a434bda5e3e4c7e3a6d04ce11354d5438c4a90868ec325ea9c3.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/fo-b8033017416a0a434bda5e3e4c7e3a6d04ce11354d5438c4a90868ec325ea9c3.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/fo.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/fo.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/fr_CH-229da513a348b5ce7c0809569bec0bd9af9385e1ac155e07239e3041909f3d1e.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/fr_CH-229da513a348b5ce7c0809569bec0bd9af9385e1ac155e07239e3041909f3d1e.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/fr_CH.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/fr_CH.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/fr_FR-d67329cf898334a1dfce39c1b7a56837bb04c617243f21addd83a7c6b3fe5c6a.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/fr_FR-d67329cf898334a1dfce39c1b7a56837bb04c617243f21addd83a7c6b3fe5c6a.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/fr_FR.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/fr_FR.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ga-f57897979f3abd5052f93a6d6187482dcc61ccf6fdc7d7225b18b2f2ee41ae2d.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ga-f57897979f3abd5052f93a6d6187482dcc61ccf6fdc7d7225b18b2f2ee41ae2d.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ga.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ga.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/gd-f80dfe5f9ff05ac30c5c41b67cba4f104512c9c8b1bbd66b716dec3e1dc3faa1.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/gd-f80dfe5f9ff05ac30c5c41b67cba4f104512c9c8b1bbd66b716dec3e1dc3faa1.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/gd.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/gd.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/gl-f18fa3ca32a5204d46f79f516c0ebbe17cb0f9474a29ea905bd91b98927057d1.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/gl-f18fa3ca32a5204d46f79f516c0ebbe17cb0f9474a29ea905bd91b98927057d1.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/gl.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/gl.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/he_IL-f90096f3f58f32d01558747a3e602249b4d4a5550b602a0bf9dac57f7f0bc9fa.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/he_IL-f90096f3f58f32d01558747a3e602249b4d4a5550b602a0bf9dac57f7f0bc9fa.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/he_IL.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/he_IL.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/hi_IN-9782bdb020a404f88db7731f379a49d878c6687b7b921403ded72707efec3136.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/hi_IN-9782bdb020a404f88db7731f379a49d878c6687b7b921403ded72707efec3136.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/hi_IN.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/hi_IN.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/hr-b4fc1ef813ce348d3a100355ec43f7b26ae4fb8fd14974363edb4f2eb51f3ff3.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/hr-b4fc1ef813ce348d3a100355ec43f7b26ae4fb8fd14974363edb4f2eb51f3ff3.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/hr.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/hr.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/hu_HU-e226578f563a26d788df5582c8b114fd5a5ac837d030706c5c5321a54c85e6a3.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/hu_HU-e226578f563a26d788df5582c8b114fd5a5ac837d030706c5c5321a54c85e6a3.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/hu_HU.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/hu_HU.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/hy-fdd66a49f26abe7f568e8f2efbe3d641bb745efcd53d14ba7be4548713c7203b.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/hy-fdd66a49f26abe7f568e8f2efbe3d641bb745efcd53d14ba7be4548713c7203b.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/hy.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/hy.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/id-521a3c1d57151c3cc55d86fcdc703665cddaa1b2679b1deccaaac5d8c49210cb.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/id-521a3c1d57151c3cc55d86fcdc703665cddaa1b2679b1deccaaac5d8c49210cb.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/id.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/id.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/is_IS-eb8e2c496d6d2697212e8c4e339d999ce58aa0057cfe4ab048e82a7c02cd10bc.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/is_IS-eb8e2c496d6d2697212e8c4e339d999ce58aa0057cfe4ab048e82a7c02cd10bc.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/is_IS.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/is_IS.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/it-fd593a873648d2ed484a34aa3fd38190bcf09e01cbe62e79922c68deced86d41.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/it-fd593a873648d2ed484a34aa3fd38190bcf09e01cbe62e79922c68deced86d41.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/it.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/it.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ja-a52fdec0395cff81f76287636b660b6290a355ac70888585f2d7d57c5dde51f7.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ja-a52fdec0395cff81f76287636b660b6290a355ac70888585f2d7d57c5dde51f7.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ja.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ja.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ka_GE-aeda5e0f064f7b7ed8a516acc7de316b351e176d3cc89e5236791742b1960cd3.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ka_GE-aeda5e0f064f7b7ed8a516acc7de316b351e176d3cc89e5236791742b1960cd3.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ka_GE.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ka_GE.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/kab-1db8dc7996aa02b8d936e38e513b7943ed2cdd400dd9b47cb0439d35b65f6696.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/kab-1db8dc7996aa02b8d936e38e513b7943ed2cdd400dd9b47cb0439d35b65f6696.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/kab.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/kab.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/kk-d7d8a243dc4569e34e6e6ccea6bd0eac603ede35b8aebcc1d14755393311c973.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/kk-d7d8a243dc4569e34e6e6ccea6bd0eac603ede35b8aebcc1d14755393311c973.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/kk.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/kk.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/km_KH-52ba753e9eecfba645a231c4ad9af5978d606ccc26cf505afbe50b62a6bda6d2.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/km_KH-52ba753e9eecfba645a231c4ad9af5978d606ccc26cf505afbe50b62a6bda6d2.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/km_KH.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/km_KH.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ko-ff20652327b36aeb831fb8149ec2b1c84d3e58dbabdbce3904093fa39e70232d.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ko-ff20652327b36aeb831fb8149ec2b1c84d3e58dbabdbce3904093fa39e70232d.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ko.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ko.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ko_KR-c73fc47e4d6e8360fc58b223c4e121a8381ea5121c8b25d2b8391dadc644e718.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ko_KR-c73fc47e4d6e8360fc58b223c4e121a8381ea5121c8b25d2b8391dadc644e718.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ko_KR.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ko_KR.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ku-d1885da33a872c564ebd6cb44d9e688534b6a670da8c5ee1bffee7ca8859df0d.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ku-d1885da33a872c564ebd6cb44d9e688534b6a670da8c5ee1bffee7ca8859df0d.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ku.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ku.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ku_IQ-0c33c76d76e90ff1b5b2efdccef75aa78c1374b7be4615cdbdc181505433261c.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ku_IQ-0c33c76d76e90ff1b5b2efdccef75aa78c1374b7be4615cdbdc181505433261c.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ku_IQ.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ku_IQ.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/lb-202da6833027f07e79982afa400f8f10a009cd677ba18a6ddb53e8daff5211e1.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/lb-202da6833027f07e79982afa400f8f10a009cd677ba18a6ddb53e8daff5211e1.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/lb.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/lb.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/lt-c836301b30c64888c16612d4d4473a040f8dea4afc72c7c23b895ae632fc3354.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/lt-c836301b30c64888c16612d4d4473a040f8dea4afc72c7c23b895ae632fc3354.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/lt.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/lt.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/lv-ca76c8d59a81f21d306f3e04eac982ef6193504e91d2f1014c530793ea229c78.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/lv-ca76c8d59a81f21d306f3e04eac982ef6193504e91d2f1014c530793ea229c78.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/lv.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/lv.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/mk_MK-2651af340476830996a7b8a2c14c087ebeb8026dbccecd1b70c4f2b3b7304f33.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/mk_MK-2651af340476830996a7b8a2c14c087ebeb8026dbccecd1b70c4f2b3b7304f33.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/mk_MK.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/mk_MK.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ml-f0bdcfa4a06aa6e00dc2acea8d299bf5517fd63242af46d5130f1f9483800336.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ml-f0bdcfa4a06aa6e00dc2acea8d299bf5517fd63242af46d5130f1f9483800336.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ml.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ml.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ml_IN-dabc0acd1143b27738abcd8860c69f152cc164bc033b27d77a33a55179d39fd7.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ml_IN-dabc0acd1143b27738abcd8860c69f152cc164bc033b27d77a33a55179d39fd7.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ml_IN.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ml_IN.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/mn_MN-a4e604d3378c21b34c6019dfbe5990ec2dc921642a430d888daf7b09a8805bc2.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/mn_MN-a4e604d3378c21b34c6019dfbe5990ec2dc921642a430d888daf7b09a8805bc2.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/mn_MN.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/mn_MN.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/nb_NO-756f397a838c984e0b7974b2ebb5517700cdc360c4abffa53c2b47d46da971d5.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/nb_NO-756f397a838c984e0b7974b2ebb5517700cdc360c4abffa53c2b47d46da971d5.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/nb_NO.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/nb_NO.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/nl-15a6827aacbc641fed6395829db1b0f744900e2222aa7ec21b4f406ca2252ef9.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/nl-15a6827aacbc641fed6395829db1b0f744900e2222aa7ec21b4f406ca2252ef9.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/nl.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/nl.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/pl-0e2cc63e372074035a6012487d2383be53a28439294ded747a8c9d0e0ad271c9.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/pl-0e2cc63e372074035a6012487d2383be53a28439294ded747a8c9d0e0ad271c9.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/pl.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/pl.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/pt_BR-07f62b0bfc8d715f92d462de24e37ebaf5488a7b6685f8918de0cedbc2d46f4e.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/pt_BR-07f62b0bfc8d715f92d462de24e37ebaf5488a7b6685f8918de0cedbc2d46f4e.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/pt_BR.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/pt_BR.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/pt_PT-a95af51f69ee22b3107b9d928321b1dc398b5a34c6685f95c6709104d4310018.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/pt_PT-a95af51f69ee22b3107b9d928321b1dc398b5a34c6685f95c6709104d4310018.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/pt_PT.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/pt_PT.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ro-df4c8830835580a849bf05602a9a18d76ee342a01069861c50f8ce2f9a20251c.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ro-df4c8830835580a849bf05602a9a18d76ee342a01069861c50f8ce2f9a20251c.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ro.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ro.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ru-69395112010a094cacfa538b7cb34048fb61ed4a79bcb75efc1912279372e08c.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ru-69395112010a094cacfa538b7cb34048fb61ed4a79bcb75efc1912279372e08c.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ru.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ru.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ru_RU-54baef8470926aa693387e258b8ec453a80cf8051f456cbf995cc3fb8c3c3315.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ru_RU-54baef8470926aa693387e258b8ec453a80cf8051f456cbf995cc3fb8c3c3315.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ru_RU.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ru_RU.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/si_LK-7634021ea37e48bf494472384d8fc7c33f81907acc9ef7a34e5235a991feca79.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/si_LK-7634021ea37e48bf494472384d8fc7c33f81907acc9ef7a34e5235a991feca79.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/si_LK.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/si_LK.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/sk-733474aa343c4510a729db3728c43f08b3828838c91d090ac40eb8c94dbb3a27.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/sk-733474aa343c4510a729db3728c43f08b3828838c91d090ac40eb8c94dbb3a27.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/sk.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/sk.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/sl_SI-908a5439f77ecd58d362781cbd1a9a319edb55bf574b8a217c3fa8fd80fa1cff.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/sl_SI-908a5439f77ecd58d362781cbd1a9a319edb55bf574b8a217c3fa8fd80fa1cff.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/sl_SI.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/sl_SI.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/sr-4c6cb6f976d18cd89c67e3dd21e573b2f6aebe1002581b7f8be0359dd936664f.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/sr-4c6cb6f976d18cd89c67e3dd21e573b2f6aebe1002581b7f8be0359dd936664f.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/sr.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/sr.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/sv_SE-d4e77c2b2518a169711c7a1ed80b9a56cc9f24ff63f85059f16f7947dd0730ec.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/sv_SE-d4e77c2b2518a169711c7a1ed80b9a56cc9f24ff63f85059f16f7947dd0730ec.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/sv_SE.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/sv_SE.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ta-0bb44acfcd45bc44a4a03bafae3d68126367504c9bd56d4f41082766d077dc4b.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ta-0bb44acfcd45bc44a4a03bafae3d68126367504c9bd56d4f41082766d077dc4b.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ta.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ta.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ta_IN-60264621be68a0ad3caf30cbcc72671de30c36de8331d99005d41caa8c15453b.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ta_IN-60264621be68a0ad3caf30cbcc72671de30c36de8331d99005d41caa8c15453b.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ta_IN.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ta_IN.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/tg-b09746ddfc259231bb1d7150e35a2822f3444e3b15eada253e20afb1aeb34942.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/tg-b09746ddfc259231bb1d7150e35a2822f3444e3b15eada253e20afb1aeb34942.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/tg.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/tg.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/th_TH-037600065b0e521e6918e6ed2a1bc7137c776f631f332fc12dc117e95b715cf0.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/th_TH-037600065b0e521e6918e6ed2a1bc7137c776f631f332fc12dc117e95b715cf0.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/th_TH.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/th_TH.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/tr-ce8015f62adc6b6e37702834626801a168cf435168cf8d60b8cb806ed899b909.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/tr-ce8015f62adc6b6e37702834626801a168cf435168cf8d60b8cb806ed899b909.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/tr.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/tr.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/tr_TR-d964e0dfce8022297f32495de1449c27ad7cda211973f63778184bc851ee9bff.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/tr_TR-d964e0dfce8022297f32495de1449c27ad7cda211973f63778184bc851ee9bff.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/tr_TR.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/tr_TR.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/tt-698a2c0dda1933d9c527c8a349b7702c49167d4d81728f4d2319894b68b2d239.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/tt-698a2c0dda1933d9c527c8a349b7702c49167d4d81728f4d2319894b68b2d239.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/tt.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/tt.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ug-f8c17f5f49cb65a94f941aea448a89c5848667442b8bec147b3d30776f18e7d2.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ug-f8c17f5f49cb65a94f941aea448a89c5848667442b8bec147b3d30776f18e7d2.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ug.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ug.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/uk-09b73608a53f5d74e719f3bc93cee580c6ae91b017bc64ddd5c47783c3b29aa7.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/uk-09b73608a53f5d74e719f3bc93cee580c6ae91b017bc64ddd5c47783c3b29aa7.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/uk.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/uk.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/uk_UA-a3a36cfcefdfa97585871b57fa426f2a8d0c3216e17646f0c784514a431ddc53.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/uk_UA-a3a36cfcefdfa97585871b57fa426f2a8d0c3216e17646f0c784514a431ddc53.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/uk_UA.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/uk_UA.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/vi-c565eec0607ce488299c36b9fd824ad870474551bc3c59aa56d83dd29680f090.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/vi-c565eec0607ce488299c36b9fd824ad870474551bc3c59aa56d83dd29680f090.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/vi.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/vi.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/vi_VN-1215bdcf2a53e2fbb2b527ae05eafb1efd197b7958f6aaf79bf6c8f5596e091a.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/vi_VN-1215bdcf2a53e2fbb2b527ae05eafb1efd197b7958f6aaf79bf6c8f5596e091a.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/vi_VN.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/vi_VN.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/zh_CN-5d02f8f8db3dfc02d335e4318bfc599c451af864168f31e5edd67238b9eb661f.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/zh_CN-5d02f8f8db3dfc02d335e4318bfc599c451af864168f31e5edd67238b9eb661f.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/zh_CN.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/zh_CN.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/zh_TW-6ba2454b38d65044bf19724e965a5ad8260d6df1f801881a9d0825be8062099e.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/zh_TW-6ba2454b38d65044bf19724e965a5ad8260d6df1f801881a9d0825be8062099e.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/zh_TW.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/zh_TW.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/license-5fda611b8191f00121f161a93e7399cdb71789dba923e8ed09b50a1f78d32c5e.txt.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/license-5fda611b8191f00121f161a93e7399cdb71789dba923e8ed09b50a1f78d32c5e.txt.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/license.txt.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/license.txt.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/advlist/plugin-832cf40a8dac8723ffae355e13234b971d14637c669fcfaba360848c7440dc68.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/advlist/plugin-832cf40a8dac8723ffae355e13234b971d14637c669fcfaba360848c7440dc68.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/advlist/plugin.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/advlist/plugin.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/anchor/plugin-c96a7b396f53b17bef5c0da98928191094ae7395fbfca2cfb827a193f6801896.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/anchor/plugin-c96a7b396f53b17bef5c0da98928191094ae7395fbfca2cfb827a193f6801896.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/anchor/plugin.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/anchor/plugin.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/autolink/plugin-89cd646e195a5bbc0bc91c4eb5bff2fcf5a1bbb21462afd31a65c5917d93b5db.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/autolink/plugin-89cd646e195a5bbc0bc91c4eb5bff2fcf5a1bbb21462afd31a65c5917d93b5db.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/autolink/plugin.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/autolink/plugin.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/autoresize/plugin-9721562209a12a29cd2e36128762ba617fb1608a1992d87b380bef488b5a88f4.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/autoresize/plugin-9721562209a12a29cd2e36128762ba617fb1608a1992d87b380bef488b5a88f4.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/autoresize/plugin.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/autoresize/plugin.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/autosave/plugin-3f525ee3c53f7e2297a2ebfd63a992ed47d841a3c52069dbbc912137855db198.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/autosave/plugin-3f525ee3c53f7e2297a2ebfd63a992ed47d841a3c52069dbbc912137855db198.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/autosave/plugin.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/autosave/plugin.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/bbcode/plugin-cff005c7cca30f42b3775b79541332f28858d598548f638dc17652fec6cf85c3.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/bbcode/plugin-cff005c7cca30f42b3775b79541332f28858d598548f638dc17652fec6cf85c3.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/bbcode/plugin.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/bbcode/plugin.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/charmap/plugin-4608383a74c57091d28bdf6cdf49a939a7910c2a1e004edd33889b68756af165.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/charmap/plugin-4608383a74c57091d28bdf6cdf49a939a7910c2a1e004edd33889b68756af165.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/charmap/plugin.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/charmap/plugin.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/code/plugin-19162999401183280ae0c553e1b4ff2fa96fadefac9d471c33785eee3d68704e.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/code/plugin-19162999401183280ae0c553e1b4ff2fa96fadefac9d471c33785eee3d68704e.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/code/plugin.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/code/plugin.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/codesample/css/prism-1988b66704b4d23e78c6c20c38a6856cbc1f0be96d6d60a3a0b12f4408f1057e.css.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/codesample/css/prism-1988b66704b4d23e78c6c20c38a6856cbc1f0be96d6d60a3a0b12f4408f1057e.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/codesample/css/prism.css.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/codesample/css/prism.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/codesample/plugin-30d41f60e30f09789fdc3706716e016ae0880973c2eb8c30de7fecbc0ca6cfe7.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/codesample/plugin-30d41f60e30f09789fdc3706716e016ae0880973c2eb8c30de7fecbc0ca6cfe7.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/codesample/plugin.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/codesample/plugin.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/colorpicker/plugin-c6adeca7e88a7d13d735e14bf093ab2e1fcb2c0f82a297ea9f60f2695afc10d4.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/colorpicker/plugin-c6adeca7e88a7d13d735e14bf093ab2e1fcb2c0f82a297ea9f60f2695afc10d4.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/colorpicker/plugin.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/colorpicker/plugin.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/contextmenu/plugin-d1f2b8c634c537df977536dab9a0a8b47f972b602c5168dee00b0b798ecfdcf5.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/contextmenu/plugin-d1f2b8c634c537df977536dab9a0a8b47f972b602c5168dee00b0b798ecfdcf5.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/contextmenu/plugin.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/contextmenu/plugin.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/directionality/plugin-3180e4640115781a16d949650fc6848b0606aa95eb8884a3b883f9760af48f3f.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/directionality/plugin-3180e4640115781a16d949650fc6848b0606aa95eb8884a3b883f9760af48f3f.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/directionality/plugin.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/directionality/plugin.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/emoticons/img/smiley-cool.gif" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/emoticons/img/smiley-cool.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/emoticons/img/smiley-cry.gif" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/emoticons/img/smiley-cry.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/emoticons/img/smiley-embarassed.gif" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/emoticons/img/smiley-embarassed.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/emoticons/img/smiley-foot-in-mouth.gif" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/emoticons/img/smiley-foot-in-mouth.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/emoticons/img/smiley-frown.gif" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/emoticons/img/smiley-frown.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/emoticons/img/smiley-innocent.gif" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/emoticons/img/smiley-innocent.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/emoticons/img/smiley-kiss.gif" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/emoticons/img/smiley-kiss.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/emoticons/img/smiley-laughing.gif" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/emoticons/img/smiley-laughing.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/emoticons/img/smiley-money-mouth.gif" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/emoticons/img/smiley-money-mouth.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/emoticons/img/smiley-sealed.gif" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/emoticons/img/smiley-sealed.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/emoticons/img/smiley-smile.gif" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/emoticons/img/smiley-smile.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/emoticons/img/smiley-surprised.gif" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/emoticons/img/smiley-surprised.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/emoticons/img/smiley-tongue-out.gif" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/emoticons/img/smiley-tongue-out.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/emoticons/img/smiley-undecided.gif" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/emoticons/img/smiley-undecided.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/emoticons/img/smiley-wink.gif" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/emoticons/img/smiley-wink.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/emoticons/img/smiley-yell.gif" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/emoticons/img/smiley-yell.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/emoticons/plugin-21dd93bd3fd7e022bd6e9a422e66949e5674fb78a86595f7d376b654fd4102d8.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/emoticons/plugin-21dd93bd3fd7e022bd6e9a422e66949e5674fb78a86595f7d376b654fd4102d8.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/emoticons/plugin.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/emoticons/plugin.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/example/dialog-5c61ad829a494e75c2234019c7941f6dd096ec693cf5a5538c0bf30485097841.html.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/example/dialog-5c61ad829a494e75c2234019c7941f6dd096ec693cf5a5538c0bf30485097841.html.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/example/dialog.html.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/example/dialog.html.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/example/plugin-45e3ace6e797ed7ed1e87d61e26a388d903a5f7c1fa3071ed2d66b91230b9efc.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/example/plugin-45e3ace6e797ed7ed1e87d61e26a388d903a5f7c1fa3071ed2d66b91230b9efc.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/example/plugin.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/example/plugin.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/example_dependency/plugin-b34159ea7a4f528369cef895f67eb5be0d293e5f16fb661f01de71b1c22c0e1e.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/example_dependency/plugin-b34159ea7a4f528369cef895f67eb5be0d293e5f16fb661f01de71b1c22c0e1e.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/example_dependency/plugin.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/example_dependency/plugin.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/fullpage/plugin-d9222e615f055d68f4fa7a886d8d5043591688a0ab59e16a49e593decc1f7088.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/fullpage/plugin-d9222e615f055d68f4fa7a886d8d5043591688a0ab59e16a49e593decc1f7088.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/fullpage/plugin.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/fullpage/plugin.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/fullscreen/plugin-06cb9670aa9468e8a8c0ce123c3ec46ce0bb4ea6e9ceb29a9319a7c1be838c88.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/fullscreen/plugin-06cb9670aa9468e8a8c0ce123c3ec46ce0bb4ea6e9ceb29a9319a7c1be838c88.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/fullscreen/plugin.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/fullscreen/plugin.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/hr/plugin-3e4eef4b7090cdc77a36a32490d0041f5c6633eb337e756d45ad78211a169ca5.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/hr/plugin-3e4eef4b7090cdc77a36a32490d0041f5c6633eb337e756d45ad78211a169ca5.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/hr/plugin.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/hr/plugin.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/image/plugin-9d9822e2c6fa9e1882d11439a4b85ae4840abd185a467f4c0bf78cee34466035.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/image/plugin-9d9822e2c6fa9e1882d11439a4b85ae4840abd185a467f4c0bf78cee34466035.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/image/plugin.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/image/plugin.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/imagetools/plugin-9d771de30bba668228ccf42c1e1772896879cfe54639c1b4f45a251b4eaa9bb1.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/imagetools/plugin-9d771de30bba668228ccf42c1e1772896879cfe54639c1b4f45a251b4eaa9bb1.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/imagetools/plugin.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/imagetools/plugin.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/importcss/plugin-ffec5b2cf2aac69b256cccb388da622f8a672b52fecb2a2f3e0d7675d92ca888.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/importcss/plugin-ffec5b2cf2aac69b256cccb388da622f8a672b52fecb2a2f3e0d7675d92ca888.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/importcss/plugin.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/importcss/plugin.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/insertdatetime/plugin-8f835b03c4eb1dc0ce12ffe4aa42857d83d6fd69c79afd5acc2f8697001078bf.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/insertdatetime/plugin-8f835b03c4eb1dc0ce12ffe4aa42857d83d6fd69c79afd5acc2f8697001078bf.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/insertdatetime/plugin.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/insertdatetime/plugin.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/legacyoutput/plugin-954bfa700485295b98548d1342b3bb88a2b716676565ea15cb8699eb65a4d7a8.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/legacyoutput/plugin-954bfa700485295b98548d1342b3bb88a2b716676565ea15cb8699eb65a4d7a8.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/legacyoutput/plugin.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/legacyoutput/plugin.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/link/plugin-3b61bd32dc3e6f5a7c98f53eee64b6c88aa52347aeb6c73f88bc77ed6d8dda72.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/link/plugin-3b61bd32dc3e6f5a7c98f53eee64b6c88aa52347aeb6c73f88bc77ed6d8dda72.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/link/plugin.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/link/plugin.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/lists/plugin-8b840312569daf89a0f8e3bea15991a8e146f98b6d086f77de4240fa02e91a3d.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/lists/plugin-8b840312569daf89a0f8e3bea15991a8e146f98b6d086f77de4240fa02e91a3d.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/lists/plugin.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/lists/plugin.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/media/plugin-ebc275e684a818c7fa7bd9dd2d5371cf66c53e7589697b2958eb9f41e58ee715.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/media/plugin-ebc275e684a818c7fa7bd9dd2d5371cf66c53e7589697b2958eb9f41e58ee715.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/media/plugin.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/media/plugin.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/nonbreaking/plugin-7ecbc457f2ddfc258420a64405b8a243bb57afcc4c6d6c2bcd2e1faa1c92c928.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/nonbreaking/plugin-7ecbc457f2ddfc258420a64405b8a243bb57afcc4c6d6c2bcd2e1faa1c92c928.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/nonbreaking/plugin.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/nonbreaking/plugin.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/noneditable/plugin-5ea2f10e0d349e6286cda86e3adc656d6623e8588b82f09422c805f630d8fa25.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/noneditable/plugin-5ea2f10e0d349e6286cda86e3adc656d6623e8588b82f09422c805f630d8fa25.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/noneditable/plugin.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/noneditable/plugin.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/pagebreak/plugin-5610c565fdddeec9d143f81f3de6d1e188b121746806b6972462f96432451cef.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/pagebreak/plugin-5610c565fdddeec9d143f81f3de6d1e188b121746806b6972462f96432451cef.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/pagebreak/plugin.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/pagebreak/plugin.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/paste/plugin-859002102d50c36b2cd3c6dd8bb870fb25d9bc96921c5300042e258cdfeb76ea.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/paste/plugin-859002102d50c36b2cd3c6dd8bb870fb25d9bc96921c5300042e258cdfeb76ea.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/paste/plugin.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/paste/plugin.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/preview/plugin-a8b9f6537a9b0914e9df69ee36c3de2dc2a2738c5430f5bc790a6ff7f509be54.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/preview/plugin-a8b9f6537a9b0914e9df69ee36c3de2dc2a2738c5430f5bc790a6ff7f509be54.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/preview/plugin.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/preview/plugin.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/print/plugin-c35f8904705a183aa511df359c937ed4c74d27c657c45c0dc05b047f09e2a770.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/print/plugin-c35f8904705a183aa511df359c937ed4c74d27c657c45c0dc05b047f09e2a770.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/print/plugin.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/print/plugin.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/save/plugin-16d6bb691adafd47d064b8ec4259c7acf5ff696e0ac08ed6347ddbca6b286c62.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/save/plugin-16d6bb691adafd47d064b8ec4259c7acf5ff696e0ac08ed6347ddbca6b286c62.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/save/plugin.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/save/plugin.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/searchreplace/plugin-775142519ca6b9de6aad7b1bf6f2180449a5d5ca63333b3d72f2b9fbadb75d18.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/searchreplace/plugin-775142519ca6b9de6aad7b1bf6f2180449a5d5ca63333b3d72f2b9fbadb75d18.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/searchreplace/plugin.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/searchreplace/plugin.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/spellchecker/plugin-e71133f2cdc55732cb1967e9c2cb5636dc9859c54dfbf5da042b901c7a5d984c.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/spellchecker/plugin-e71133f2cdc55732cb1967e9c2cb5636dc9859c54dfbf5da042b901c7a5d984c.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/spellchecker/plugin.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/spellchecker/plugin.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/tabfocus/plugin-31e3cde90802ef6287a9bee3ae2d00e8dff90c607abb0c6f079624cb646699f2.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/tabfocus/plugin-31e3cde90802ef6287a9bee3ae2d00e8dff90c607abb0c6f079624cb646699f2.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/tabfocus/plugin.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/tabfocus/plugin.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/table/plugin-500a14df6b2054f10976ef8db3f1fcd9744ee03ba7f7c4d3c455719aecb09ccf.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/table/plugin-500a14df6b2054f10976ef8db3f1fcd9744ee03ba7f7c4d3c455719aecb09ccf.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/table/plugin.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/table/plugin.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/template/plugin-a08f7599b455eaad48d758b250840aa1e904d3f0b042a08af8f383ff235617db.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/template/plugin-a08f7599b455eaad48d758b250840aa1e904d3f0b042a08af8f383ff235617db.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/template/plugin.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/template/plugin.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/textcolor/plugin-2542a51cecc2415bfc0b309a26e1aba354ebd202830faf7de588ae5a082519a9.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/textcolor/plugin-2542a51cecc2415bfc0b309a26e1aba354ebd202830faf7de588ae5a082519a9.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/textcolor/plugin.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/textcolor/plugin.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/textpattern/plugin-b5b70e5d74249568c3efb47d1e1a49d6b036d82d690c34c7f614df36c2cf04ba.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/textpattern/plugin-b5b70e5d74249568c3efb47d1e1a49d6b036d82d690c34c7f614df36c2cf04ba.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/textpattern/plugin.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/textpattern/plugin.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/toc/plugin-24205d0fa8ff17cfb5536f858c5197e6be22865f6ba6ccbf6071abfffede519c.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/toc/plugin-24205d0fa8ff17cfb5536f858c5197e6be22865f6ba6ccbf6071abfffede519c.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/toc/plugin.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/toc/plugin.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/visualblocks/css/visualblocks-e44e30ebe30e4d3763425a9ea38b558ff13106b8e16a30a74ae21b4c174b3417.css.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/visualblocks/css/visualblocks-e44e30ebe30e4d3763425a9ea38b558ff13106b8e16a30a74ae21b4c174b3417.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/visualblocks/css/visualblocks.css.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/visualblocks/css/visualblocks.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/visualblocks/plugin-99c053a0075c43cf248a6f0a4da3500a059aa115e1b3874ff63513922fd34942.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/visualblocks/plugin-99c053a0075c43cf248a6f0a4da3500a059aa115e1b3874ff63513922fd34942.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/visualblocks/plugin.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/visualblocks/plugin.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/visualchars/plugin-272be6b164f4f4f2f22e8d9b6df9f92e9875d9d66663e834f90a0d146ad3a5c8.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/visualchars/plugin-272be6b164f4f4f2f22e8d9b6df9f92e9875d9d66663e834f90a0d146ad3a5c8.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/visualchars/plugin.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/visualchars/plugin.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/wordcount/plugin-a614ef26f7450687583ed9ef6ce5c6a14333c5815917a3214d6185d90d51b01f.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/wordcount/plugin-a614ef26f7450687583ed9ef6ce5c6a14333c5815917a3214d6185d90d51b01f.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/wordcount/plugin.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/wordcount/plugin.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/preinit-63625cd3d970d7549b7b5dc3a81aac9bd9f229186f283d9b61b5b6a910a22165.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/preinit-63625cd3d970d7549b7b5dc3a81aac9bd9f229186f283d9b61b5b6a910a22165.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/preinit.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/preinit.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/content.inline.min-5bb5c69d072a2d17d11e0c54bc81b6f863e5b5a126060d862970f0c22f5d49ec.css.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/content.inline.min-5bb5c69d072a2d17d11e0c54bc81b6f863e5b5a126060d862970f0c22f5d49ec.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/content.inline.min.css.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/content.inline.min.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/content.min-92e6da84fb5c2dfcc35f34d311ca1914b19064ada45fa9a08ff2a68c0fc0e657.css.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/content.min-92e6da84fb5c2dfcc35f34d311ca1914b19064ada45fa9a08ff2a68c0fc0e657.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/content.min.css.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/content.min.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce-1ebc636bb24cbea637946ba8c22cbf4f35d8343ba9763045d2aee59e3714ae78.woff" afterPath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce-1ebc636bb24cbea637946ba8c22cbf4f35d8343ba9763045d2aee59e3714ae78.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce-2094ddadc265c7f33570475fc78ef7adcdcb814e49060d17f5b4c4f8d1cb7ec6.svg.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce-2094ddadc265c7f33570475fc78ef7adcdcb814e49060d17f5b4c4f8d1cb7ec6.svg.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce-2e9c4a68fde992476e0db9e44128cb1f2e898f0de0b80f552a8acb52bb7ca0db.eot" afterPath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce-2e9c4a68fde992476e0db9e44128cb1f2e898f0de0b80f552a8acb52bb7ca0db.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce-2e9c4a68fde992476e0db9e44128cb1f2e898f0de0b80f552a8acb52bb7ca0db.eot.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce-2e9c4a68fde992476e0db9e44128cb1f2e898f0de0b80f552a8acb52bb7ca0db.eot.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce-477ea2d46c1a975dd492af4c10235fabfd09069595779cce00ea0381ca9b4a20.ttf" afterPath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce-477ea2d46c1a975dd492af4c10235fabfd09069595779cce00ea0381ca9b4a20.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce-477ea2d46c1a975dd492af4c10235fabfd09069595779cce00ea0381ca9b4a20.ttf.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce-477ea2d46c1a975dd492af4c10235fabfd09069595779cce00ea0381ca9b4a20.ttf.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce-small-2f657502906d6f5c3fc8df3a82969114ebe030addfdc061c60c974b0f515fd09.ttf" afterPath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce-small-2f657502906d6f5c3fc8df3a82969114ebe030addfdc061c60c974b0f515fd09.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce-small-2f657502906d6f5c3fc8df3a82969114ebe030addfdc061c60c974b0f515fd09.ttf.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce-small-2f657502906d6f5c3fc8df3a82969114ebe030addfdc061c60c974b0f515fd09.ttf.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce-small-a10fc4343d95b716c16d77463d475be5c079599ea67e1cd2bd3a94d5e7f508f9.eot" afterPath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce-small-a10fc4343d95b716c16d77463d475be5c079599ea67e1cd2bd3a94d5e7f508f9.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce-small-a10fc4343d95b716c16d77463d475be5c079599ea67e1cd2bd3a94d5e7f508f9.eot.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce-small-a10fc4343d95b716c16d77463d475be5c079599ea67e1cd2bd3a94d5e7f508f9.eot.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce-small-d3efbb678ca6de5632902bd93772746ba2f8e4e2322b953936e12694a183aa31.woff" afterPath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce-small-d3efbb678ca6de5632902bd93772746ba2f8e4e2322b953936e12694a183aa31.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce-small-e7773001446ab937e1d8d4bd5e8dbd9b31d112037353a14b319e36dd010ed8ee.svg.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce-small-e7773001446ab937e1d8d4bd5e8dbd9b31d112037353a14b319e36dd010ed8ee.svg.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce-small.eot" afterPath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce-small.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce-small.eot.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce-small.eot.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce-small.svg.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce-small.svg.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce-small.ttf" afterPath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce-small.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce-small.ttf.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce-small.ttf.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce-small.woff" afterPath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce-small.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce.eot" afterPath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce.eot.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce.eot.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce.svg.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce.svg.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce.ttf" afterPath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce.ttf.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce.ttf.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce.woff" afterPath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/img/anchor.gif" afterPath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/img/anchor.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/img/loader.gif" afterPath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/img/loader.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/img/object.gif" afterPath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/img/object.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/img/trans.gif" afterPath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/img/trans.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/skin.ie7.min-f7e68049f5f1ba278870818429ef905d07846781701c40657d9d24ca6638cced.css.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/skin.ie7.min-f7e68049f5f1ba278870818429ef905d07846781701c40657d9d24ca6638cced.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/skin.ie7.min.css.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/skin.ie7.min.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/skin.min-6d81e56f6d40695f114abe4db834ccb7bf7d89cfa07c10c2cbaebb8066ace27b.css.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/skin.min-6d81e56f6d40695f114abe4db834ccb7bf7d89cfa07c10c2cbaebb8066ace27b.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/skin.min.css.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/skin.min.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/themes/inlite/theme-27dd093fcfdd0ca6ef93ed690e93ba910ef85e5d4097562059fb777616eb846b.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/themes/inlite/theme-27dd093fcfdd0ca6ef93ed690e93ba910ef85e5d4097562059fb777616eb846b.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/themes/inlite/theme.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/themes/inlite/theme.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/themes/modern/theme-1c086f29f7119037d29ed84871fcd3cb68e3cce5cd07443936454661a88a86a2.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/themes/modern/theme-1c086f29f7119037d29ed84871fcd3cb68e3cce5cd07443936454661a88a86a2.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/themes/modern/theme.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/themes/modern/theme.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/tinymce-e175fc6a6df86eb999881a7bf08e4967f0d2d765d09659ee8df5e78036f48b9a.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/tinymce-e175fc6a6df86eb999881a7bf08e4967f0d2d765d09659ee8df5e78036f48b9a.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/tinymce.js.gz" afterPath="$PROJECT_DIR$/public/assets/tinymce/tinymce.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Capfile" afterPath="$PROJECT_DIR$/Capfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/admin.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/admin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/cable.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/cable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/tinymce-jquery.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/tinymce-jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/tinymce.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/tinymce.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/main.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/main.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/deploy.rb" afterPath="$PROJECT_DIR$/config/deploy.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/development.rb" afterPath="$PROJECT_DIR$/config/environments/development.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/jquery.tinymce.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/jquery.tinymce.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ar.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ar_SA.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ar_SA.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/az.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/az.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/be.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/be.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/bg_BG.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/bg_BG.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/bn_BD.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/bn_BD.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/bs.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/bs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ca.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ca.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/cs.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/cs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/cs_CZ.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/cs_CZ.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/cy.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/cy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/da.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/da.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/de.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/de.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/de_AT.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/de_AT.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/dv.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/dv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/el.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/el.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/en_CA.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/en_CA.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/en_GB.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/en_GB.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/eo.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/eo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/es.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/es.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/es_MX.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/es_MX.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/et.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/et.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/eu.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/eu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/fa.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/fa.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/fa_IR.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/fa_IR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/fi.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/fi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/fo.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/fo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/fr_CH.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/fr_CH.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/fr_FR.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/fr_FR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ga.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ga.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/gd.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/gd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/gl.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/gl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/he_IL.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/he_IL.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/hi_IN.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/hi_IN.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/hr.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/hr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/hu_HU.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/hu_HU.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/hy.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/hy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/id.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/id.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/is_IS.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/is_IS.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/it.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/it.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ja.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ja.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ka_GE.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ka_GE.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/kab.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/kab.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/kk.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/kk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/km_KH.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/km_KH.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ko.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ko.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ko_KR.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ko_KR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ku.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ku.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ku_IQ.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ku_IQ.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/lb.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/lb.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/lt.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/lt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/lv.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/lv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/mk_MK.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/mk_MK.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ml.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ml.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ml_IN.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ml_IN.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/mn_MN.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/mn_MN.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/nb_NO.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/nb_NO.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/nl.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/nl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/pl.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/pl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/pt_BR.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/pt_BR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/pt_PT.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/pt_PT.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/readme.md" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ro.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ro.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ru.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ru.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ru_RU.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ru_RU.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/si_LK.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/si_LK.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/sk.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/sk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/sl_SI.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/sl_SI.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/sr.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/sr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/sv_SE.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/sv_SE.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ta.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ta.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ta_IN.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ta_IN.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/tg.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/tg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/th_TH.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/th_TH.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/tr.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/tr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/tr_TR.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/tr_TR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/tt.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/tt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/ug.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/ug.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/uk.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/uk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/uk_UA.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/uk_UA.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/vi.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/vi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/vi_VN.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/vi_VN.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/zh_CN.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/zh_CN.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/langs/zh_TW.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/langs/zh_TW.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/license.txt" afterPath="$PROJECT_DIR$/public/assets/tinymce/license.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/advlist/plugin.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/advlist/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/anchor/plugin.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/anchor/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/autolink/plugin.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/autolink/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/autoresize/plugin.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/autoresize/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/autosave/plugin.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/autosave/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/bbcode/plugin.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/bbcode/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/charmap/plugin.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/charmap/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/code/plugin.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/code/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/codesample/css/prism.css" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/codesample/css/prism.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/codesample/plugin.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/codesample/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/colorpicker/plugin.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/colorpicker/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/contextmenu/plugin.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/contextmenu/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/directionality/plugin.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/directionality/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/emoticons/plugin.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/emoticons/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/example/dialog.html" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/example/dialog.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/example/plugin.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/example/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/example_dependency/plugin.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/example_dependency/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/fullpage/plugin.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/fullpage/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/fullscreen/plugin.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/fullscreen/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/hr/plugin.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/hr/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/image/plugin.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/image/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/imagetools/plugin.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/imagetools/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/importcss/plugin.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/importcss/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/insertdatetime/plugin.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/insertdatetime/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/legacyoutput/plugin.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/legacyoutput/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/link/plugin.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/link/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/lists/plugin.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/lists/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/media/plugin.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/media/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/nonbreaking/plugin.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/nonbreaking/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/noneditable/plugin.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/noneditable/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/pagebreak/plugin.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/pagebreak/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/paste/plugin.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/paste/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/preview/plugin.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/preview/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/print/plugin.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/print/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/save/plugin.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/save/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/searchreplace/plugin.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/searchreplace/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/spellchecker/plugin.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/spellchecker/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/tabfocus/plugin.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/tabfocus/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/table/plugin.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/table/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/template/plugin.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/template/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/textcolor/plugin.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/textcolor/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/textpattern/plugin.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/textpattern/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/toc/plugin.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/toc/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/visualblocks/css/visualblocks.css" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/visualblocks/css/visualblocks.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/visualblocks/plugin.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/visualblocks/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/visualchars/plugin.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/visualchars/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/plugins/wordcount/plugin.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/plugins/wordcount/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/preinit.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/preinit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/content.inline.min.css" afterPath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/content.inline.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/content.min.css" afterPath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/content.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce-small.svg" afterPath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce-small.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce.svg" afterPath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/fonts/tinymce.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/skin.ie7.min.css" afterPath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/skin.ie7.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/skin.min.css" afterPath="$PROJECT_DIR$/public/assets/tinymce/skins/lightgray/skin.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/themes/inlite/theme.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/themes/inlite/theme.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/themes/modern/theme.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/themes/modern/theme.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tinymce/tinymce.js" afterPath="$PROJECT_DIR$/public/assets/tinymce/tinymce.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -20,7 +522,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/metal22.ru@Development__metal22_ru.coverage" NAME="Development: metal22.ru Coverage Results" MODIFIED="1488884580218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="metal22.ru" />
+    <SUITE FILE_PATH="coverage/metal22.ru@Development__metal22_ru.coverage" NAME="Development: metal22.ru Coverage Results" MODIFIED="1488942100669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="metal22.ru" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -36,42 +538,40 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="production.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="32" column="3" lean-forward="true" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="manifest.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/config/manifest.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="development.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="59" column="59" lean-forward="false" selection-start-line="59" selection-start-column="59" selection-end-line="59" selection-end-column="59" />
+            <state relative-caret-position="465">
+              <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="application.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/application.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="assets.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/initializers/assets.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
+            <state relative-caret-position="216">
               <caret line="53" column="29" lean-forward="false" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
               <folding />
             </state>
@@ -81,7 +581,7 @@
       <file leaf-file-name="nginx.conf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/provision/configs/nginx.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
+            <state relative-caret-position="108">
               <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
@@ -91,8 +591,8 @@
       <file leaf-file-name="Capfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Capfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="33" column="37" lean-forward="false" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+            <state relative-caret-position="558">
+              <caret line="31" column="25" lean-forward="false" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -102,7 +602,7 @@
         <entry file="file://$PROJECT_DIR$/config/deploy.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="14" column="88" lean-forward="false" selection-start-line="14" selection-start-column="88" selection-end-line="14" selection-end-column="88" />
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -111,7 +611,7 @@
       <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="1476">
               <caret line="82" column="50" lean-forward="false" selection-start-line="82" selection-start-column="50" selection-end-line="82" selection-end-column="50" />
               <folding />
             </state>
@@ -121,7 +621,7 @@
       <file leaf-file-name="puma.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/puma.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-403">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -203,10 +703,8 @@
         <option value="$PROJECT_DIR$/config/provision/configs/settings.yml" />
         <option value="$PROJECT_DIR$/config/secrets.yml" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/config/initializers/assets.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-        <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/app/views/components/_slider.html.erb" />
         <option value="$PROJECT_DIR$/config/deploy/production.rb" />
         <option value="$PROJECT_DIR$/config/boot.rb" />
@@ -215,12 +713,14 @@
         <option value="$PROJECT_DIR$/config/provision/configs/database.yml" />
         <option value="$PROJECT_DIR$/config/provision/configs/nginx.conf" />
         <option value="$PROJECT_DIR$/config/deploy/assets.rb" />
-        <option value="$PROJECT_DIR$/Capfile" />
-        <option value="$PROJECT_DIR$/config/deploy.rb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/main.scss" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
+        <option value="$PROJECT_DIR$/config/deploy.rb" />
+        <option value="$PROJECT_DIR$/Capfile" />
+        <option value="$PROJECT_DIR$/config/initializers/assets.rb" />
+        <option value="$PROJECT_DIR$/config/application.rb" />
+        <option value="$PROJECT_DIR$/config/environments/development.rb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/main.scss" />
       </list>
     </option>
   </component>
@@ -262,7 +762,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="RailsProjectView" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -457,28 +959,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="metal22.ru" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="metal22.ru" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -492,19 +974,19 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/app/assets" />
-      <recent name="$PROJECT_DIR$/config/provision/keys" />
-      <recent name="$PROJECT_DIR$/config/provision/config" />
-      <recent name="$PROJECT_DIR$/app/assets/images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/app/views/line_items" />
       <recent name="$PROJECT_DIR$/app/views/carts" />
       <recent name="$PROJECT_DIR$/app/views/orders" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/app/assets" />
+      <recent name="$PROJECT_DIR$/config/provision/keys" />
+      <recent name="$PROJECT_DIR$/config/provision/config" />
+      <recent name="$PROJECT_DIR$/app/assets/images" />
     </key>
   </component>
   <component name="RunManager" selected="Rails.Development: metal22.ru">
@@ -820,12 +1302,14 @@
       <workItem from="1488591203361" duration="11656000" />
       <workItem from="1488731612689" duration="132000" />
       <workItem from="1488781602523" duration="12475000" />
-      <workItem from="1488820492741" duration="20996000" />
+      <workItem from="1488820492741" duration="21637000" />
+      <workItem from="1488904789117" duration="1533000" />
+      <workItem from="1488941009984" duration="1870000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="955314000" />
+    <option name="totallyTimeSpent" value="959358000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -840,14 +1324,14 @@
     <frame x="-2" y="25" width="1603" height="877" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23052157" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23696072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32692307" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29807693" sideWeight="0.50611717" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296845" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32692307" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34203297" sideWeight="0.4977463" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27747253" sideWeight="0.49130714" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2760989" sideWeight="0.49130714" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39835164" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -894,21 +1378,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/provision/keys/id_rsa" />
-    <entry file="file://$PROJECT_DIR$/app/controllers/items_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/articles/_article.json.jbuilder">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/provision/config/settings.yml" />
     <entry file="file://$PROJECT_DIR$/config/provision/config/nginx.conf" />
     <entry file="file://$PROJECT_DIR$/config/provision/config/pg_hba.conf" />
@@ -986,7 +1455,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1017,13 +1485,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="68" lean-forward="false" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/log/production.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1038,14 +1499,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/log/capistrano.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -1057,7 +1510,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1065,7 +1517,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1073,7 +1524,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1081,7 +1531,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="20" column="54" lean-forward="false" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1089,7 +1538,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1097,7 +1545,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1105,87 +1552,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1452">
           <caret line="163" column="40" lean-forward="false" selection-start-line="163" selection-start-column="40" selection-end-line="163" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/puma.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-403">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/provision/configs/nginx.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/deploy/assets.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="199" column="3" lean-forward="false" selection-start-line="199" selection-start-column="3" selection-end-line="199" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Capfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="33" column="37" lean-forward="false" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/deploy.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="88" lean-forward="false" selection-start-line="14" selection-start-column="88" selection-end-line="14" selection-end-column="88" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="53" column="29" lean-forward="false" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="82" column="50" lean-forward="false" selection-start-line="82" selection-start-column="50" selection-end-line="82" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="59" column="59" lean-forward="false" selection-start-line="59" selection-start-column="59" selection-end-line="59" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/assets.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/config/deploy/assets.rb" />
     <entry file="file://$PROJECT_DIR$/vendor/nado.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1193,16 +1567,116 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/.sprockets-manifest-c399d143860e3728cf71b50dc495cc38.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-864">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="32" column="3" lean-forward="true" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+        <state relative-caret-position="576">
+          <caret line="32" column="3" lean-forward="false" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2700">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/assets.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/provision/configs/nginx.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Capfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" column="25" lean-forward="false" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/deploy.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1476">
+          <caret line="82" column="50" lean-forward="false" selection-start-line="82" selection-start-column="50" selection-end-line="82" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/puma.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="53" column="29" lean-forward="false" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
           <folding />
         </state>
       </provider>
