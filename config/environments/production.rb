@@ -9,7 +9,6 @@ Rails.application.configure do
   # and those relying on copy on write to perform better.
   # Rake tasks automatically ignore this option for performance.
   config.eager_load = true
-  config.exceptions_app = self.routes
 
   # Full error reports are disabled and caching is turned on.
   config.consider_all_requests_local       = false
@@ -19,24 +18,33 @@ Rails.application.configure do
   # Apache or NGINX already handles this.
   config.public_file_server.enabled = ENV['RAILS_SERVE_STATIC_FILES'].present?
 
-  if ENV["RAILS_LOG_TO_STDOUT"].present?
-    logger           = ActiveSupport::Logger.new(STDOUT)
-    logger.formatter = config.log_formatter
-    config.logger = ActiveSupport::TaggedLogging.new(logger)
-  end
-
-  config.serve_static_assets = true
-  config.action_dispatch.x_sendfile_header = nil
-
   # Compress JavaScripts and CSS.
   config.assets.js_compressor = :uglifier
   # config.assets.css_compressor = :sass
 
   # Do not fallback to assets pipeline if a precompiled asset is missed.
-  config.action_dispatch.x_sendfile_header = nil
-
+  config.assets.digest = true
+  config.serve_static_assets = true
+  config.assets.compile = true
+  config.assets.initialize_on_precompile = false
+  config.public_file_server.headers = {
+      'Cache-Control' => 'public, s-maxage=31536000, maxage=15552000',
+      'Expires' => "#{1.year.from_now.to_formatted_s(:rfc822)}"
+  }
   # `config.assets.precompile` and `config.assets.version` have moved to config/initializers/assets.rb
-
+  config.action_mailer.perform_caching = true
+  config.action_mailer.raise_delivery_errors = true
+  config.action_mailer.perform_deliveries = true
+  config.action_mailer.default_url_options = { :host => 'http://' }
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+      address:              'smtp.sendgrid.net',
+      port:                 587,
+      domain:               'heroku.com',
+      user_name:            ENV['SENDGRID_USERNAME'],
+      password:             ENV['SENDGRID_PASSWORD'],
+      authentication:       'plain',
+      enable_starttls_auto: true  }
   # Enable serving of images, stylesheets, and JavaScripts from an asset server.
   # config.action_controller.asset_host = 'http://assets.example.com'
 
@@ -64,15 +72,8 @@ Rails.application.configure do
 
   # Use a real queuing backend for Active Job (and separate queues per environment)
   # config.active_job.queue_adapter     = :resque
-  # config.active_job.queue_name_prefix = "metal22_ru_#{Rails.env}"
-  config.action_mailer.delivery_method = :sendmail
-  # Defaults to:
-  # config.action_mailer.sendmail_settings = {
-  #   :location => '/usr/sbin/sendmail',
-  #   :arguments => '-i -t'
-  # }
-  config.action_mailer.perform_deliveries = true
-  config.action_mailer.raise_delivery_errors = true
+  # config.active_job.queue_name_prefix = "RaILS5_#{Rails.env}"
+  config.action_mailer.perform_caching = false
 
   # Ignore bad email addresses and do not raise email delivery errors.
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
