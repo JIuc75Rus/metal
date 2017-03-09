@@ -15,6 +15,16 @@ class ItemsController < ApplicationController
   def show
   end
 
+  def who_bought
+    @item = Item.find(params[:id])
+    @latest_order = @item.orders.order(:updated_at).last
+    if stale?(@latest_order)
+      respond_to do |format|
+        format.atom
+      end
+    end
+  end
+
   # GET /items/new
   def new
     @item = Item.new

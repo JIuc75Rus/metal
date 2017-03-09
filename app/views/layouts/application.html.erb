@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <%= display_meta_tags %>
   <%= csrf_meta_tags %>
-  <script src="//api-maps.yandex.ru/2.0/?load=package.standard&lang=ru-RU" type="text/javascript"></script>
   <%= stylesheet_link_tag    'application' %>
   <%= javascript_include_tag 'application' %>
   <%= javascript_include_tag 'jquery.orbit-1.2.3' %>
   <%= javascript_include_tag 'mail' %>
-  <meta name="viewport" content="initial-scale=0, maximum-scale=1, user-scalable=yes">
+  <meta name="viewport" content="initial-scale=0, maximum-scale=1, user-scalable=no">
 </head>
 <body>
 <section class="header">
@@ -81,10 +80,10 @@
         <h2>Наши партнеры:</h2>
       </div>
       <div class="partner">
-        <a href="http://www.mechel.ru/"><img src="<%= image_url('mechellogo.jpg') %>" alt=""></a>
-        <a href="http://shvabe.com/"><img src="<%= image_url('shvabe.png') %>" alt=""></a>
-        <a href="http://www.russteels.ru/"><img src="<%= image_url('russteels.png') %>" alt=""></a>
-        <a href="http://www.kuzocm.ru/"><img src="<%= image_url('kuzocm.png') %>" alt=""></a>
+        <a href="http://www.mechel.ru/"><img src="/assets/mechellogo.jpg" alt=""></a>
+        <a href="http://shvabe.com/"><img src="/assets/shvabe.png" alt=""></a>
+        <a href="http://www.russteels.ru/"><img src="/assets/russteels.png" alt=""></a>
+        <a href="http://www.kuzocm.ru/"><img src="/assets/kuzocm.png" alt=""></a>
       </div>
     </div>
   </div>
@@ -92,7 +91,7 @@
 <section class="footer">
   <div class="company_info">
     <div class="copy">
-      <div class="copyrighting">Меркурий, 2000-2017</div>
+      <div class="copyrighting">Меркурий, 2000-2020</div>
       <div class="copy_item">Все права защищены</div>
     </div>
     <div class="address"><div class="address_item"><a href="<%= contacts_path %>">Алтайский край г. Бийск<br>ул. Пугачева, д. 19</a></div></div>
@@ -141,15 +140,4 @@
 <noscript><div><img src="https://mc.yandex.ru/watch/42874099" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
 </body>
-<script>
-    ymaps.ready(init);
-    function init() {
-        var geolocation = ymaps.geolocation;
-        if (geolocation) {
-            $("#location").attr('value', geolocation.country + ', ' + geolocation.region + ', ' + geolocation.city);//#order-fld-2 - поле с вводом адреса доставки
-        } else {
-            console.log('Не удалось установить местоположение');
-        }
-    }
-</script>
 </html>

@@ -109,24 +109,15 @@
       <table>
         <tbody><tr>
           <td class="masthead" align="center">
-            <h1>Сообщение с сайта metal22.ru</h1>
+            <h1>Запрос звонка с сайта metal22.ru</h1>
           </td>
         </tr>
         <tr>
           <td class="content">
-            <h2>От: <%= @online_form.name %> <%= @online_form.email %></h2>
-            <p>Номер: <%= @online_form.phone %></p>
+            <h2>От: <%= @call_back.name %> <%= @call_back.email %></h2>
+            <p>Номер: <%= @call_back.phone %></p>
             <p><%= @call_back.geo %> ip: <%= @call_back.ip %></p>
-            <p><%= @online_form.message %></p>
-            <table>
-              <tbody><tr>
-                <td align="center">
-                  <p>
-                    <a href="mailto:<%= @online_form.email %>" class="button">Ответить клиенту</a>
-                  </p>
-                </td>
-              </tr>
-              </tbody></table>
+            <p><%= @call_back.message %></p>
             <p></p>
             <p></p>
           </td>
