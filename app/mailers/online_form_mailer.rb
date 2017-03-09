@@ -1,6 +1,6 @@
 class OnlineFormMailer < ApplicationMailer
 
-    default from: 'metal22.ru',
+    default from: 'contacts@metal22.ru',
             template_path: 'mailers/online_form'
     def online_form(online_form)
       @online_form = online_form

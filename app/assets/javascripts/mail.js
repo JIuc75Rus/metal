@@ -64,3 +64,4 @@ new Image().src = "//counter.yadro.ru/hit?r"+
             screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
     ";h"+escape(document.title.substring(0,80))+
     ";"+Math.random();
+
