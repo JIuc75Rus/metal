@@ -9,8 +9,9 @@ end
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.1'
 # Use mysql as the database for Active Record
+gem 'mysql2', '>= 0.3.18', '< 0.5'
 # Use Puma as the app server
-gem 'puma'
+gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -46,21 +47,14 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
-  # Гем, который добавляет специфические для Rails таски, такие как прогон миграций и компиляция ассетов
-  gem 'capistrano-rails'
-  # Гем, добавляющий возможности bundle к capistrano
-  gem 'capistrano-bundler'
-  # Добавление поддержки Rbenv (менеджера версий для Ruby)
-  gem 'capistrano-rbenv'
-  # Интеграция пумы и капистрано
-  gem 'capistrano3-puma'
-  gem 'mysql2'
 end
 
 group :production do
-  gem 'rails_12factor'
+  gem "rails_12factor"
+  gem 'rails_serve_static_assets'
   gem 'pg'
 end
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'devise'
@@ -78,5 +72,3 @@ gem 'ancestry'
 gem 'newrelic_rpm'
 gem 'dynamic_sitemaps'
 gem 'meta-tags'
-ruby '2.3.3'
-gem 'unicorn'
