@@ -32,8 +32,14 @@ Rails.application.configure do
       'Expires' => "#{1.year.from_now.to_formatted_s(:rfc822)}"
   }
   # `config.assets.precompile` and `config.assets.version` have moved to config/initializers/assets.rb
-  config.action_mailer.raise_delivery_errors = false
   config.action_mailer.delivery_method = :sendmail
+  # Defaults to:
+  config.action_mailer.sendmail_settings = {
+    :arguments => '-i'
+
+  }
+  config.action_mailer.perform_deliveries = true
+  config.action_mailer.raise_delivery_errors = true
   # Enable serving of images, stylesheets, and JavaScripts from an asset server.
   # config.action_controller.asset_host = 'http://assets.example.com'
 
