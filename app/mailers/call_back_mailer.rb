@@ -1,6 +1,6 @@
 class CallBackMailer < ApplicationMailer
 
-    default from: 'metal22',
+    default from: 'metal22.ru',
             template_path: 'mailers/call_back'
 
     def call_back(call_back)
