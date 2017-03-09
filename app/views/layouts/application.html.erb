@@ -141,4 +141,15 @@
 <noscript><div><img src="https://mc.yandex.ru/watch/42874099" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
 </body>
+<script>
+    ymaps.ready(init);
+    function init() {
+        var geolocation = ymaps.geolocation;
+        if (geolocation) {
+            $("#location").attr('value', geolocation.country + ', ' + geolocation.region + ', ' + geolocation.city);//#order-fld-2 - поле с вводом адреса доставки
+        } else {
+            console.log('Не удалось установить местоположение');
+        }
+    }
+</script>
 </html>

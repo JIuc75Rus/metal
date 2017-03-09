@@ -9,7 +9,7 @@
         <%= f.text_field :name, placeholder: 'Ваше имя*', required: true  %>
         <%= f.text_field :phone, placeholder: 'Ваш телефон*', required: true  %>
         <%= f.email_field :email, placeholder: 'Email*', required: true  %>
-        <%= f.text_field :geo, class: :location %>
+        <%= f.text_field :geo, id: :location %>
         <%= f.text_field :ip, value: request.remote_ip %>
       </div>
       <div class="half right cf">
