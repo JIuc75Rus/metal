@@ -177,7 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/views/subcategories/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/categories/show.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/pages_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/pages/index.html.erb" />
@@ -228,6 +227,7 @@
         <option value="$PROJECT_DIR$/config/initializers/devise.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/Procfile.rtf" />
+        <option value="$PROJECT_DIR$/Procfile" />
       </list>
     </option>
   </component>
@@ -944,12 +944,12 @@
       <workItem from="1489031099771" duration="9132000" />
       <workItem from="1489054051951" duration="11375000" />
       <workItem from="1489074808453" duration="1997000" />
-      <workItem from="1489077757771" duration="685000" />
+      <workItem from="1489077757771" duration="792000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1000006000" />
+    <option name="totallyTimeSpent" value="1000113000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
