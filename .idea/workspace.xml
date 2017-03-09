@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ed53703-5c34-4f33-a438-0a3f7a8ab182" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/mail.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/mail.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/call_backs/new.html.erb" afterPath="$PROJECT_DIR$/app/views/call_backs/new.html.erb" />
-    </list>
+    <list default="true" id="5ed53703-5c34-4f33-a438-0a3f7a8ab182" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -56,7 +53,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="new.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/call_backs/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
@@ -116,11 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mail.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mail.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/mail.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="75" column="1" lean-forward="true" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
+            <state relative-caret-position="234">
+              <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="75" selection-end-column="1" />
               <folding>
                 <marker date="1489066052804" expanded="true" signature="2861:2899" ph="..." />
               </folding>
@@ -959,12 +956,12 @@
       <workItem from="1488979179134" duration="4231000" />
       <workItem from="1488991409141" duration="3909000" />
       <workItem from="1489031099771" duration="9132000" />
-      <workItem from="1489054051951" duration="8199000" />
+      <workItem from="1489054051951" duration="8362000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="994148000" />
+    <option name="totallyTimeSpent" value="994311000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1351,21 +1348,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/mail.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="75" column="1" lean-forward="true" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
-          <folding>
-            <marker date="1489066052804" expanded="true" signature="2861:2899" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/call_backs/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="80" lean-forward="true" selection-start-line="9" selection-start-column="80" selection-end-line="9" selection-end-column="80" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/mail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="75" selection-end-column="1" />
+          <folding>
+            <marker date="1489066052804" expanded="true" signature="2861:2899" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
