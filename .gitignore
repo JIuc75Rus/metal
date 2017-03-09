@@ -30,4 +30,6 @@
 Будет удалено config/provision/config/
 Будет удалено config/provision/playbook.retry
 Будет удалено lib/capistrano/
+/config/database.yml
+/config/secrets.yml
 Будет удалено app/views/items/who_bought.atom.builder
