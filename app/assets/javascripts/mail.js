@@ -58,7 +58,7 @@ $(document).ready(function(){
     function init() {
         var geolocation = ymaps.geolocation;
         if (geolocation) {
-            $(".location").attr('value', geolocation.country + ', ' + geolocation.region + ', ' + geolocation.city);//#order-fld-2 - поле с вводом адреса доставки
+            $(".location").append().attr('value', geolocation.country + ', ' + geolocation.region + ', ' + geolocation.city);//#order-fld-2 - поле с вводом адреса доставки
         } else {
             console.log('Не удалось установить местоположение');
         }
