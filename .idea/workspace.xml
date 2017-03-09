@@ -75,8 +75,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Procfile.rtf" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Procfile.rtf">
+      <file leaf-file-name="Procfile" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -944,12 +944,12 @@
       <workItem from="1489031099771" duration="9132000" />
       <workItem from="1489054051951" duration="11375000" />
       <workItem from="1489074808453" duration="1997000" />
-      <workItem from="1489077757771" duration="546000" />
+      <workItem from="1489077757771" duration="685000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="999867000" />
+    <option name="totallyTimeSpent" value="1000006000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1290,7 +1290,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile.rtf">
+    <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
