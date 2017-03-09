@@ -10,4 +10,5 @@ module ApplicationHelper
             '<a href="\1"/>\1</a>'
     s.html_safe
   end
+
 end

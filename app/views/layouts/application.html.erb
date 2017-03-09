@@ -9,19 +9,8 @@
   <%= stylesheet_link_tag    'application' %>
   <%= javascript_include_tag 'application' %>
   <%= javascript_include_tag 'jquery.orbit-1.2.3' %>
+  <script src="//api-maps.yandex.ru/2.0/?load=package.standard&lang=ru-RU" type="text/javascript"></script>
   <%= javascript_include_tag 'mail' %>
-  <script src="//api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
-  <script>
-      ymaps.ready(init);
-      function init() {
-          var geolocation = ymaps.geolocation;
-          if (geolocation) {
-              $("#location").html(geolocation.country + ', ' + geolocation.region + ', ' + geolocation.city);//#order-fld-2 - поле с вводом адреса доставки
-          } else {
-              console.log('Не удалось установить местоположение');
-          }
-      }
-  </script>
   <meta name="viewport" content="initial-scale=0, maximum-scale=1, user-scalable=yes">
 </head>
 <body>
@@ -38,7 +27,6 @@
             <span>Пн-Пт с 9<sup>00</sup>-17<sup>00</sup></span>
           </div>
           <div class="adress"><a href="<%= contacts_path %>" >Алтайский край г. Бийск<br>ул. Пугачева, д. 19</a></div>
-          <div id="location"></div>
         </div>
       </div>
       <div class="contacts">
