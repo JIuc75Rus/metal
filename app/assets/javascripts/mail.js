@@ -74,3 +74,11 @@ $(document).ready(function(){
     }
 
 });
+$(document).ready(function () {
+    $('.menu_list_mob').hide();
+    $('.menu_mob').click( function () {
+        $('.menu_list_mob').toggle();
+
+    })
+
+});
