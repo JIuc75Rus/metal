@@ -458,7 +458,7 @@ body {
   background: #fff;
   padding: 20px;
   max-width: 1140px;
-  margin: 0 auto;
+  margin: auto;
   /* Внешняя тень плиток */
 }
 
