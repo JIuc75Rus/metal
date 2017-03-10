@@ -1239,7 +1239,7 @@ body {
 }
 
 .footer {
-  max-width: 1140px;
+  width: 100%;
   background: #292929 url(top-pt.png) center top repeat;
   padding: 20px;
   border-top: 4px solid #FFD200;
