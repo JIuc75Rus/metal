@@ -31,4 +31,3 @@
 Будет удалено config/provision/playbook.retry
 Будет удалено lib/capistrano/
 Будет удалено app/views/items/who_bought.atom.builder
-
